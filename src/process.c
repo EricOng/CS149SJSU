@@ -12,7 +12,7 @@ Process randomProcess()
     (*p).priority = randInt(1, 4);
     (*p).arrival = ((float) randInt(0, 990)) / 10;
     (*p).runtime = ((float) randInt(0, 100)) / 10;
-    printf("Generated: %.1f\n", (*p).arrival);
+    (*p).timeRemaining = (*p).runtime;
     return *p;
 }
 

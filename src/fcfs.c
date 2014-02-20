@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
-#include "process.c"
+#include "record.c"
 
 #define PROCESS_COUNT 50
 #define SIMULATION_LENGTH 100
@@ -12,28 +13,32 @@ int main()
     int i = 0;
     int currentProcessIndex = 0;
     bool okToEnd = false;
+    Record record = newRecord();
     while(!okToEnd)
     {
-        printf("%d:\n", i);
+        Timeslice* timeslice = (Timeslice*) malloc(sizeof(Timeslice));
+        (*timeslice).index = i;
         if(queue[currentProcessIndex].arrival < i)
         {
-            printf("Current process: %d (%.1f remaining)\n", currentProcessIndex, queue[currentProcessIndex].runtime);
-            queue[currentProcessIndex].runtime = queue[currentProcessIndex].runtime - 1.0f;
-            if(queue[currentProcessIndex].runtime <= 0)
+            (*timeslice).pid = (char) (65 + currentProcessIndex);
+            queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f;
+            if(queue[currentProcessIndex].timeRemaining <= 0)
             {
-                printf("\tComplete!\n");
-                currentProcessIndex++;
+                addProcess(&record, queue[currentProcessIndex]);
                 if(i >= SIMULATION_LENGTH)
                 {
                     okToEnd = true;
+                } else {
+                    currentProcessIndex++;
                 }
             }
         } else {
-            printf("Process %d has not arrived!\n", currentProcessIndex);
-            printf("\t(Arrives @ %.1f)\n", queue[currentProcessIndex].arrival);
+           (*timeslice).pid = '-';
         }
+        addTimeslice(&record, (*timeslice));
         i++;
     }
+    printRecord(record);
     return 0;
 }
 
