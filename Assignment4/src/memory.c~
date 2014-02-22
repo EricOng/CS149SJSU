@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <stdbool.h>
 
 #define MEMORY_SIZE 100
 
@@ -54,22 +55,29 @@ bool addToMemory(Process* process, char* memory, int p_Index)
 /**
  * Add process to the next memory space big enough to store it
  */
-void addToNextMemory(Process* process, char* memory, int p_Index)
+int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 {
-/*
 	int p_Size = process[p_Index].size;
-	int index = findNextMemoryIndex(p_Size, memory);
+	int index = findNextMemoryIndex(p_Size, memory, m_Index);
+	printf("Returned index %d\n", index);
 	if(index != -1){
 		while (p_Size != 0)
 		{
-			memory[index] = process[p_Index].pid;
+			memory[index] = process[p_Index].pid;	
 			index++;
 			p_Size--;
 		}
 		//printf("Process %c should be added\n", process[p_Index].pid);
 		process[p_Index].added = true;
+		m_Index = index;	
 	}
-*/
+	else{
+		//no spaces currently available in memory
+		//reset index to 0
+		m_Index = 0;	
+	}
+	printf("m_Ind %d\n", m_Index);
+	return m_Index;
 }
 
 /**
@@ -93,6 +101,47 @@ int findMemoryIndex(int sizeNeeded, char* memory)
 		}		
 	}
 	//no spaces available
+	return -1;	
+}
+
+/**
+ * Find the next index in memory that has enough space for the process
+ */
+int findNextMemoryIndex(int sizeNeeded, char* memory, int fromIndex)
+{
+	int countSpace = 0;
+	int i;
+	
+	//find memory space between fromIndex and MEMORY_SIZE
+	for (i = fromIndex; i < MEMORY_SIZE; i++)
+	{
+		if(memory[i] == '.'){
+			countSpace++;
+			if (countSpace == sizeNeeded){
+				return i - sizeNeeded + 1;
+			}
+		}
+		else{
+			countSpace = 0;
+		}		
+	}
+
+	countSpace = 0;
+	//find memory space between 0 and fromIndex - 1
+	for (i = 0; i < fromIndex; i++)
+	{
+		if(memory[i] == '.'){
+			countSpace++;
+			if (countSpace == sizeNeeded){
+				return i - sizeNeeded + 1;
+			}
+		}
+		else{
+			countSpace = 0;
+		}		
+	}
+
+	//no spaces currently available
 	return -1;	
 }
 

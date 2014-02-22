@@ -17,16 +17,18 @@ int main()
 	printProcesses(queue, PROCESS_COUNT);
 
 	int i;	
-	int* currentMemoryIndex = 0;
+	int currentMemoryIndex = 0;
 	int time = 0;
 
 	for (i = 0; i < PROCESS_COUNT; i++)
 	{
-		printf("\n00:%02d", time);
+		printf("\n00:%02d\n", time);
 
-		//incrementProcesses(queue, PROCESS_COUNT);
-		//removeFromMemory(queue, memory, PROCESS_COUNT);
-		//addToNextMemory(queue, memory, i, currentMemoryIndex);
+		incrementProcesses(queue, PROCESS_COUNT);
+		removeFromMemory(queue, memory, PROCESS_COUNT);
+		printf("Current process in queue: %c\n", queue[i].pid);	
+		printf("Current index 		: %d\n", currentMemoryIndex);	
+		currentMemoryIndex = addToNextMemory(queue, memory, i, currentMemoryIndex);
 		printMemory(memory);
 
 		if(time >= 60){
