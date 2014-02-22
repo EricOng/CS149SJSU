@@ -4,5 +4,6 @@ typedef struct
     float arrival;
     float runtime;
     float timeRemaining;
+    float waitTime;
 } Process;
 

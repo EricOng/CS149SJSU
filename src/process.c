@@ -13,6 +13,7 @@ Process randomProcess()
     (*p).arrival = ((float) randInt(0, 990)) / 10;
     (*p).runtime = ((float) randInt(0, 100)) / 10;
     (*p).timeRemaining = (*p).runtime;
+    (*p).waitTime = 0;
     return *p;
 }
 
@@ -57,4 +58,36 @@ void sortProcessesByArrival(Process* process, int low, int high)
         i++;
     }
 }
+
+void sortProcessesByRuntime(Process* process, int low, int high)
+{
+    if(high <= low)
+    {
+        return;
+    }
+    int mid = (high + low) / 2;
+    sortProcessesByRuntime(process, low, mid);
+    sortProcessesByRuntime(process, mid + 1, high);
+    int i = low;
+    int j = mid + 1;
+    int buff = 0;
+    while(i <= mid + buff && j <= high)
+    {
+        if(process[j].runtime < process[i].runtime)
+        {
+            Process temp = process[j];
+            int a = j;
+            while(a > i)
+            {
+                process[a] = process[a - 1];
+                a--;
+            }
+            buff++;
+            j++;
+            process[i] = temp;
+        }
+        i++;
+    }
+}
+
 
