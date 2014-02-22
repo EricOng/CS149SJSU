@@ -11,6 +11,7 @@ int main()
     Process* queue = randomProcessQueue(PROCESS_COUNT);
     sortProcessesByArrival(queue, 0, PROCESS_COUNT - 1);
     int i = 0;
+    float wait = 0;
     int currentProcessIndex = 0;
     bool okToEnd = false;
     Record record = newRecord();
@@ -29,7 +30,9 @@ int main()
                 {
                     okToEnd = true;
                 } else {
-                    currentProcessIndex++;
+  			wait = wait + queue[currentProcessIndex].runtime;
+                        currentProcessIndex++;
+			queue[currentProcessIndex].waitTime = wait;
                 }
             }
         } else {

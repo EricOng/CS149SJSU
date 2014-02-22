@@ -9,7 +9,7 @@
 int main()
 {
     Process* queue = randomProcessQueue(PROCESS_COUNT);
-    sortProcessesByRuntime(queue, 0, PROCESS_COUNT - 1);
+    sortProcessesByArrival(queue, 0, PROCESS_COUNT - 1);
     int i = 0;
     int RevIndex = PROCESS_COUNT - 1;
     int currentProcessIndex = 0;
@@ -31,8 +31,27 @@ int main()
                 {
                     okToEnd = true;
                 } else {
-		    wait = wait + queue[currentProcessIndex].runtime;
+		    wait = wait + queue
+			[currentProcessIndex].runtime;
 		    currentProcessIndex++;
+			int x = 0;
+			int indexOfNextMin = currentProcessIndex;
+			for(x = currentProcessIndex; x < PROCESS_COUNT - 1; x++)
+			{
+				if(queue[x].arrival < i)
+				if(queue[x].runtime < queue[currentProcessIndex].runtime)
+				{
+					indexOfNextMin = x;
+				}
+			}
+			printf("at time %d\n", i);
+			Process p = queue[currentProcessIndex];
+			printf("swap arrival %8.1f, run %8.1f \n", p.arrival, p.runtime);
+			printf("with arrival %8.1f, run %8.1f \n", queue[indexOfNextMin].arrival, queue[indexOfNextMin].runtime);
+			queue[currentProcessIndex] = queue[indexOfNextMin];
+			queue[indexOfNextMin] = p;
+			
+
 		    queue[currentProcessIndex].waitTime = wait;
                 }
             }
