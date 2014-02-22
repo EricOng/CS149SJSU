@@ -21,7 +21,7 @@ const int SEAT_ROWS = SEAT_HEIGHT;
 typedef struct {
     int tickets;               // Total number of tickets yet to be sold
     bool (*seats)[SEAT_WIDTH]; // Record of which seats have been taken
-    int (*customer)[SEAT_WIDTH];
+    int (*customer)[SEAT_WIDTH];// Record of which customers are in which seats
 } Concert;
 
 // Global variable; concert singleton
@@ -76,15 +76,25 @@ Concert* getConcert()
 }
 
 /**
- * Determines whether a concert has been sold out.
+ * Determines whether a concert has been sold out or the selling window has ended.
  * 
  * @param c A pointer to the concert
  *
  * @return true if the concert has no more tickets; false otherwise
+ * @return true if the time elapsed is 60mins or more; false otherwise
  */
 bool isFinished(Concert* c)
 {
-    return getTicketCount(c) <= 0;
+   
+    if(getTicketCount(c) <= 0){
+	return true;
+    }
+    else{
+	time_t now;
+	time(&now);
+        double time = difftime(now, startTime);
+        return time >= 60;
+    }
 }
 
 /**
@@ -205,6 +215,8 @@ int* nextBackSeat()
 
 void setCustomer(Concert* c, int* seat, int customer)
 {
+    //seat[0] holds the row index
+    //seat[1] holds the column index
     (*c).customer[seat[0]][seat[1]] = customer;
 }
 
