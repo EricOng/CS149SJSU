@@ -112,6 +112,8 @@ int findNextMemoryIndex(int sizeNeeded, char* memory, int fromIndex)
 	int countSpace = 0;
 	int i;
 	
+	printf("Required size %d\n", sizeNeeded);
+
 	//find memory space between fromIndex and MEMORY_SIZE
 	for (i = fromIndex; i < MEMORY_SIZE; i++)
 	{

@@ -42,7 +42,6 @@ bool addToMemory(Process* process, char* memory, int p_Index)
 			index++;
 			p_Size--;
 		}
-		//printf("Process %c should be added\n", process[p_Index].pid);
 		process[p_Index].added = true;
 		return true;
 	}
@@ -59,7 +58,6 @@ int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 {
 	int p_Size = process[p_Index].size;
 	int index = findNextMemoryIndex(p_Size, memory, m_Index);
-	printf("Returned index %d\n", index);
 	if(index != -1){
 		while (p_Size != 0)
 		{
@@ -67,7 +65,6 @@ int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 			index++;
 			p_Size--;
 		}
-		//printf("Process %c should be added\n", process[p_Index].pid);
 		process[p_Index].added = true;
 		m_Index = index;	
 	}
@@ -76,7 +73,6 @@ int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 		//reset index to 0
 		m_Index = 0;	
 	}
-	printf("m_Ind %d\n", m_Index);
 	return m_Index;
 }
 
