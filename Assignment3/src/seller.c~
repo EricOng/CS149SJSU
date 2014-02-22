@@ -145,7 +145,6 @@ void* lowSeller(void* arg)
         char event[99];
         sprintf(event, "Customer %d left.", customer);
         printEvent(event);
-        customer = getCustomer(seller);
     }
 }
 

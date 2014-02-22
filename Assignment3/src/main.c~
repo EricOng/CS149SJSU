@@ -64,7 +64,7 @@ int main(int argc, char* argv[])
         printEvent(event);
     } while(!isFinished(getConcert()));
     for(i = 0; i < HIGH_SELLERS + MID_SELLERS + LOW_SELLERS; i++) {
-        pthread_join(sellerThread[i], NULL);
+        pthread_join(sellerThread[i]);
     }
     printConcert(getConcert());
     

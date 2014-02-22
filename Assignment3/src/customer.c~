@@ -69,7 +69,7 @@ void initializeCustomerQueues(int maxCustomers)
     queue = malloc(sizeof(int) * (maxCustomers + 1) * TOTAL_QUEUES);
     int i;
     int j;
-    for(i = 0; i < maxCustomers + 1; i++) {
+    for(i = 0; i < maxCustomers+1; i++) {
         for(j = 0; j < TOTAL_QUEUES; j++) {
             queue[i][j] = -1;
         }
