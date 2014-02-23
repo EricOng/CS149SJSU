@@ -11,7 +11,6 @@ int main()
     Process* queue = randomProcessQueue(PROCESS_COUNT);
     sortProcessesByArrival(queue, 0, PROCESS_COUNT - 1);
     int i = 0;
-    float wait = 0;
     int currentProcessIndex = 0;
     bool okToEnd = false;
     Record record = newRecord();
@@ -23,6 +22,11 @@ int main()
         {
             (*timeslice).pid = (char) (65 + currentProcessIndex);
             queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f;
+            int j;
+            for(j = currentProcessIndex + 1; j < PROCESS_COUNT && i > queue[j].arrival; j++)
+            {
+                queue[j].waitTime += 1.0f;
+            }
             if(queue[currentProcessIndex].timeRemaining <= 0)
             {
                 addProcess(&record, queue[currentProcessIndex]);
@@ -30,9 +34,7 @@ int main()
                 {
                     okToEnd = true;
                 } else {
-  			wait = wait + queue[currentProcessIndex].runtime;
-                        currentProcessIndex++;
-			queue[currentProcessIndex].waitTime = wait;
+                    currentProcessIndex++;
                 }
             }
         } else {

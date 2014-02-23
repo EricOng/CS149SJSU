@@ -39,7 +39,7 @@ void addTimeslice(Record* r, Timeslice t)
 void printRecord(Record r)
 {
     printf(" PID | Arrival | Priority | Duration | Wait Time\n");
-    printf("-----+---------+----------+----------+---------\n");
+    printf("-----+---------+----------+----------+-----------\n");
     int i;
     for(i = 0; i < r.processCount; i++)
     {

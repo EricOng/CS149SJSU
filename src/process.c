@@ -13,7 +13,7 @@ Process randomProcess()
     (*p).arrival = ((float) randInt(0, 990)) / 10;
     (*p).runtime = ((float) randInt(0, 100)) / 10;
     (*p).timeRemaining = (*p).runtime;
-    (*p).waitTime = 0;
+    (*p).waitTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
     return *p;
 }
 
