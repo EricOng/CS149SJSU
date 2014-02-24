@@ -11,6 +11,7 @@ int main()
     Process* queue = randomProcessQueue(PROCESS_COUNT);
     sortProcessesByArrival(queue, 0, PROCESS_COUNT - 1);
     int i = 0;
+    float time = 0;
     int RevIndex = PROCESS_COUNT - 1;
     int currentProcessIndex = 0;
     bool okToEnd = false;
@@ -23,18 +24,26 @@ int main()
         if(queue[currentProcessIndex].arrival < i)
         {
             (*timeslice).pid = (char) (65 + currentProcessIndex);
-            queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f;
+            queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f; 
+		int j;
+		for(j = currentProcessIndex+1; j < PROCESS_COUNT; j++){
+			if(queue[j].arrival < i){
+				queue[j].waitTime +=1.0f;
+			}
+		}
             if(queue[currentProcessIndex].timeRemaining <= 0)
             {
+		queue[currentProcessIndex].turnaroundTime = queue[currentProcessIndex].runtime + queue[currentProcessIndex].waitTime;
+
                 addProcess(&record, queue[currentProcessIndex]);
                 if(i >= SIMULATION_LENGTH)
                 {
                     okToEnd = true;
                 } else {
-		    wait = wait + queue
-			[currentProcessIndex].runtime;
+			time = time + queue[currentProcessIndex].turnaroundTime;
 		    currentProcessIndex++;
 			int x = 0;
+			bool swapped = false;
 			int indexOfNextMin = currentProcessIndex;
 			for(x = currentProcessIndex; x < PROCESS_COUNT - 1; x++)
 			{
@@ -42,17 +51,17 @@ int main()
 				if(queue[x].runtime < queue[currentProcessIndex].runtime)
 				{
 					indexOfNextMin = x;
+					swapped = true;
 				}
 			}
+			if(swapped){
 			printf("at time %d\n", i);
 			Process p = queue[currentProcessIndex];
-			printf("swap arrival %8.1f, run %8.1f \n", p.arrival, p.runtime);
-			printf("with arrival %8.1f, run %8.1f \n", queue[indexOfNextMin].arrival, queue[indexOfNextMin].runtime);
+			printf("swap p%d arrival %8.1f, run %8.1f \n",currentProcessIndex, p.arrival, p.runtime);
+			printf("with p%d arrival %8.1f, run %8.1f \n",indexOfNextMin, queue[indexOfNextMin].arrival, queue[indexOfNextMin].runtime);
 			queue[currentProcessIndex] = queue[indexOfNextMin];
 			queue[indexOfNextMin] = p;
-			
-
-		    queue[currentProcessIndex].waitTime = wait;
+			}
                 }
             }
         } else {
