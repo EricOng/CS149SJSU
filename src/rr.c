@@ -66,7 +66,7 @@ void nextProcessIndex(Process* ready, int* nIndex, int size)
 	*nIndex += 1;
 	while((*nIndex == size || (ready[*nIndex].timeRemaining <= 0.0f)) && counter != size)
 	{
-		if(*nIndex == size)
+		if(*nIndex >= size)
 		{
 			*nIndex = 0;
 		}
