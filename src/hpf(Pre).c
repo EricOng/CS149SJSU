@@ -24,14 +24,23 @@ int main()
         if(queue[currentProcessIndex].arrival < i)
         {
             (*timeslice).pid = (char) (65 + currentProcessIndex);
-            queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f; 
 		int j;
 		for(j = currentProcessIndex+1; j < PROCESS_COUNT; j++){
 			if(queue[j].arrival < i){
 				queue[j].waitTime +=1.0f;
 				queue[j].responseTime += 1.0f;
-			}
+				if(queue[j].priority < queue[currentProcessIndex].priority){
+					int indexOfNextMin = j;
+					printf("at time %d\n", i);
+					Process p = queue[currentProcessIndex];
+					printf("swap p%d arrival %8.1f, priority %d \n",currentProcessIndex, p.arrival, p.priority);
+					printf("with p%d arrival %8.1f, priority %d \n",indexOfNextMin, queue[indexOfNextMin].arrival, queue[indexOfNextMin].priority);
+					queue[currentProcessIndex] = queue[indexOfNextMin];
+					queue[indexOfNextMin] = p;
+				}			
+			}	
 		}
+		queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f; 
             if(queue[currentProcessIndex].timeRemaining <= 0)
             {
 		queue[currentProcessIndex].turnaroundTime = queue[currentProcessIndex].runtime + queue[currentProcessIndex].waitTime;
