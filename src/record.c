@@ -38,13 +38,13 @@ void addTimeslice(Record* r, Timeslice t)
 
 void printRecord(Record r)
 {
-    printf(" PID | Arrival | Priority | Duration | Wait Time\n");
-    printf("-----+---------+----------+----------+-----------\n");
+    printf(" PID | Arrival | Priority | Duration | Response | Wait | Turnaround \n");
+    printf("-----+---------+----------+----------+----------+------+------------\n");
     int i;
     for(i = 0; i < r.processCount; i++)
     {
         char c = (char) (65 + i);
-        printf(" %3c | %7.1f | %8d | %8.1f | %8.1f\n", c, r.process[i].arrival, r.process[i].priority, r.process[i].runtime, r.process[i].waitTime);
+        printf(" %3c | %7.1f | %8d | %8.1f | %8.1f | %4.1f | %10.1f\n", c, r.process[i].arrival, r.process[i].priority, r.process[i].runtime, r.process[i].responseTime, r.process[i].waitTime, r.process[i].turnaroundTime);
     }
     int base;
     for(base = 0; base < r.timesliceCount; base = base + MAX_TABLE_SIZE)

@@ -11,9 +11,14 @@ Process randomProcess()
     Process* p = (Process*) malloc(sizeof(Process));
     (*p).priority = randInt(1, 4);
     (*p).arrival = ((float) randInt(0, 990)) / 10;
-    (*p).runtime = ((float) randInt(0, 100)) / 10;
+    (*p).runtime = ((float) randInt(1, 100)) / 10;
     (*p).timeRemaining = (*p).runtime;
+    // Initialized to account for the time it spends waiting from arrival
+    // to the end of the quanta during which it arrives
+    // (i.e. arrives at 1.3, all of these values start at 0.7)
+    (*p).responseTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
     (*p).waitTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
+    (*p).turnaroundTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
     return *p;
 }
 
