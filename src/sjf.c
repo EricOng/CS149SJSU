@@ -29,12 +29,13 @@ int main()
 		for(j = currentProcessIndex+1; j < PROCESS_COUNT; j++){
 			if(queue[j].arrival < i){
 				queue[j].waitTime +=1.0f;
+				queue[j].responseTime += 1.0f;
 			}
 		}
             if(queue[currentProcessIndex].timeRemaining <= 0)
             {
 		queue[currentProcessIndex].turnaroundTime = queue[currentProcessIndex].runtime + queue[currentProcessIndex].waitTime;
-
+		queue[currentProcessIndex].timeFinished += i;
                 addProcess(&record, queue[currentProcessIndex]);
                 if(i >= SIMULATION_LENGTH)
                 {

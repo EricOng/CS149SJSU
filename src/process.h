@@ -7,5 +7,6 @@ typedef struct
     float responseTime;   // Time from entering the active queue to starting to run
     float waitTime;       // Time from entering the active queue that the process spends NOT running
     float turnaroundTime; // Time from entering the active queue to terminating
+    int timeFinished;   // Time process finished at
 } Process;
 

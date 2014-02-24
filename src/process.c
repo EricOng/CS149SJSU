@@ -19,6 +19,7 @@ Process randomProcess()
     (*p).responseTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
     (*p).waitTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
     (*p).turnaroundTime = 1.0f - ((*p).arrival - ((int) (*p).arrival));
+    (*p).timeFinished = 0;
     return *p;
 }
 
