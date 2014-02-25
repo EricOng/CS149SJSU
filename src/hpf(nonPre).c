@@ -35,12 +35,6 @@ int main()
 				queue[j].waitTime +=1.0f;
 				queue[j].responseTime += 1.0f;
 				queue[j].age += 1;
-				if(queue[j].age == 5){
-					if(queue[j].priority > 1){
-						queue[j].priority -= 1;
-					}
-					queue[j].age = 0;
-				}
 				
 			}
 		}
