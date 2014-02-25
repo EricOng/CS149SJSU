@@ -3,11 +3,12 @@
 #include <stdbool.h>
 #include "record.c"
 
-#define PROCESS_COUNT 75
+#define PROCESS_COUNT 60
 #define SIMULATION_LENGTH 100
 
 int main()
 {
+    srand(time(0));
     Process* queue = randomProcessQueue(PROCESS_COUNT);
     sortProcessesByArrival(queue, 0, PROCESS_COUNT - 1);
     int i = 0;
