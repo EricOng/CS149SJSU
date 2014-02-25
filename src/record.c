@@ -43,8 +43,7 @@ void printRecord(Record r)
     int i;
     for(i = 0; i < r.processCount; i++)
     {
-        char c = (char) (65 + i);
-        printf(" %3c | %7.1f | %8d | %8.1f | %8.1f | %4.1f | %10.1f | %d \n", c, r.process[i].arrival, r.process[i].priority, r.process[i].runtime, r.process[i].responseTime, r.process[i].waitTime, r.process[i].turnaroundTime, r.process[i].timeFinished);
+        printf(" %3c | %7.1f | %8d | %8.1f | %8.1f | %4.1f | %10.1f | %d \n", r.process[i].id, r.process[i].arrival, r.process[i].priority, r.process[i].runtime, r.process[i].responseTime, r.process[i].waitTime, r.process[i].turnaroundTime, r.process[i].timeFinished);
     }
     int base;
     for(base = 0; base < r.timesliceCount; base = base + MAX_TABLE_SIZE)

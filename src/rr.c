@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include "record.c"
 
-#define PROCESS_COUNT 50
+#define PROCESS_COUNT 26 
 #define SIMULATION_LENGTH 100
 
 int main()

@@ -21,6 +21,7 @@ int main()
         if(queue[currentProcessIndex].arrival < i)
         {
             (*timeslice).pid = (char) (65 + currentProcessIndex);
+            queue[currentProcessIndex].id = (*timeslice).pid;
             queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f;
             int j;
             for(j = currentProcessIndex + 1; j < PROCESS_COUNT && i > queue[j].arrival; j++)
