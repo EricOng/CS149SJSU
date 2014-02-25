@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include "record.c"
 
-#define PROCESS_COUNT 75
+#define PROCESS_COUNT 60
 #define SIMULATION_LENGTH 100
 
 void updateReadyQueue();
@@ -29,7 +29,16 @@ int main()
         {
             (*timeslice).pid = (char) (65 + shortestProcessIndex);
 			readyQueue[shortestProcessIndex].id = (*timeslice).pid;
+			if(readyQueue[shortestProcessIndex].runtime == readyQueue[shortestProcessIndex].timeRemaining) 
+			{
+				readyQueue[shortestProcessIndex].responseTime = ((float) i) - readyQueue[shortestProcessIndex].arrival;
+			}
             readyQueue[shortestProcessIndex].timeRemaining = readyQueue[shortestProcessIndex].timeRemaining - 1.0f;
+			int j;
+            for(j = 0; j < size; j++)
+            {
+                if(j != shortestProcessIndex) readyQueue[j].waitTime += 1.0f;
+            }
             if(readyQueue[shortestProcessIndex].timeRemaining <= 0)
             {
 				readyQueue[shortestProcessIndex].timeFinished = i + 1;
