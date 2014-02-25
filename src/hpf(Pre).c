@@ -23,7 +23,10 @@ int main()
         (*timeslice).index = i;
         if(queue[currentProcessIndex].arrival < i)
         {
-            (*timeslice).pid = (char) (65 + currentProcessIndex);
+             (*timeslice).pid = (char) (65 + currentProcessIndex);
+		if((*timeslice).pid > 65+25){
+			(*timeslice).pid += 6;
+		}
 		int j;
 		for(j = currentProcessIndex+1; j < PROCESS_COUNT; j++){
 			if(queue[j].arrival < i){
@@ -41,6 +44,8 @@ int main()
             {
 		queue[currentProcessIndex].turnaroundTime = queue[currentProcessIndex].runtime + queue[currentProcessIndex].waitTime;
 		queue[currentProcessIndex].timeFinished += i;
+		queue[currentProcessIndex].id = (*timeslice).pid;
+
                 addProcess(&record, queue[currentProcessIndex]);
                 if(i >= SIMULATION_LENGTH)
                 {
