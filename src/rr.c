@@ -13,6 +13,7 @@ void nextProcessIndex();
 
 int main()
 {
+    srand(time(0));
     Process* arrivalQueue = randomProcessQueue(PROCESS_COUNT);
     sortProcessesByArrival(arrivalQueue, 0, PROCESS_COUNT - 1);
 	Process* readyQueue = (Process*) malloc(PROCESS_COUNT * sizeof(Process));
