@@ -29,7 +29,16 @@ int main()
         {
             (*timeslice).pid = (char) (65 + currentProcessIndex);
 			readyQueue[currentProcessIndex].id = (*timeslice).pid;
+			if(readyQueue[currentProcessIndex].runtime == readyQueue[currentProcessIndex].timeRemaining) 
+			{
+				readyQueue[currentProcessIndex].responseTime = ((float) i) - readyQueue[currentProcessIndex].arrival;
+			}
             readyQueue[currentProcessIndex].timeRemaining = readyQueue[currentProcessIndex].timeRemaining - 1.0f;
+			int j;
+            for(j = 0; j < size; j++)
+            {
+                if(j != currentProcessIndex) readyQueue[j].waitTime += 1.0f;
+            }
             if(readyQueue[currentProcessIndex].timeRemaining <= 0)
             {
 				readyQueue[currentProcessIndex].timeFinished = i + 1;
