@@ -3,8 +3,11 @@
 #include <stdbool.h>
 #include "record.c"
 
-#define PROCESS_COUNT 50
+#define PROCESS_COUNT 75
 #define SIMULATION_LENGTH 100
+
+void updateReadyQueue();
+void findShortestProcessIndex();
 
 int main()
 {
@@ -25,9 +28,12 @@ int main()
         if(size > 0 && (readyQueue[shortestProcessIndex].timeRemaining > 0))
         {
             (*timeslice).pid = (char) (65 + shortestProcessIndex);
+			readyQueue[shortestProcessIndex].id = (*timeslice).pid;
             readyQueue[shortestProcessIndex].timeRemaining = readyQueue[shortestProcessIndex].timeRemaining - 1.0f;
             if(readyQueue[shortestProcessIndex].timeRemaining <= 0)
             {
+				readyQueue[shortestProcessIndex].timeFinished = i + 1;
+				readyQueue[shortestProcessIndex].turnaroundTime = ((float) i + 1) - readyQueue[shortestProcessIndex].arrival + readyQueue[shortestProcessIndex].timeRemaining;
                 addProcess(&record, readyQueue[shortestProcessIndex]);
                 if(i >= SIMULATION_LENGTH)
                 {
@@ -62,7 +68,6 @@ void updateReadyQueue(Process* queue, Process* ready, int index, int* size)
 
 void findShortestProcessIndex(Process* ready, int* spIndex, int size)
 {
-	//if(sizeof(ready) == 0) return;
 	int i = 0;
 	float currentShortestRuntime = 11.0f;
 	for(i; i < size; i++)
