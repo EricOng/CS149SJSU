@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include "record.c"
 
-#define PROCESS_COUNT 50
+#define PROCESS_COUNT 75
 #define SIMULATION_LENGTH 100
 
 int main()
@@ -24,6 +24,9 @@ int main()
         if(queue[currentProcessIndex].arrival < i)
         {
             (*timeslice).pid = (char) (65 + currentProcessIndex);
+		if((*timeslice).pid > 65+25){
+			(*timeslice).pid += 6;
+		}
             queue[currentProcessIndex].timeRemaining = queue[currentProcessIndex].timeRemaining - 1.0f; 
 		int j;
 		for(j = currentProcessIndex+1; j < PROCESS_COUNT; j++){
@@ -36,6 +39,8 @@ int main()
             {
 		queue[currentProcessIndex].turnaroundTime = queue[currentProcessIndex].runtime + queue[currentProcessIndex].waitTime;
 		queue[currentProcessIndex].timeFinished += i;
+		queue[currentProcessIndex].id = (*timeslice).pid;
+		
                 addProcess(&record, queue[currentProcessIndex]);
                 if(i >= SIMULATION_LENGTH)
                 {

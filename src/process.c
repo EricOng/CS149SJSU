@@ -10,6 +10,7 @@ Process randomProcess()
 {
     Process* p = (Process*) malloc(sizeof(Process));
     (*p).priority = randInt(1, 4);
+    (*p).age = 0;
     (*p).arrival = ((float) randInt(0, 990)) / 10;
     (*p).runtime = ((float) randInt(1, 100)) / 10;
     (*p).timeRemaining = (*p).runtime;

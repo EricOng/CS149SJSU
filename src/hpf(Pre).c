@@ -30,13 +30,9 @@ int main()
 				queue[j].waitTime +=1.0f;
 				queue[j].responseTime += 1.0f;
 				if(queue[j].priority < queue[currentProcessIndex].priority){
+					printf("current time %d, swap priority %d with priority %d\n", i, queue[currentProcessIndex].priority, queue[j].priority);
 					int indexOfNextMin = j;
-					printf("at time %d\n", i);
-					Process p = queue[currentProcessIndex];
-					printf("swap p%d arrival %8.1f, priority %d \n",currentProcessIndex, p.arrival, p.priority);
-					printf("with p%d arrival %8.1f, priority %d \n",indexOfNextMin, queue[indexOfNextMin].arrival, queue[indexOfNextMin].priority);
-					queue[currentProcessIndex] = queue[indexOfNextMin];
-					queue[indexOfNextMin] = p;
+					currentProcessIndex = indexOfNextMin;
 				}			
 			}	
 		}
@@ -62,13 +58,8 @@ int main()
 				{
 					printf("current time %d, swap priority %d with priority %d\n", i, queue[currentProcessIndex].priority, queue[x].priority);
 					indexOfNextMin = x;
-					swapped = true;
+					currentProcessIndex = indexOfNextMin;
 				}
-			}
-			if(swapped){
-			Process p = queue[currentProcessIndex];
-			queue[currentProcessIndex] = queue[indexOfNextMin];
-			queue[indexOfNextMin] = p;
 			}
                 }
             }

@@ -1,6 +1,7 @@
 typedef struct
 {
     char id;
+    int age;		//number of quanta waited before priority bump
     int priority;
     int timeFinished;   // Time process finished at
     float arrival;
