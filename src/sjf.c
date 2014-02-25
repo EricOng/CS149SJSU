@@ -8,10 +8,11 @@
 
 int main()
 {
+    srand(time(0));
     Process* queue = randomProcessQueue(PROCESS_COUNT);
     sortProcessesByArrival(queue, 0, PROCESS_COUNT - 1);
     int i = 0;
-    float time = 0;
+    float timer = 0;
     int RevIndex = PROCESS_COUNT - 1;
     int currentProcessIndex = 0;
     bool okToEnd = false;
@@ -46,7 +47,7 @@ int main()
                 {
                     okToEnd = true;
                 } else {
-			time = time + queue[currentProcessIndex].turnaroundTime;
+			timer = timer + queue[currentProcessIndex].turnaroundTime;
 		    currentProcessIndex++;
 			int x = 0;
 			bool swapped = false;
