@@ -34,11 +34,13 @@ void addToMemory(Process process, char* memory)
 {
 	int p_Size = process.size;
 	int index = findMemoryIndex(p_Size, memory);
-	while (p_Size != 0)
-	{
-		memory[index] = process.pid;
-		index++;
-		p_Size--;
+	if(index != -1){
+		while (p_Size != 0)
+		{
+			memory[index] = process.pid;
+			index++;
+			p_Size--;
+		}
 	}
 }
 
@@ -64,4 +66,28 @@ int findMemoryIndex(int sizeNeeded, char* memory)
 	}
 	//no spaces available
 	return -1;	
+}
+
+/**
+ * Remove Processes whose duration has elasped.
+ */
+void removeFromMemory(Process* process, char* memory, int numberOfProcesses)
+{
+	int i, j;
+	int processDone = 0; // 0 - no, 1 - yes
+	for(i = 0; i < MEMORY_SIZE; i++)
+	{
+		for(j = 0; j < numberOfProcesses; j++)
+		{
+			if(memory[i] == process[j].pid){
+				process[j].waitTime++;
+				if(process[j].duration == process[j].waitTime){
+					processDone = 1;
+				}
+			}
+		}
+		if(processDone == 1){
+			memory[i] = '.';
+		}	
+	}
 }

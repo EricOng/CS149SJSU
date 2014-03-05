@@ -32,6 +32,7 @@ Process* processQueue(int size)
     return queue;
 }
 
+
 void printProcesses(Process* queue, int size)
 {
 	printf("Process|Size|Duration\n");

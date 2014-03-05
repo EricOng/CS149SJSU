@@ -17,8 +17,10 @@ int main()
 	int i;
 	for (i = 0; i < PROCESS_COUNT; i++)
 	{
+		//removeFromMemory(queue, memory, PROCESS_COUNT);
 		addToMemory(queue[i], memory);
 		printMemory(memory);
 	}
+
 	return 0;
 }
