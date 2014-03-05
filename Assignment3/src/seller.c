@@ -56,7 +56,6 @@ pthread_t* newSeller(char type, int index)
  */
 void* highSeller(void* arg)
 {
-    sleep(rand() % 10);
     int id = *((int *) arg);
     printf("H%d\n", id);
 }
@@ -66,7 +65,6 @@ void* highSeller(void* arg)
  */
 void* mediumSeller(void* arg)
 {
-    sleep(rand() % 10);
     int id = *((int*) arg);
     printf("M%d\n", id);
 }
@@ -76,7 +74,6 @@ void* mediumSeller(void* arg)
  */
 void* lowSeller(void* arg)
 {
-    sleep(rand() % 10);
     int id = *((int*) arg);
     printf("L%d\n", id);
 }

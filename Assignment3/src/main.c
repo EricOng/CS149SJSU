@@ -11,6 +11,7 @@
 #include "./tools.c"
 #include "./seller.c"
 #include "./customer.c"
+#include "./concert.c"
 
 const int HIGH_SELLERS = 1;
 const int MID_SELLERS = 3;
@@ -24,6 +25,9 @@ int main(int argc, char* argv[])
         printf("(the number of customers per seller).\n");
         return 0;
     }
+    
+    srand(time(0));
+    setConcert(newConcert());
     
     // Convert the number of customers passed to the program to an
     // int for later use
@@ -48,14 +52,14 @@ int main(int argc, char* argv[])
     for(i = 0; i < HIGH_SELLERS + MID_SELLERS + LOW_SELLERS; i++) {
         int j;
         for(j = 0; j < NUMBER_OF_CUSTOMERS; j++) {
-            // newCustomer(i);
+            newCustomer(i);
         }
-        // For now, make sure that this thread doesn't terminate until all
-        // of the seller threads have run.
-        // We may remove this later.
-        pthread_join(sellerThread[i], NULL);
     }
     
+    do {
+        sleep(1);
+    } while(!isFinished(getConcert()));
+    printf("Done!\n");
     
     return 0;
 }
