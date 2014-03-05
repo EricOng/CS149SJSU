@@ -14,11 +14,7 @@ int main()
 	Process* queue = processQueue(PROCESS_COUNT);
 	printProcesses(queue, PROCESS_COUNT);
 
-	int i;
-	for (i = 0; i < PROCESS_COUNT; i++)
-	{
-		addToMemory(queue[i], memory);
-		printMemory(memory);
-	}
+	addToMemory(queue[0], memory);
+	printMemory(memory);
 	return 0;
 }

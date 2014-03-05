@@ -30,13 +30,13 @@ void printMemory(char* memory)
 /**
  * Add process to first memory space big enough to store it
  */
-void addToMemory(Process process, char* memory)
+void addToMemory(Process* process, char* memory)
 {
-	int p_Size = process.size;
+	int p_Size = process[0].size;
 	int index = findMemoryIndex(p_Size, memory);
 	while (p_Size != 0)
 	{
-		memory[index] = process.pid;
+		memory[index] = process[0].pid;
 		index++;
 		p_Size--;
 	}
