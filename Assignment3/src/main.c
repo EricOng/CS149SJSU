@@ -56,8 +56,8 @@ int main(int argc, char* argv[])
         }
     }
     
-    do {
-        sleep(1);
+    do {          // Loop to ensure that the program doesn't terminate before
+        sleep(1); // all seats have been assigned
     } while(!isFinished(getConcert()));
     printf("Done!\n");
     
