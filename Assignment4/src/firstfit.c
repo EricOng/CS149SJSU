@@ -25,7 +25,11 @@ int main()
 
 		incrementProcesses(queue, PROCESS_COUNT);
 		removeFromMemory(queue, memory, PROCESS_COUNT);
-		addToMemory(queue, memory, i);
+		if(addToMemory(queue, memory, i)){
+		}
+		else{
+			i--;
+		}
 		printMemory(memory);
 
 		if(time >= 60){

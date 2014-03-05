@@ -16,16 +16,17 @@ int main()
 	Process* queue = processQueue(PROCESS_COUNT);
 	printProcesses(queue, PROCESS_COUNT);
 
-	int i;
+	int i;	
+	int* currentMemoryIndex = 0;
 	int time = 0;
 
 	for (i = 0; i < PROCESS_COUNT; i++)
 	{
 		printf("\n00:%02d", time);
 
-		incrementProcesses(queue, PROCESS_COUNT);
-		removeFromMemory(queue, memory, PROCESS_COUNT);
-		addToMemory(queue, memory, i);
+		//incrementProcesses(queue, PROCESS_COUNT);
+		//removeFromMemory(queue, memory, PROCESS_COUNT);
+		//addToNextMemory(queue, memory, i, currentMemoryIndex);
 		printMemory(memory);
 
 		if(time >= 60){

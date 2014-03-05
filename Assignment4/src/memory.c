@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <stdbool.h>
 
 #define MEMORY_SIZE 100
 
@@ -30,7 +31,7 @@ void printMemory(char* memory)
 /**
  * Add process to first memory space big enough to store it
  */
-void addToMemory(Process* process, char* memory, int p_Index)
+bool addToMemory(Process* process, char* memory, int p_Index)
 {
 	int p_Size = process[p_Index].size;
 	int index = findMemoryIndex(p_Size, memory);
@@ -43,7 +44,33 @@ void addToMemory(Process* process, char* memory, int p_Index)
 		}
 		//printf("Process %c should be added\n", process[p_Index].pid);
 		process[p_Index].added = true;
+		return true;
 	}
+	else{
+		printf("\nCannot fit process %c\n", process[p_Index].pid);
+		return false;
+	}
+}
+
+/**
+ * Add process to the next memory space big enough to store it
+ */
+void addToNextMemory(Process* process, char* memory, int p_Index)
+{
+/*
+	int p_Size = process[p_Index].size;
+	int index = findNextMemoryIndex(p_Size, memory);
+	if(index != -1){
+		while (p_Size != 0)
+		{
+			memory[index] = process[p_Index].pid;
+			index++;
+			p_Size--;
+		}
+		//printf("Process %c should be added\n", process[p_Index].pid);
+		process[p_Index].added = true;
+	}
+*/
 }
 
 /**
