@@ -17,8 +17,9 @@ int main()
 	int i;
 	for (i = 0; i < PROCESS_COUNT; i++)
 	{
-		//removeFromMemory(queue, memory, PROCESS_COUNT);
-		addToMemory(queue[i], memory);
+		incrementProcesses(queue, PROCESS_COUNT);
+		removeFromMemory(queue, memory, PROCESS_COUNT);
+		addToMemory(queue, memory, i);
 		printMemory(memory);
 	}
 

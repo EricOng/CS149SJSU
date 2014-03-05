@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <math.h>
+#include <stdbool.h>
 
 typedef struct {
+	bool added;
 	char pid;
 	int size;
 	int duration;
@@ -13,6 +15,7 @@ typedef struct {
 Process createProcess(int index)
 {
 	Process* p = (Process*) malloc(sizeof(Process));
+	p->added = false;
 	p->pid = (65 + index);
 	p->size = pow(2,(rand() % 4 + 2));
 	p->duration = rand() % 5 + 1;
@@ -30,6 +33,18 @@ Process* processQueue(int size)
    	}
 
     return queue;
+}
+
+void incrementProcesses(Process* queue, int size)
+{
+	int i;
+	//printf("Attempting to increment process timer\n");
+	for (i = 0; i < size; i++){
+		if(queue[i].added){
+			queue[i].waitTime += 1;
+			//printf("Process %c incremented\n", queue[i].pid);
+		}
+	}
 }
 
 void printProcesses(Process* queue, int size)
