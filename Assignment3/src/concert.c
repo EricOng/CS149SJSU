@@ -7,6 +7,8 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
+#include <unistd.h>
+#include <sys/time.h>
 
 #define SEAT_WIDTH 10
 #define SEAT_HEIGHT 10
@@ -23,6 +25,8 @@ typedef struct {
 // Global variable; concert singleton
 Concert* concert;
 
+time_t startTime;
+
 /**
  * Creates a new concert.
  *
@@ -32,7 +36,6 @@ Concert* newConcert()
 {
     Concert* newConcert = (Concert*) malloc(sizeof(Concert));
     (*newConcert).tickets = SEATS_ACROSS * SEAT_ROWS;
-    printf("%d!\n", (*newConcert).tickets);
     (*newConcert).seats = malloc(sizeof(bool) * (*newConcert).tickets);
     int i;
     int j;
@@ -51,8 +54,8 @@ Concert* newConcert()
  */
 void setConcert(Concert* c)
 {
-    printf("%d!\n", getTicketCount(c));
     concert = c;
+    time(&startTime);
 }
 
 /**

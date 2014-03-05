@@ -49,6 +49,7 @@ int main(int argc, char* argv[])
     }
 
     // Create customers to go to the lines
+    initializeCustomerQueues(NUMBER_OF_CUSTOMERS);
     for(i = 0; i < HIGH_SELLERS + MID_SELLERS + LOW_SELLERS; i++) {
         int j;
         for(j = 0; j < NUMBER_OF_CUSTOMERS; j++) {
@@ -59,7 +60,6 @@ int main(int argc, char* argv[])
     do {          // Loop to ensure that the program doesn't terminate before
         sleep(1); // all seats have been assigned
     } while(!isFinished(getConcert()));
-    printf("Done!\n");
     
     return 0;
 }

@@ -10,12 +10,17 @@
 #include <pthread.h>
 #include <semaphore.h>
 
+#define TOTAL_QUEUES 10
+
 // Defines the last time at which a customer might arrive
 // Simulation: minutes
 //   Realtime: seconds
 const int LAST_CUSTOMER_ARRIVAL_TIME = 59;
 
 int customerCounter = 0;
+int (*queue)[TOTAL_QUEUES];
+
+pthread_mutex_t queueMutex;
 
 void* customer(void*);
 /**
@@ -44,6 +49,25 @@ void* customer(void* arg)
     sleep(1 + rand() % LAST_CUSTOMER_ARRIVAL_TIME);
     int me = customerCounter++;
     int id = *((int*) arg);
-    printf("Customer: %2d @ line %d\n", me, id);
+    
+    pthread_mutex_lock(&queueMutex);
+    int i;
+    for(i = 0; queue[i][id] != -1; i++) { }
+    queue[i][id] = me;
+    printf("Customer %2d added to queue %d at position %d\n", me, id, i);
+    pthread_mutex_unlock(&queueMutex);
+}
+
+void initializeCustomerQueues(int maxCustomers)
+{
+    pthread_mutex_init(&queueMutex, NULL);
+    queue = malloc(sizeof(int) * maxCustomers * TOTAL_QUEUES);
+    int i;
+    int j;
+    for(i = 0; i < maxCustomers; i++) {
+        for(j = 0; j < TOTAL_QUEUES; j++) {
+            queue[i][j] = -1;
+        }
+    }
 }
 

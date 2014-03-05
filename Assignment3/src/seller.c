@@ -5,7 +5,6 @@
  * creates new seller threads to serve customers
  */
 
-#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <pthread.h>
@@ -45,7 +44,6 @@ pthread_t* newSeller(char type, int index)
     } else if(type == LOW) {
         pthread_create(&sellerThreadID, &sellerAttr, lowSeller, id);
     } else {
-        printf("'%c' is not a valid seller type.\n", type);
         return NULL;
     }
     return &sellerThreadID;
@@ -57,7 +55,6 @@ pthread_t* newSeller(char type, int index)
 void* highSeller(void* arg)
 {
     int id = *((int *) arg);
-    printf("H%d\n", id);
 }
 
 /**
@@ -66,7 +63,6 @@ void* highSeller(void* arg)
 void* mediumSeller(void* arg)
 {
     int id = *((int*) arg);
-    printf("M%d\n", id);
 }
 
 /**
@@ -75,6 +71,5 @@ void* mediumSeller(void* arg)
 void* lowSeller(void* arg)
 {
     int id = *((int*) arg);
-    printf("L%d\n", id);
 }
 
