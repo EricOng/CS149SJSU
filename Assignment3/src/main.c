@@ -6,7 +6,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
 #include "./tools.c"
+#include "./seller.c"
+#include "./customer.c"
+
+const int HIGH_SELLERS = 1;
+const int MID_SELLERS = 3;
+const int LOW_SELLERS = 6;
 
 int main(int argc, char* argv[])
 {
@@ -22,6 +30,32 @@ int main(int argc, char* argv[])
     const int NUMBER_OF_CUSTOMERS = atoi(argv[1]);
     
     printf("Proceeding with %d customers per seller.\n", NUMBER_OF_CUSTOMERS);
+    
+    // Create the sellers so that there will be lines to go to
+    int i;
+    pthread_t sellerThread[HIGH_SELLERS + MID_SELLERS + LOW_SELLERS];
+    for(i = 0; i < HIGH_SELLERS; i++) {
+        sellerThread[i] = *newSeller('H', i);
+    }
+    for(i = 0; i < MID_SELLERS; i++) {
+        sellerThread[HIGH_SELLERS + i] = *newSeller('M', i);
+    }
+    for(i = 0; i < LOW_SELLERS; i++) {
+        sellerThread[HIGH_SELLERS + MID_SELLERS + i] = *newSeller('L', i);
+    }
+
+    // Create customers to go to the lines
+    for(i = 0; i < HIGH_SELLERS + MID_SELLERS + LOW_SELLERS; i++) {
+        int j;
+        for(j = 0; j < NUMBER_OF_CUSTOMERS; j++) {
+            // newCustomer(i);
+        }
+        // For now, make sure that this thread doesn't terminate until all
+        // of the seller threads have run.
+        // We may remove this later.
+        pthread_join(sellerThread[i], NULL);
+    }
+    
     
     return 0;
 }
