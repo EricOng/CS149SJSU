@@ -37,9 +37,9 @@ int* generateReferences()
 	return queue;
 }
 
-void printPages(Page* inMemory, int rIndex)
+void printPages(Page* inMemory)
 {
-	printf("Called reference %d   Pages: %c|%c|%c|%c\n",rIndex, inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
+	printf("Pages: %c|%c|%c|%c\n",inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
 }
 
 int main()
@@ -69,8 +69,8 @@ int main()
 		{
 			mIndex++;
 		}
-			
-		printPages(physicalMemory, count);		
+					
 		count++;
+		printPages(physicalMemory);
 	}
 }

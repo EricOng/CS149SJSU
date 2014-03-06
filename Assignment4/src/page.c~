@@ -38,7 +38,7 @@ Page* initializePages(int size, bool create)
 
 void removeFirstPage(Page* memory, Page* pages, int memSize)
 {
-	printf("Removed page %c        Pages:  |%c|%c|%c \n", memory[0].pid, memory[1].pid, memory[2].pid, memory[3].pid);
+	printf("Removed page %c           Pages:  |%c|%c|%c \n", memory[0].pid, memory[1].pid, memory[2].pid, memory[3].pid);
 	int i;
 	for(i = 0; i < 10; i++)
 	{
