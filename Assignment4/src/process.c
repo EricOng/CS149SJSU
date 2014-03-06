@@ -13,12 +13,25 @@ typedef struct {
 	int waitTime;
 } Process;
 
+int generateSize()
+{
+	int pick = rand() % 4;
+	if(pick == 1)
+		return 5;
+	else if(pick == 2)
+		return 11;
+	else if(pick == 3)
+		return 17;
+	else if(pick == 0)
+		return 31;
+}
+
 Process createProcess(int index)
 {
 	Process* p = (Process*) malloc(sizeof(Process));
 	p->added = false;
 	p->pid = (65 + index);
-	p->size = pow(2,(rand() % 4 + 2));
+	p->size = generateSize();
 	p->duration = rand() % 5 + 1;
 	p->waitTime = 0;
 	return *p;
