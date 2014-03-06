@@ -18,6 +18,15 @@ void* highSeller(void*);
 void* mediumSeller(void*);
 void* lowSeller(void*);
 
+int sellerIndex = 0;
+
+const int HIGH_SELLER_MIN = 1;
+const int HIGH_SELLER_MAX = 2;
+const int MID_SELLER_MIN = 2;
+const int MID_SELLER_MAX = 4;
+const int LOW_SELLER_MIN = 4;
+const int LOW_SELLER_MAX = 7;
+
 /**
  * Creates a new seller.
  *
@@ -55,6 +64,19 @@ pthread_t* newSeller(char type, int index)
 void* highSeller(void* arg)
 {
     int id = *((int *) arg);
+    int seller = sellerIndex++;
+    
+    while(!isFinished(getConcert())) {
+        int customer = getCustomer(seller);
+        if(customer != -1) {
+            char event[99];
+            sprintf(event, "Seller H%d served customer %2d", id, customer);
+            printEvent(event);
+            sleep(HIGH_SELLER_MIN + rand() % (HIGH_SELLER_MAX - HIGH_SELLER_MIN));
+            sprintf(event, "Customer %2d purchase complete. Seller H%d ready.", customer, id);
+            printEvent(event);
+        }
+    }
 }
 
 /**
@@ -63,6 +85,19 @@ void* highSeller(void* arg)
 void* mediumSeller(void* arg)
 {
     int id = *((int*) arg);
+    int seller = sellerIndex++;
+    
+    while(!isFinished(getConcert())) {
+        int customer = getCustomer(seller);
+        if(customer != -1) {
+            char event[99];
+            sprintf(event, "Seller M%d served customer %2d", id, customer);
+            printEvent(event);
+            sleep(MID_SELLER_MIN + rand() % (MID_SELLER_MAX - MID_SELLER_MIN));
+            sprintf(event, "Customer %2d purchase complete. Seller M%d ready.", customer, id);
+            printEvent(event);
+        }
+    }
 }
 
 /**
@@ -71,5 +106,18 @@ void* mediumSeller(void* arg)
 void* lowSeller(void* arg)
 {
     int id = *((int*) arg);
+    int seller = sellerIndex++;
+    
+    while(!isFinished(getConcert())) {
+        int customer = getCustomer(seller);
+        if(customer != -1) {
+            char event[99];
+            sprintf(event, "Seller L%d served customer %2d", id, customer);
+            printEvent(event);
+            sleep(LOW_SELLER_MIN + rand() % (LOW_SELLER_MAX - LOW_SELLER_MIN));
+            sprintf(event, "Customer %2d purchase complete. Seller L%d ready.", customer, id);
+            printEvent(event);
+        }
+    }
 }
 

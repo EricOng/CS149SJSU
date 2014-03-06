@@ -9,9 +9,9 @@
 #include <unistd.h>
 #include <pthread.h>
 #include "./tools.c"
-#include "./seller.c"
 #include "./customer.c"
 #include "./concert.c"
+#include "./seller.c"
 
 const int HIGH_SELLERS = 1;
 const int MID_SELLERS = 3;

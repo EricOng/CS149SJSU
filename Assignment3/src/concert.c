@@ -28,6 +28,7 @@ Concert* concert;
 
 time_t startTime;
 pthread_mutex_t printMutex;
+pthread_mutex_t concertMutex;
 
 /**
  * Creates a new concert.
@@ -59,6 +60,7 @@ void setConcert(Concert* c)
     concert = c;
     time(&startTime);
     pthread_mutex_init(&printMutex, NULL);
+    pthread_mutex_init(&concertMutex, NULL);
 }
 
 /**
@@ -108,7 +110,7 @@ void printEvent(char event[99])
         min++;
         sec -= 60;
     }
-    printf("%02d:%02d | %s", min, sec, event);
+    printf("%02d:%02d | %s\n", min, sec, event);
     
     pthread_mutex_unlock(&printMutex);
 }

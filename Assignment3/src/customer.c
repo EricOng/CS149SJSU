@@ -19,6 +19,7 @@ const int LAST_CUSTOMER_ARRIVAL_TIME = 59;
 
 int customerCounter = 0;
 int (*queue)[TOTAL_QUEUES];
+int lineFront[TOTAL_QUEUES];
 
 pthread_mutex_t queueMutex;
 
@@ -56,7 +57,7 @@ void* customer(void* arg)
     for(i = 0; queue[i][id] != -1; i++) { }
     queue[i][id] = me;
     char event[99];
-    sprintf(event, "Customer %2d added to queue %d at position %d\n", me, id, i);
+    sprintf(event, "Customer %2d arrives (line %d, position %d)", me, id, i);
     printEvent(event);
     
     pthread_mutex_unlock(&queueMutex);
@@ -73,5 +74,22 @@ void initializeCustomerQueues(int maxCustomers)
             queue[i][j] = -1;
         }
     }
+    for(i = 0; i < TOTAL_QUEUES; i++) {
+        lineFront[i] = 0;
+    }
+}
+
+int getCustomer(int queueIndex)
+{
+    pthread_mutex_lock(&queueMutex);
+    
+    int customerIndex = queue[lineFront[queueIndex]][queueIndex];
+    if(customerIndex != -1) {
+        lineFront[queueIndex]++;
+    }
+    
+    pthread_mutex_unlock(&queueMutex);
+    
+    return customerIndex;
 }
 
