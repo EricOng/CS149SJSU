@@ -21,6 +21,7 @@ const int SEAT_ROWS = SEAT_HEIGHT;
 typedef struct {
     int tickets;               // Total number of tickets yet to be sold
     bool (*seats)[SEAT_WIDTH]; // Record of which seats have been taken
+    int (*customer)[SEAT_WIDTH];
 } Concert;
 
 // Global variable; concert singleton
@@ -40,6 +41,7 @@ Concert* newConcert()
     Concert* newConcert = (Concert*) malloc(sizeof(Concert));
     (*newConcert).tickets = SEATS_ACROSS * SEAT_ROWS;
     (*newConcert).seats = malloc(sizeof(bool) * (*newConcert).tickets);
+    (*newConcert).customer = malloc(sizeof(int) * (*newConcert).tickets);
     int i;
     int j;
     for(i = 0; i < SEAT_ROWS; i++) {
@@ -51,7 +53,7 @@ Concert* newConcert()
 }
 
 /**
- * Sets the conert singleton
+ * Sets the concert singleton
  *
  * @param c A pointer to the Concert struct that should be the new singleton
  */
@@ -113,5 +115,130 @@ void printEvent(char event[99])
     printf("%02d:%02d | %s\n", min, sec, event);
     
     pthread_mutex_unlock(&printMutex);
+}
+
+int* nextFrontSeat()
+{
+    pthread_mutex_lock(&concertMutex);
+    
+    int* seat = malloc(sizeof(int) * 2);
+    
+    int i;
+    int j;
+    bool found = false;
+    for(i = 0; i < SEAT_ROWS && !found; i++) {
+        for(j = 0; j < SEATS_ACROSS && !found; j++) {
+            if(!(*concert).seats[i][j]) {
+                (*concert).seats[i][j] = true;
+                found = true;
+                seat[0] = i;
+                seat[1] = j;
+                (*concert).tickets--;
+            }
+        }
+    }
+    
+    pthread_mutex_unlock(&concertMutex);
+    
+    return seat;
+}
+
+int* nextMiddleSeat()
+{
+    pthread_mutex_lock(&concertMutex);
+    
+    int* seat = malloc(sizeof(int) * 2);
+    
+    int base = (SEAT_ROWS - 1) / 2;
+    int offset = 0;
+    bool found = false;
+    while(!found) {
+        int row = base + offset;
+        int i;
+        for(i = 0; i < SEATS_ACROSS && !found; i++) {
+            if(!(*concert).seats[row][i]) {
+                (*concert).seats[row][i] = true;
+                found = true;
+                seat[0] = row;
+                seat[1] = i;
+                (*concert).tickets--;
+            }
+        }
+        if(offset <= 0) {
+            offset--;
+            offset = -offset;
+        } else {
+            offset = -offset;
+        }
+    }
+    
+    pthread_mutex_unlock(&concertMutex);
+    
+    return seat;
+}
+
+int* nextBackSeat()
+{
+    pthread_mutex_lock(&concertMutex);
+    
+    int* seat = malloc(sizeof(int) * 2);
+    
+    int i;
+    int j;
+    bool found = false;
+    for(i = SEAT_ROWS - 1; i >= 0 && !found; i--) {
+        for(j = 0; j < SEATS_ACROSS && !found; j++) {
+            if(!(*concert).seats[i][j]) {
+                (*concert).seats[i][j] = true;
+                found = true;
+                seat[0] = i;
+                seat[1] = j;
+                (*concert).tickets--;
+            }
+        }
+    }
+    
+    pthread_mutex_unlock(&concertMutex);
+    
+    return seat;
+}
+
+void setCustomer(Concert* c, int* seat, int customer)
+{
+    (*c).customer[seat[0]][seat[1]] = customer;
+}
+
+printConcert(Concert* c)
+{
+    int i;
+    int j;
+    printf("\n+");
+    for(i = 0; i < SEATS_ACROSS; i++) {
+        if(i == 0) {
+            printf("---");
+        } else {
+            printf("----");
+        }
+    }
+    printf("+\n");
+    for(i = 0; i < SEAT_ROWS; i++) {
+        printf("|");
+        for(j = 0; j < SEATS_ACROSS; j++) {
+            if(j != 0) {
+                printf(" ");
+            }
+	    printf("%3d", (*c).customer[i][j]);
+        }
+        printf("|\n");
+    }
+    printf("+");
+    for(i = 0; i < SEATS_ACROSS; i++) {
+        if(i == 0) {
+            printf("---");
+        } else {
+            printf("----");
+        }
+    }
+    printf("+\n");
 }
 

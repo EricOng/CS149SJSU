@@ -69,8 +69,10 @@ void* highSeller(void* arg)
     while(!isFinished(getConcert())) {
         int customer = getCustomer(seller);
         if(customer != -1) {
+            int* assignedSeat = nextFrontSeat();
             char event[99];
-            sprintf(event, "Seller H%d served customer %2d", id, customer);
+            sprintf(event, "Seller H%d sold row %d, seat %d to customer %d.", id, assignedSeat[0], assignedSeat[1], customer);
+            setCustomer(getConcert(), assignedSeat, customer);
             printEvent(event);
             sleep(HIGH_SELLER_MIN + rand() % (HIGH_SELLER_MAX - HIGH_SELLER_MIN));
             sprintf(event, "Customer %2d purchase complete. Seller H%d ready.", customer, id);
@@ -90,8 +92,10 @@ void* mediumSeller(void* arg)
     while(!isFinished(getConcert())) {
         int customer = getCustomer(seller);
         if(customer != -1) {
+            int* assignedSeat = nextMiddleSeat();
             char event[99];
-            sprintf(event, "Seller M%d served customer %2d", id, customer);
+            sprintf(event, "Seller M%d sold row %d, seat %d to customer %d.", id, assignedSeat[0], assignedSeat[1], customer);
+            setCustomer(getConcert(), assignedSeat, customer);
             printEvent(event);
             sleep(MID_SELLER_MIN + rand() % (MID_SELLER_MAX - MID_SELLER_MIN));
             sprintf(event, "Customer %2d purchase complete. Seller M%d ready.", customer, id);
@@ -111,8 +115,10 @@ void* lowSeller(void* arg)
     while(!isFinished(getConcert())) {
         int customer = getCustomer(seller);
         if(customer != -1) {
+            int* assignedSeat = nextBackSeat();
             char event[99];
-            sprintf(event, "Seller L%d served customer %2d", id, customer);
+            sprintf(event, "Seller L%d sold row %d, seat %d to customer %d.", id, assignedSeat[0], assignedSeat[1], customer);
+            setCustomer(getConcert(), assignedSeat, customer);
             printEvent(event);
             sleep(LOW_SELLER_MIN + rand() % (LOW_SELLER_MAX - LOW_SELLER_MIN));
             sprintf(event, "Customer %2d purchase complete. Seller L%d ready.", customer, id);

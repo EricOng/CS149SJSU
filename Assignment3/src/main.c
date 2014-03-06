@@ -59,7 +59,12 @@ int main(int argc, char* argv[])
     
     do {          // Loop to ensure that the program doesn't terminate before
         sleep(1); // all seats have been assigned
+        char event[99];
+        sprintf(event, "%3d tickets remain.", (*getConcert()).tickets);
+        printEvent(event);
     } while(!isFinished(getConcert()));
+    
+    printConcert(getConcert());
     
     return 0;
 }
