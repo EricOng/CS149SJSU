@@ -9,7 +9,7 @@
 
 typedef struct {
 	bool inMemory;
-	char pid;
+	int pid;
 	int size;
 } Page;
 
@@ -17,7 +17,7 @@ Page createPage(int index)
 {
 	Page* p = (Page*) malloc(sizeof(Page));
 	(*p).inMemory = false;
-	(*p).pid = (65 + index);
+	(*p).pid = index%10;
 	(*p).size = PAGE_SIZE;
 	return *p;
 }
@@ -38,7 +38,7 @@ Page* initializePages(int size, bool create)
 
 void removeFirstPage(Page* memory, Page* pages, int memSize)
 {
-	printf("Removed page %c        Pages:  |%c|%c|%c \n", memory[0].pid, memory[1].pid, memory[2].pid, memory[3].pid);
+	printf("Removed page %d        Pages:  |%d|%d|%d \n", memory[0].pid, memory[1].pid, memory[2].pid, memory[3].pid);
 	int i;
 	for(i = 0; i < 10; i++)
 	{
@@ -68,11 +68,13 @@ bool addToMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex)
 		{
 			memory[cIndex] = page[pIndex];
 			page[pIndex].inMemory = true;
+			printf("Adding  page %d\n", page[pIndex].pid);
 		}
 		else{
 			removeFirstPage(memory, page, memSize);
 			memory[memSize-1] = page[pIndex];	
 			page[pIndex].inMemory = true;
+			printf("Adding  page %d\n", page[pIndex].pid);
 		}
 		return true;
 	}

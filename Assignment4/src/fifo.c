@@ -37,9 +37,9 @@ int* generateReferences()
 	return queue;
 }
 
-void printPages(Page* inMemory, int rIndex)
+void printPages(Page* inMemory)
 {
-	printf("Called reference %d   Pages: %c|%c|%c|%c\n",rIndex, inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
+	printf("Result                Pages: %d|%d|%d|%d\n", inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
 }
 
 int main()
@@ -52,6 +52,8 @@ int main()
 	int mIndex = 0;
 	int pIndex = 0;
 	int count = 0;
+	int hitCount = 0;
+
 	while(count != PAGE_REFERENCES)
 	{
 		pIndex = (pIndex + referenceQueue[count]);
@@ -64,13 +66,17 @@ int main()
 		else if(pIndex == 10){
 			pIndex = 0;
 		}
-				
+		printf("Calling reference %d\n" , count);	
 		if(addToMemory(physicalMemory, diskPages, PAGE_FRAMES, mIndex, pIndex))
 		{
 			mIndex++;
 		}
-			
-		printPages(physicalMemory, count);		
+		else{
+			hitCount++;
+		}	
+		printPages(physicalMemory);		
 		count++;
 	}
+	printf("----------------------------\n");
+	printf("% Hit Ratio: %d\n", hitCount);
 }
