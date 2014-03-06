@@ -12,6 +12,7 @@ typedef struct {
 	int pid;
 	int size;
 	int lastRef;
+	int accessCount;
 } Page;
 
 Page createPage(int index)
@@ -21,6 +22,7 @@ Page createPage(int index)
 	(*p).pid = (65 + index);
 	(*p).size = PAGE_SIZE;
 	(*p).lastRef = 999;
+	(*p).accessCount = 0;
 	return *p;
 }
 
