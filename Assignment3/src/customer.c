@@ -51,10 +51,14 @@ void* customer(void* arg)
     int id = *((int*) arg);
     
     pthread_mutex_lock(&queueMutex);
+    
     int i;
     for(i = 0; queue[i][id] != -1; i++) { }
     queue[i][id] = me;
-    printf("Customer %2d added to queue %d at position %d\n", me, id, i);
+    char event[99];
+    sprintf(event, "Customer %2d added to queue %d at position %d\n", me, id, i);
+    printEvent(event);
+    
     pthread_mutex_unlock(&queueMutex);
 }
 

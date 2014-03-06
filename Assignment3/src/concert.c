@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <unistd.h>
+#include <pthread.h>
 #include <sys/time.h>
 
 #define SEAT_WIDTH 10
@@ -26,6 +27,7 @@ typedef struct {
 Concert* concert;
 
 time_t startTime;
+pthread_mutex_t printMutex;
 
 /**
  * Creates a new concert.
@@ -56,6 +58,7 @@ void setConcert(Concert* c)
 {
     concert = c;
     time(&startTime);
+    pthread_mutex_init(&printMutex, NULL);
 }
 
 /**
@@ -90,5 +93,23 @@ bool isFinished(Concert* c)
 int getTicketCount(Concert* c)
 {
     return (*c).tickets;
+}
+
+void printEvent(char event[99])
+{
+    pthread_mutex_lock(&printMutex);
+    
+    time_t now;
+    time(&now);
+    double time = difftime(now, startTime);
+    int min = 0;
+    int sec = (int) time;
+    while(sec >= 60) {
+        min++;
+        sec -= 60;
+    }
+    printf("%02d:%02d | %s", min, sec, event);
+    
+    pthread_mutex_unlock(&printMutex);
 }
 
