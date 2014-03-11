@@ -1,0 +1,1 @@
+Use "-lm" option to compile the file.
