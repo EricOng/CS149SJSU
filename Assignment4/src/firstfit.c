@@ -9,6 +9,7 @@
 
 int main()
 {
+	srand(time(0));
 	char* memory = initializeMemory();
 	printMemory(memory);
 	Process* queue = processQueue(PROCESS_COUNT);

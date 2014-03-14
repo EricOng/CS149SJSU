@@ -15,7 +15,6 @@ typedef struct {
 
 Process createProcess(int index)
 {
-	srand(time(0));
 	Process* p = (Process*) malloc(sizeof(Process));
 	p->added = false;
 	p->pid = (65 + index);
