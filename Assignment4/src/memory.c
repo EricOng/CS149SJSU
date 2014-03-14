@@ -5,6 +5,8 @@
 
 #define MEMORY_SIZE 100
 
+int swappedIn = 0;
+
 char* initializeMemory()
 {
 	char* memory = (char*) malloc(MEMORY_SIZE * sizeof(char));
@@ -43,6 +45,7 @@ bool addToMemory(Process* process, char* memory, int p_Index)
 			p_Size--;
 		}
 		process[p_Index].added = true;
+		swappedIn++;
 		return true;
 	}
 	else{
@@ -66,6 +69,7 @@ int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 			p_Size--;
 		}
 		process[p_Index].added = true;
+		swappedIn++;
 		m_Index = index;	
 	}
 	else{
@@ -83,7 +87,8 @@ bool addToBestMemory(Process* process, char* memory, int p_Index, int size)
 {
 	int p_Size = process[p_Index].size;
 	int index = findBestMemoryIndex(p_Size, memory);
-	if(index != -1){
+	if(index != -1)
+	{
 		while (p_Size != 0)
 		{
 			memory[index] = process[p_Index].pid;
@@ -91,9 +96,11 @@ bool addToBestMemory(Process* process, char* memory, int p_Index, int size)
 			p_Size--;
 		}
 		process[p_Index].added = true;
+		swappedIn++;
 		return true;
 	}
-	else{
+	else
+	{
 		printf("\nCannot fit process %c\n", process[p_Index].pid);
 		return false;
 	}
@@ -174,30 +181,35 @@ int findBestMemoryIndex(int sizeNeeded, char* memory)
 	int countSpace = 0;
 	int bestFit = 999;
 	int bestFitIndex = 0;
-	int i;
+	int i = 0;
 	
-	while(i < MEMORY_SIZE)
+	while(i <= MEMORY_SIZE)
 	{
-		if(memory[i++] == '.'){
+		if(memory[i] == '.')
+		{
 			countSpace++;
 		}
-		else{
-			if(countspace == sizeNeeded){
-				return i - sizeNeeded + 1;
+		else
+		{
+			if(countSpace == sizeNeeded){
+				return i - sizeNeeded;
 			}
-			else if(countspace >= sizeNeeded && countspace < bestFit){
-				bestFit = countspace;
+			else if(countSpace >= sizeNeeded && countSpace < bestFit){
+				bestFit = countSpace;
 				bestFitIndex = i;
 			}
 			countSpace = 0;
 		}
+		i++;
 	}
 	
-	if(bestFit == 999) {
+	if(bestFit == 999) 
+	{
 		return -1;
 	}
-	else {
-		return bestFitIndex - sizeNeeded + 1;
+	else 
+	{
+		return bestFitIndex - bestFit;
 	}
 }
 
@@ -218,4 +230,9 @@ void removeFromMemory(Process* process, char* memory, int numberOfProcesses)
 			}
 		}
 	}
+}
+
+int getSwapCount()
+{
+	return swappedIn;
 }

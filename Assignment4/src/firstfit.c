@@ -3,14 +3,12 @@
 #include <unistd.h>
 #include "process.c"
 #include "memory.c"
-#include <time.h>
 
-#define PROCESS_COUNT 26
+#define PROCESS_COUNT 60
 #define SIMULATION_LENGTH 60
 
 int main()
 {
-	srand(time(0));
 	char* memory = initializeMemory();
 	printMemory(memory);
 	Process* queue = processQueue(PROCESS_COUNT);
@@ -34,10 +32,12 @@ int main()
 
 		if(time >= 60){
 			printf("Simulation Time Exceeded\n");
+			printf("Swapped Processes: %d\n", getSwapCount());
 			return 0;
 		}
 		time++;
 	}
 	printf("Out of Processes\n");
+	printf("Swapped Processes: %d\n", getSwapCount());
 	return 0;
 }

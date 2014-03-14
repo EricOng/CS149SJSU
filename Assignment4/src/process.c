@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <math.h>
 #include <stdbool.h>
+#include <time.h>
 
 typedef struct {
 	bool added;
@@ -14,6 +15,7 @@ typedef struct {
 
 Process createProcess(int index)
 {
+	srand(time(0));
 	Process* p = (Process*) malloc(sizeof(Process));
 	p->added = false;
 	p->pid = (65 + index);
