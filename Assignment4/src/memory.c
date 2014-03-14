@@ -77,6 +77,29 @@ int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 }
 
 /**
+ * Add process to the best memory space big enough to store it
+ */
+bool addToBestMemory(Process* process, char* memory, int p_Index, int size)
+{
+	int p_Size = process[p_Index].size;
+	int index = findBestMemoryIndex(p_Size, memory);
+	if(index != -1){
+		while (p_Size != 0)
+		{
+			memory[index] = process[p_Index].pid;
+			index++;
+			p_Size--;
+		}
+		process[p_Index].added = true;
+		return true;
+	}
+	else{
+		printf("\nCannot fit process %c\n", process[p_Index].pid);
+		return false;
+	}
+}
+
+/**
  * Find the first index in memory that has enough space for the process
  */
 int findMemoryIndex(int sizeNeeded, char* memory)
@@ -141,6 +164,41 @@ int findNextMemoryIndex(int sizeNeeded, char* memory, int fromIndex)
 
 	//no spaces currently available
 	return -1;	
+}
+
+/**
+ * Find the index in memory that best fits the process
+ */
+int findBestMemoryIndex(int sizeNeeded, char* memory)
+{
+	int countSpace = 0;
+	int bestFit = 999;
+	int bestFitIndex = 0;
+	int i;
+	
+	while(i < MEMORY_SIZE)
+	{
+		if(memory[i++] == '.'){
+			countSpace++;
+		}
+		else{
+			if(countspace == sizeNeeded){
+				return i - sizeNeeded + 1;
+			}
+			else if(countspace >= sizeNeeded && countspace < bestFit){
+				bestFit = countspace;
+				bestFitIndex = i;
+			}
+			countSpace = 0;
+		}
+	}
+	
+	if(bestFit == 999) {
+		return -1;
+	}
+	else {
+		return bestFitIndex - sizeNeeded + 1;
+	}
 }
 
 /**
