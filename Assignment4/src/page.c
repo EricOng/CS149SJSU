@@ -11,6 +11,7 @@ typedef struct {
 	bool inMemory;
 	int pid;
 	int size;
+	int lastRef;
 } Page;
 
 Page createPage(int index)
@@ -19,6 +20,7 @@ Page createPage(int index)
 	(*p).inMemory = false;
 	(*p).pid = index%10;
 	(*p).size = PAGE_SIZE;
+	(*p).lastRef = 999;
 	return *p;
 }
 
@@ -59,6 +61,34 @@ void removeFirstPage(Page* memory, Page* pages, int memSize)
 	}
 }
 
+int removeLRUPage(Page* memory, Page* pages, int memSize)
+{
+	int i = 0;
+	int lruIndex = 5, lruValue = 101;
+	
+	while(i < memSize)
+	{
+		if(memory[i].lastRef < lruValue)
+		{
+			lruValue = memory[i].lastRef;
+			lruIndex = i;
+		}
+		i++;
+	}	
+		
+	printf("Removed page %c, LRU: %d\n", memory[lruIndex].pid, memory[lruIndex].lastRef);
+	
+	for(i = 0; i < 10; i++)
+	{
+		if(memory[lruIndex].pid == pages[i].pid)
+		{			
+			pages[i].inMemory = false;
+			break;		
+		}
+	}
+	return lruIndex;
+}
+
 bool addToMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex)
 {
 	if(!page[pIndex].inMemory)
@@ -81,3 +111,38 @@ bool addToMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex)
 	return false;
 }
 
+int findPID(Page* memory, char pagePID)
+{
+	int i;	
+	for(i = 0; i < 4; i++)
+	{
+		if(memory[i].pid == pagePID)
+		{			
+			return i;
+		}
+	}
+	return -1;
+}
+
+bool addToLRUMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex, int lastref)
+{
+	if(!page[pIndex].inMemory)
+	{	
+		int lru;
+		if(cIndex < memSize)
+		{
+			memory[cIndex] = page[pIndex];
+			memory[cIndex].lastRef = lastref;
+			page[pIndex].inMemory = true;
+		}
+		else{
+			lru = removeLRUPage(memory, page, memSize);
+			memory[lru] = page[pIndex];
+			memory[lru].lastRef = lastref;
+			page[pIndex].inMemory = true;
+		}
+		return true;
+	}
+	memory[findPID(memory,page[pIndex].pid)].lastRef = lastref;
+	return false;
+}
