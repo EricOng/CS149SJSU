@@ -18,7 +18,7 @@ Page createPage(int index)
 {
 	Page* p = (Page*) malloc(sizeof(Page));
 	(*p).inMemory = false;
-	(*p).pid = index%10;
+	(*p).pid = (65 + index);
 	(*p).size = PAGE_SIZE;
 	(*p).lastRef = 999;
 	return *p;

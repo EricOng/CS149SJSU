@@ -50,7 +50,7 @@ int main()
 	
 	int mIndex = 0;
 	int pIndex = 0;
-	int count = 0;
+	int count = 0, hitCount = 0;
 	while(count != PAGE_REFERENCES)
 	{
 		pIndex = (pIndex + referenceQueue[count]);
@@ -68,8 +68,12 @@ int main()
 		{
 			mIndex++;
 		}
-			
+		else{
+			hitCount++;
+		}	
 		printPages(physicalMemory, diskPages, pIndex);		
 		count++;
 	}
+	printf("----------------------------\n");
+	printf("% Hit Ratio: %d\n", hitCount);
 }
