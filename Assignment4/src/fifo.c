@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <unistd.h>
-#include "process.c"
 #include "page.c"
 
 #define PAGE_FRAMES 4
@@ -39,7 +38,7 @@ int* generateReferences()
 
 void printPages(Page* inMemory)
 {
-	printf("Result                Pages: %d|%d|%d|%d\n", inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
+	printf("= Pages: [%c|%c|%c|%c]\n", inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
 }
 
 int main()
@@ -66,7 +65,7 @@ int main()
 		else if(pIndex == 10){
 			pIndex = 0;
 		}
-		printf("Calling reference %d\n" , count);	
+		printf("0 Called page %c\n", diskPages[pIndex].pid);	
 		if(addToMemory(physicalMemory, diskPages, PAGE_FRAMES, mIndex, pIndex))
 		{
 			mIndex++;

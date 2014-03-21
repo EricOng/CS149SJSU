@@ -36,7 +36,7 @@ int* generateReferences()
 	return queue;
 }
 
-void printPages(Page* inMemory)
+void printPages(Page* inMemory, Page* disk, int rIndex)
 {
 	printf("= Pages: [%c|%c|%c|%c]\n", inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
 }
@@ -50,9 +50,7 @@ int main()
 	
 	int mIndex = 0;
 	int pIndex = 0;
-	int count = 0;
-	int hitCount = 0;
-
+	int count = 0, hitCount = 0;
 	while(count != PAGE_REFERENCES)
 	{
 		pIndex = (pIndex + referenceQueue[count]);
@@ -65,15 +63,16 @@ int main()
 		else if(pIndex == 10){
 			pIndex = 0;
 		}
-		printf("0 Called page %c\n", diskPages[pIndex].pid);	
-		if(addToMFUMemory(physicalMemory, diskPages, PAGE_FRAMES, mIndex, pIndex))
+		
+		printf("0 Called page %c\n", diskPages[pIndex].pid);
+		if(addToRandomMemory(physicalMemory, diskPages, PAGE_FRAMES, mIndex, pIndex, count))
 		{
 			mIndex++;
 		}
 		else{
 			hitCount++;
 		}	
-		printPages(physicalMemory);		
+		printPages(physicalMemory, diskPages, pIndex);		
 		count++;
 	}
 	printf("----------------------------\n");

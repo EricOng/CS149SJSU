@@ -9,7 +9,7 @@
 
 typedef struct {
 	bool inMemory;
-	int pid;
+	char pid;
 	int size;
 	int lastRef;
 	int accessCount;
@@ -42,7 +42,7 @@ Page* initializePages(int size, bool create)
 
 void removeFirstPage(Page* memory, Page* pages, int memSize)
 {
-	printf("Removed page %d        Pages:  |%d|%d|%d \n", memory[0].pid, memory[1].pid, memory[2].pid, memory[3].pid);
+	printf("- Removed page %c\n", memory[0].pid);
 	int i;
 	for(i = 0; i < 10; i++)
 	{
@@ -63,6 +63,19 @@ void removeFirstPage(Page* memory, Page* pages, int memSize)
 	}
 }
 
+int findPID(Page* memory, char pagePID)
+{
+	int i;	
+	for(i = 0; i < 4; i++)
+	{
+		if(memory[i].pid == pagePID)
+		{			
+			return i;
+		}
+	}
+	return -1;
+}
+
 int findLFU(Page* memory, int memSize)
 {
 	int i;
@@ -70,16 +83,17 @@ int findLFU(Page* memory, int memSize)
 	int lfu_index = 0;
 	for(i = 0; i < memSize; i++)
 	{
-		printf("page %d has freq %d\n", memory[i].pid, memory[i].accessCount);
+		printf("page %c has freq %d\n", memory[i].pid, memory[i].accessCount);
 		if(memory[i].accessCount <= lfu)
 		{
 			lfu = memory[i].accessCount;
 			lfu_index = i;
 		}
 	}
-	printf("Least freq page %d \n", memory[lfu_index].pid);
+	printf("Least freq page %c \n", memory[lfu_index].pid);
 	return lfu_index;
 }
+
 int findMFU(Page* memory, int memSize)
 {
 	int i;
@@ -87,14 +101,14 @@ int findMFU(Page* memory, int memSize)
 	int lfu_index = 0;
 	for(i = 0; i < memSize; i++)
 	{
-		printf("page %d has freq %d\n", memory[i].pid, memory[i].accessCount);
+		printf("page %c has freq %d\n", memory[i].pid, memory[i].accessCount);
 		if(memory[i].accessCount >= lfu)
 		{
 			lfu = memory[i].accessCount;
 			lfu_index = i;
 		}
 	}
-	printf("Most freq page %d \n", memory[lfu_index].pid);
+	printf("Most freq page %c \n", memory[lfu_index].pid);
 	return lfu_index;
 }
 
@@ -110,7 +124,7 @@ void removeLFUPage(Page* memory, Page* pages, int memSize)
 			break;		
 		}
 	}	
-	printf("Removed page %d\n", memory[lfu_Index].pid);
+	printf("- Removed page %c\n", memory[lfu_Index].pid);
 	int count = lfu_Index;
 	while(count != memSize)
 	{
@@ -134,7 +148,7 @@ void removeMFUPage(Page* memory, Page* pages, int memSize)
 			break;		
 		}
 	}	
-	printf("Removed page %d\n", memory[mfu_Index].pid);
+	printf("- Removed page %c\n", memory[mfu_Index].pid);
 	int count = mfu_Index;
 	while(count != memSize)
 	{
@@ -161,7 +175,7 @@ int removeLRUPage(Page* memory, Page* pages, int memSize)
 		i++;
 	}	
 		
-	printf("Removed page %c, LRU: %d\n", memory[lruIndex].pid, memory[lruIndex].lastRef);
+	printf("- Removed page %c, LRU: %d\n", memory[lruIndex].pid, memory[lruIndex].lastRef);
 	
 	for(i = 0; i < 10; i++)
 	{
@@ -174,6 +188,24 @@ int removeLRUPage(Page* memory, Page* pages, int memSize)
 	return lruIndex;
 }
 
+int removeRandomPage(Page* memory, Page* pages, int memSize)
+{
+	int i = 0;
+	
+	int random = rand() % 4;
+	printf("- Removed page %c\n", memory[random].pid);
+	
+	for(i = 0; i < 10; i++)
+	{
+		if(memory[random].pid == pages[i].pid)
+		{			
+			pages[i].inMemory = false;
+			break;		
+		}
+	}
+	return random;
+}
+
 bool addToMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex)
 {
 	if(!page[pIndex].inMemory)
@@ -183,13 +215,13 @@ bool addToMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex)
 		{
 			memory[cIndex] = page[pIndex];
 			page[pIndex].inMemory = true;
-			printf("Adding  page %d\n", page[pIndex].pid);
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		else{
 			removeFirstPage(memory, page, memSize);
 			memory[memSize-1] = page[pIndex];	
 			page[pIndex].inMemory = true;
-			printf("Adding  page %d\n", page[pIndex].pid);
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		return true;
 	}
@@ -205,13 +237,13 @@ bool addToLFUMemory(Page* memory, Page* page, int memSize, int cIndex, int pInde
 		{
 			memory[cIndex] = page[pIndex];
 			page[pIndex].inMemory = true;
-			printf("Adding  page %d\n", page[pIndex].pid);
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		else{
 			removeLFUPage(memory, page, memSize);
 			memory[memSize-1] = page[pIndex];	
 			page[pIndex].inMemory = true;
-			printf("Adding  page %d\n", page[pIndex].pid);
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		return true;
 	}
@@ -228,7 +260,7 @@ bool addToLFUMemory(Page* memory, Page* page, int memSize, int cIndex, int pInde
 			}
 		}
 	}
-		printf("Page %d accessed %d -> %d\n", page[pIndex].pid, page[pIndex].accessCount - 1, page[pIndex].accessCount);
+		printf("Page %c accessed %d -> %d\n", page[pIndex].pid, page[pIndex].accessCount - 1, page[pIndex].accessCount);
 	return false;
 }
 
@@ -241,13 +273,13 @@ bool addToMFUMemory(Page* memory, Page* page, int memSize, int cIndex, int pInde
 		{
 			memory[cIndex] = page[pIndex];
 			page[pIndex].inMemory = true;
-			printf("Adding  page %d\n", page[pIndex].pid);
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		else{
 			removeMFUPage(memory, page, memSize);
 			memory[memSize-1] = page[pIndex];	
 			page[pIndex].inMemory = true;
-			printf("Adding  page %d\n", page[pIndex].pid);
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		return true;
 	}
@@ -264,21 +296,8 @@ bool addToMFUMemory(Page* memory, Page* page, int memSize, int cIndex, int pInde
 			}
 		}
 	}
-		printf("Page %d accessed %d -> %d\n", page[pIndex].pid, page[pIndex].accessCount - 1, page[pIndex].accessCount);
+		printf("Page %c accessed %d -> %d\n", page[pIndex].pid, page[pIndex].accessCount - 1, page[pIndex].accessCount);
 	return false;
-}
-
-int findPID(Page* memory, char pagePID)
-{
-	int i;	
-	for(i = 0; i < 4; i++)
-	{
-		if(memory[i].pid == pagePID)
-		{			
-			return i;
-		}
-	}
-	return -1;
 }
 
 bool addToLRUMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex, int lastref)
@@ -291,15 +310,39 @@ bool addToLRUMemory(Page* memory, Page* page, int memSize, int cIndex, int pInde
 			memory[cIndex] = page[pIndex];
 			memory[cIndex].lastRef = lastref;
 			page[pIndex].inMemory = true;
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		else{
 			lru = removeLRUPage(memory, page, memSize);
 			memory[lru] = page[pIndex];
 			memory[lru].lastRef = lastref;
 			page[pIndex].inMemory = true;
+			printf("+ Added  page %c\n", page[pIndex].pid);
 		}
 		return true;
 	}
 	memory[findPID(memory,page[pIndex].pid)].lastRef = lastref;
+	return false;
+}
+
+bool addToRandomMemory(Page* memory, Page* page, int memSize, int cIndex, int pIndex, int lastref)
+{
+	if(!page[pIndex].inMemory)
+	{	
+		int r;
+		if(cIndex < memSize)
+		{
+			memory[cIndex] = page[pIndex];
+			page[pIndex].inMemory = true;
+			printf("+ Added  page %c\n", page[pIndex].pid);
+		}
+		else{
+			r = removeRandomPage(memory, page, memSize);
+			memory[r] = page[pIndex];
+			page[pIndex].inMemory = true;
+			printf("+ Added  page %c\n", page[pIndex].pid);
+		}
+		return true;
+	}
 	return false;
 }

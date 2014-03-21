@@ -38,7 +38,7 @@ int* generateReferences()
 
 void printPages(Page* inMemory, Page* disk, int rIndex)
 {
-	printf("Called page %c  Pages: %c|%c|%c|%c\n",disk[rIndex].pid,inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
+	printf("= Pages: [%c|%c|%c|%c]\n", inMemory[0].pid,inMemory[1].pid,inMemory[2].pid,inMemory[3].pid);
 }
 
 int main()
@@ -63,7 +63,8 @@ int main()
 		else if(pIndex == 10){
 			pIndex = 0;
 		}
-				
+		
+		printf("0 Called page %c\n", diskPages[pIndex].pid);	
 		if(addToLRUMemory(physicalMemory, diskPages, PAGE_FRAMES, mIndex, pIndex, count))
 		{
 			mIndex++;
