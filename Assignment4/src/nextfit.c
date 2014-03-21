@@ -4,22 +4,27 @@
 #include "process.c"
 #include "memory.c"
 
-#define PROCESS_COUNT 60
+#define PROCESS_COUNT 150
 #define SIMULATION_LENGTH 60
 
 int main()
 {
 	srand(time(0));
 	char* memory = initializeMemory();
-	printMemory(memory);
 	Process* queue = processQueue(PROCESS_COUNT);
 	printProcesses(queue, PROCESS_COUNT);
 
 	int i;	
 	int currentMemoryIndex = 0;
-	int time = 0;
+	int time = 0, count = 0;
+	
+	//Fill memory before starting swapping
+	while(addToMemory(queue, memory, count)){
+		count++;
+	}
+	printMemory(memory);
 
-	for (i = 0; i < PROCESS_COUNT; i++)
+	for (i = count; i < PROCESS_COUNT; i++)
 	{
 		printf("\n00:%02d\n", time);
 

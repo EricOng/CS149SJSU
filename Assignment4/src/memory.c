@@ -44,6 +44,7 @@ bool addToMemory(Process* process, char* memory, int p_Index)
 			index++;
 			p_Size--;
 		}
+		printf("\n+ Added Process %c | Size: %2d | Duration: %d\n", process[p_Index].pid, process[p_Index].size, process[p_Index].duration);
 		process[p_Index].added = true;
 		swappedIn++;
 		return true;
@@ -68,6 +69,7 @@ int addToNextMemory(Process* process, char* memory, int p_Index, int m_Index)
 			index++;
 			p_Size--;
 		}
+		printf("+ Added Process %c | Size: %2d | Duration: %d\n", process[p_Index].pid, process[p_Index].size, process[p_Index].duration);
 		process[p_Index].added = true;
 		swappedIn++;
 		m_Index = index;	
@@ -95,6 +97,7 @@ bool addToBestMemory(Process* process, char* memory, int p_Index, int size)
 			index++;
 			p_Size--;
 		}
+		printf("+ Added Process %c | Size: %2d | Duration: %d\n", process[p_Index].pid, process[p_Index].size, process[p_Index].duration);
 		process[p_Index].added = true;
 		swappedIn++;
 		return true;

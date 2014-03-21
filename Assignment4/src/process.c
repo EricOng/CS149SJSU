@@ -26,11 +26,23 @@ int generateSize()
 		return 31;
 }
 
+int generateASCII(int index)
+{
+	int value = 48 + (index % 62);
+	if(value >= 84){
+		return value + 13;
+	}else if(value >= 58){
+		return value + 7;
+	}else{
+		return value;
+	}
+}
+
 Process createProcess(int index)
 {
 	Process* p = (Process*) malloc(sizeof(Process));
 	p->added = false;
-	p->pid = (65 + index);
+	p->pid = generateASCII(index);
 	p->size = generateSize();
 	p->duration = rand() % 5 + 1;
 	p->waitTime = 0;
