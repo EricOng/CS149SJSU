@@ -1,0 +1,4219 @@
+Process|Size|Duration
+   0   | 17 |  1 sec
+   1   | 11 |  2 sec
+   2   | 11 |  1 sec
+   3   | 17 |  2 sec
+   4   |  5 |  4 sec
+   5   | 11 |  5 sec
+   6   |  5 |  3 sec
+   7   |  5 |  3 sec
+   8   | 31 |  2 sec
+   9   | 31 |  5 sec
+   A   | 31 |  1 sec
+   B   | 17 |  3 sec
+   C   |  5 |  1 sec
+   D   | 31 |  4 sec
+   E   | 11 |  2 sec
+   F   | 17 |  3 sec
+   G   |  5 |  5 sec
+   H   |  5 |  5 sec
+   I   | 17 |  4 sec
+   J   |  5 |  5 sec
+   K   | 31 |  3 sec
+   L   | 11 |  5 sec
+   M   | 17 |  4 sec
+   N   | 11 |  2 sec
+   O   | 11 |  4 sec
+   P   |  5 |  3 sec
+   Q   | 17 |  1 sec
+   R   | 11 |  2 sec
+   S   | 17 |  2 sec
+   T   | 11 |  5 sec
+   U   | 11 |  4 sec
+   V   | 17 |  1 sec
+   W   | 11 |  3 sec
+   X   | 11 |  5 sec
+   Y   |  5 |  3 sec
+   Z   | 11 |  1 sec
+   a   | 11 |  3 sec
+   b   | 11 |  1 sec
+   c   |  5 |  2 sec
+   d   | 31 |  4 sec
+   e   | 17 |  3 sec
+   f   |  5 |  1 sec
+   g   |  5 |  4 sec
+   h   | 31 |  5 sec
+   i   | 11 |  3 sec
+   j   | 11 |  1 sec
+   k   | 31 |  1 sec
+   l   | 17 |  1 sec
+   m   |  5 |  1 sec
+   n   | 31 |  3 sec
+   o   |  5 |  1 sec
+   p   | 17 |  5 sec
+   q   | 31 |  5 sec
+   r   |  5 |  2 sec
+   s   | 17 |  3 sec
+   t   | 31 |  2 sec
+   u   | 17 |  2 sec
+   v   |  5 |  5 sec
+   w   | 31 |  5 sec
+   x   |  5 |  4 sec
+   y   | 31 |  5 sec
+   z   | 17 |  3 sec
+   0   | 31 |  2 sec
+   1   | 11 |  2 sec
+   2   |  5 |  2 sec
+   3   | 31 |  1 sec
+   4   | 11 |  4 sec
+   5   | 11 |  1 sec
+   6   | 11 |  4 sec
+   7   | 17 |  3 sec
+   8   | 11 |  1 sec
+   9   | 17 |  2 sec
+   A   | 31 |  5 sec
+   B   | 11 |  5 sec
+   C   | 11 |  5 sec
+   D   | 17 |  5 sec
+   E   | 17 |  1 sec
+   F   | 11 |  3 sec
+   G   | 11 |  1 sec
+   H   | 11 |  5 sec
+   I   | 31 |  4 sec
+   J   |  5 |  3 sec
+   K   | 11 |  2 sec
+   L   | 31 |  4 sec
+   M   | 31 |  4 sec
+   N   |  5 |  4 sec
+   O   | 11 |  4 sec
+   P   | 17 |  1 sec
+   Q   | 11 |  1 sec
+   R   | 11 |  5 sec
+   S   | 11 |  2 sec
+   T   | 17 |  2 sec
+   U   |  5 |  5 sec
+   V   |  5 |  5 sec
+   W   | 11 |  4 sec
+   X   | 11 |  3 sec
+   Y   | 11 |  5 sec
+   Z   | 31 |  1 sec
+   a   | 17 |  1 sec
+   b   |  5 |  1 sec
+   c   | 17 |  4 sec
+   d   |  5 |  3 sec
+   e   | 17 |  4 sec
+   f   | 17 |  3 sec
+   g   | 17 |  5 sec
+   h   | 11 |  5 sec
+   i   | 31 |  4 sec
+   j   | 11 |  1 sec
+   k   | 11 |  2 sec
+   l   | 31 |  2 sec
+   m   | 17 |  5 sec
+   n   | 17 |  4 sec
+   o   |  5 |  5 sec
+   p   | 11 |  4 sec
+   q   | 31 |  3 sec
+   r   | 31 |  3 sec
+   s   |  5 |  5 sec
+   t   |  5 |  4 sec
+   u   | 17 |  5 sec
+   v   | 11 |  3 sec
+   w   | 17 |  5 sec
+   x   | 17 |  3 sec
+   y   |  5 |  2 sec
+   z   | 31 |  2 sec
+   0   |  5 |  4 sec
+   1   |  5 |  5 sec
+   2   | 11 |  5 sec
+   3   | 11 |  2 sec
+   4   | 31 |  1 sec
+   5   | 31 |  3 sec
+   6   | 17 |  3 sec
+   7   |  5 |  5 sec
+   8   | 17 |  1 sec
+   9   | 11 |  1 sec
+   A   | 17 |  2 sec
+   B   | 31 |  2 sec
+   C   |  5 |  4 sec
+   D   |  5 |  3 sec
+   E   | 31 |  3 sec
+   F   | 11 |  5 sec
+   G   |  5 |  3 sec
+   H   | 17 |  4 sec
+   I   | 31 |  5 sec
+   J   | 17 |  5 sec
+   K   | 11 |  2 sec
+   L   |  5 |  4 sec
+   M   | 31 |  3 sec
+   N   | 11 |  2 sec
+   O   |  5 |  2 sec
+   P   |  5 |  2 sec
+
++ Added Process 0 | Size: 17 | Duration: 1
+
++ Added Process 1 | Size: 11 | Duration: 2
+
++ Added Process 2 | Size: 11 | Duration: 1
+
++ Added Process 3 | Size: 17 | Duration: 2
+
++ Added Process 4 | Size:  5 | Duration: 4
+
++ Added Process 5 | Size: 11 | Duration: 5
+
++ Added Process 6 | Size:  5 | Duration: 3
+
++ Added Process 7 | Size:  5 | Duration: 3
+
+Cannot fit process 8
+
+0000000000000000011111111
+1112222222222233333333333
+3333334444455555555555666
+6677777..................
+
+00:00
+Current process in queue: 8
+Current index 		: 0
+Required size 31
+
+.................11111111
+111...........33333333333
+3333334444455555555555666
+6677777..................
+
+00:01
+Current process in queue: 9
+Current index 		: 0
+Required size 31
++ Added Process 9 | Size: 31 | Duration: 5
+
+9999999999999999999999999
+999999...................
+......4444455555555555666
+6677777..................
+
+00:02
+Current process in queue: A
+Current index 		: 31
+Required size 31
+
+9999999999999999999999999
+999999...................
+......4444455555555555...
+.........................
+
+00:03
+Current process in queue: B
+Current index 		: 0
+Required size 17
++ Added Process B | Size: 17 | Duration: 3
+
+9999999999999999999999999
+999999BBBBBBBBBBBBBBBBB..
+...........55555555555...
+.........................
+
+00:04
+Current process in queue: C
+Current index 		: 48
+Required size 5
++ Added Process C | Size:  5 | Duration: 1
+
+9999999999999999999999999
+999999BBBBBBBBBBBBBBBBBCC
+CCC......................
+.........................
+
+00:05
+Current process in queue: D
+Current index 		: 53
+Required size 31
++ Added Process D | Size: 31 | Duration: 4
+
+9999999999999999999999999
+999999BBBBBBBBBBBBBBBBB..
+...DDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDD................
+
+00:06
+Current process in queue: E
+Current index 		: 84
+Required size 11
++ Added Process E | Size: 11 | Duration: 2
+
+.........................
+.........................
+...DDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDEEEEEEEEEEE.....
+
+00:07
+Current process in queue: F
+Current index 		: 95
+Required size 17
++ Added Process F | Size: 17 | Duration: 3
+
+FFFFFFFFFFFFFFFFF........
+.........................
+...DDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDEEEEEEEEEEE.....
+
+00:08
+Current process in queue: G
+Current index 		: 17
+Required size 5
++ Added Process G | Size:  5 | Duration: 5
+
+FFFFFFFFFFFFFFFFFGGGGG...
+.........................
+...DDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDD................
+
+00:09
+Current process in queue: H
+Current index 		: 22
+Required size 5
++ Added Process H | Size:  5 | Duration: 5
+
+FFFFFFFFFFFFFFFFFGGGGGHHH
+HH.......................
+.........................
+.........................
+
+00:10
+Current process in queue: I
+Current index 		: 27
+Required size 17
++ Added Process I | Size: 17 | Duration: 4
+
+.................GGGGGHHH
+HHIIIIIIIIIIIIIIIII......
+.........................
+.........................
+
+00:11
+Current process in queue: J
+Current index 		: 44
+Required size 5
++ Added Process J | Size:  5 | Duration: 5
+
+.................GGGGGHHH
+HHIIIIIIIIIIIIIIIIIJJJJJ.
+.........................
+.........................
+
+00:12
+Current process in queue: K
+Current index 		: 49
+Required size 31
++ Added Process K | Size: 31 | Duration: 3
+
+.................GGGGGHHH
+HHIIIIIIIIIIIIIIIIIJJJJJK
+KKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKK....................
+
+00:13
+Current process in queue: L
+Current index 		: 80
+Required size 11
++ Added Process L | Size: 11 | Duration: 5
+
+......................HHH
+HHIIIIIIIIIIIIIIIIIJJJJJK
+KKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKKLLLLLLLLLLL.........
+
+00:14
+Current process in queue: M
+Current index 		: 91
+Required size 17
++ Added Process M | Size: 17 | Duration: 4
+
+MMMMMMMMMMMMMMMMM........
+...................JJJJJK
+KKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKKLLLLLLLLLLL.........
+
+00:15
+Current process in queue: N
+Current index 		: 17
+Required size 11
++ Added Process N | Size: 11 | Duration: 2
+
+MMMMMMMMMMMMMMMMMNNNNNNNN
+NNN................JJJJJ.
+.........................
+.....LLLLLLLLLLL.........
+
+00:16
+Current process in queue: O
+Current index 		: 28
+Required size 11
++ Added Process O | Size: 11 | Duration: 4
+
+MMMMMMMMMMMMMMMMMNNNNNNNN
+NNNOOOOOOOOOOO...........
+.........................
+.....LLLLLLLLLLL.........
+
+00:17
+Current process in queue: P
+Current index 		: 39
+Required size 5
++ Added Process P | Size:  5 | Duration: 3
+
+MMMMMMMMMMMMMMMMM........
+...OOOOOOOOOOOPPPPP......
+.........................
+.....LLLLLLLLLLL.........
+
+00:18
+Current process in queue: Q
+Current index 		: 44
+Required size 17
++ Added Process Q | Size: 17 | Duration: 1
+
+.........................
+...OOOOOOOOOOOPPPPPQQQQQQ
+QQQQQQQQQQQ..............
+.........................
+
+00:19
+Current process in queue: R
+Current index 		: 61
+Required size 11
++ Added Process R | Size: 11 | Duration: 2
+
+.........................
+...OOOOOOOOOOOPPPPP......
+...........RRRRRRRRRRR...
+.........................
+
+00:20
+Current process in queue: S
+Current index 		: 72
+Required size 17
++ Added Process S | Size: 17 | Duration: 2
+
+.........................
+.........................
+...........RRRRRRRRRRRSSS
+SSSSSSSSSSSSSS...........
+
+00:21
+Current process in queue: T
+Current index 		: 89
+Required size 11
++ Added Process T | Size: 11 | Duration: 5
+
+.........................
+.........................
+......................SSS
+SSSSSSSSSSSSSSTTTTTTTTTTT
+
+00:22
+Current process in queue: U
+Current index 		: 100
+Required size 11
++ Added Process U | Size: 11 | Duration: 4
+
+UUUUUUUUUUU..............
+.........................
+.........................
+..............TTTTTTTTTTT
+
+00:23
+Current process in queue: V
+Current index 		: 11
+Required size 17
++ Added Process V | Size: 17 | Duration: 1
+
+UUUUUUUUUUUVVVVVVVVVVVVVV
+VVV......................
+.........................
+..............TTTTTTTTTTT
+
+00:24
+Current process in queue: W
+Current index 		: 28
+Required size 11
++ Added Process W | Size: 11 | Duration: 3
+
+UUUUUUUUUUU..............
+...WWWWWWWWWWW...........
+.........................
+..............TTTTTTTTTTT
+
+00:25
+Current process in queue: X
+Current index 		: 39
+Required size 11
++ Added Process X | Size: 11 | Duration: 5
+
+UUUUUUUUUUU..............
+...WWWWWWWWWWWXXXXXXXXXXX
+.........................
+..............TTTTTTTTTTT
+
+00:26
+Current process in queue: Y
+Current index 		: 50
+Required size 5
++ Added Process Y | Size:  5 | Duration: 3
+
+.........................
+...WWWWWWWWWWWXXXXXXXXXXX
+YYYYY....................
+.........................
+
+00:27
+Current process in queue: Z
+Current index 		: 55
+Required size 11
++ Added Process Z | Size: 11 | Duration: 1
+
+.........................
+..............XXXXXXXXXXX
+YYYYYZZZZZZZZZZZ.........
+.........................
+
+00:28
+Current process in queue: a
+Current index 		: 66
+Required size 11
++ Added Process a | Size: 11 | Duration: 3
+
+.........................
+..............XXXXXXXXXXX
+YYYYY...........aaaaaaaaa
+aa.......................
+
+00:29
+Current process in queue: b
+Current index 		: 77
+Required size 11
++ Added Process b | Size: 11 | Duration: 1
+
+.........................
+..............XXXXXXXXXXX
+................aaaaaaaaa
+aabbbbbbbbbbb............
+
+00:30
+Current process in queue: c
+Current index 		: 88
+Required size 5
++ Added Process c | Size:  5 | Duration: 2
+
+.........................
+.........................
+................aaaaaaaaa
+aa...........ccccc.......
+
+00:31
+Current process in queue: d
+Current index 		: 93
+Required size 31
++ Added Process d | Size: 31 | Duration: 4
+
+ddddddddddddddddddddddddd
+dddddd...................
+.........................
+.............ccccc.......
+
+00:32
+Current process in queue: e
+Current index 		: 31
+Required size 17
++ Added Process e | Size: 17 | Duration: 3
+
+ddddddddddddddddddddddddd
+ddddddeeeeeeeeeeeeeeeee..
+.........................
+.........................
+
+00:33
+Current process in queue: f
+Current index 		: 48
+Required size 5
++ Added Process f | Size:  5 | Duration: 1
+
+ddddddddddddddddddddddddd
+ddddddeeeeeeeeeeeeeeeeeff
+fff......................
+.........................
+
+00:34
+Current process in queue: g
+Current index 		: 53
+Required size 5
++ Added Process g | Size:  5 | Duration: 4
+
+ddddddddddddddddddddddddd
+ddddddeeeeeeeeeeeeeeeee..
+...ggggg.................
+.........................
+
+00:35
+Current process in queue: h
+Current index 		: 58
+Required size 31
++ Added Process h | Size: 31 | Duration: 5
+
+.........................
+.........................
+...ggggghhhhhhhhhhhhhhhhh
+hhhhhhhhhhhhhh...........
+
+00:36
+Current process in queue: i
+Current index 		: 89
+Required size 11
++ Added Process i | Size: 11 | Duration: 3
+
+.........................
+.........................
+...ggggghhhhhhhhhhhhhhhhh
+hhhhhhhhhhhhhhiiiiiiiiiii
+
+00:37
+Current process in queue: j
+Current index 		: 100
+Required size 11
++ Added Process j | Size: 11 | Duration: 1
+
+jjjjjjjjjjj..............
+.........................
+...ggggghhhhhhhhhhhhhhhhh
+hhhhhhhhhhhhhhiiiiiiiiiii
+
+00:38
+Current process in queue: k
+Current index 		: 11
+Required size 31
++ Added Process k | Size: 31 | Duration: 1
+
+...........kkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkk........
+........hhhhhhhhhhhhhhhhh
+hhhhhhhhhhhhhhiiiiiiiiiii
+
+00:39
+Current process in queue: l
+Current index 		: 42
+Required size 17
++ Added Process l | Size: 17 | Duration: 1
+
+lllllllllllllllll........
+.........................
+........hhhhhhhhhhhhhhhhh
+hhhhhhhhhhhhhh...........
+
+00:40
+Current process in queue: m
+Current index 		: 17
+Required size 5
++ Added Process m | Size:  5 | Duration: 1
+
+.................mmmmm...
+.........................
+.........................
+.........................
+
+00:41
+Current process in queue: n
+Current index 		: 22
+Required size 31
++ Added Process n | Size: 31 | Duration: 3
+
+......................nnn
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnn......................
+.........................
+
+00:42
+Current process in queue: o
+Current index 		: 53
+Required size 5
++ Added Process o | Size:  5 | Duration: 1
+
+......................nnn
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnnooooo.................
+.........................
+
+00:43
+Current process in queue: p
+Current index 		: 58
+Required size 17
++ Added Process p | Size: 17 | Duration: 5
+
+......................nnn
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnn.....ppppppppppppppppp
+.........................
+
+00:44
+Current process in queue: q
+Current index 		: 75
+Required size 31
++ Added Process q | Size: 31 | Duration: 5
+
+qqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqq...................
+........ppppppppppppppppp
+.........................
+
+00:45
+Current process in queue: r
+Current index 		: 31
+Required size 5
++ Added Process r | Size:  5 | Duration: 2
+
+qqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqrrrrr..............
+........ppppppppppppppppp
+.........................
+
+00:46
+Current process in queue: s
+Current index 		: 36
+Required size 17
++ Added Process s | Size: 17 | Duration: 3
+
+qqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqrrrrrssssssssssssss
+sss.....ppppppppppppppppp
+.........................
+
+00:47
+Current process in queue: t
+Current index 		: 53
+Required size 31
+
+qqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqq.....ssssssssssssss
+sss.....ppppppppppppppppp
+.........................
+
+00:48
+Current process in queue: u
+Current index 		: 0
+Required size 17
++ Added Process u | Size: 17 | Duration: 2
+
+qqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqq.....ssssssssssssss
+sssuuuuuuuuuuuuuuuuu.....
+.........................
+
+00:49
+Current process in queue: v
+Current index 		: 70
+Required size 5
++ Added Process v | Size:  5 | Duration: 5
+
+.........................
+.........................
+...uuuuuuuuuuuuuuuuuvvvvv
+.........................
+
+00:50
+Current process in queue: w
+Current index 		: 75
+Required size 31
++ Added Process w | Size: 31 | Duration: 5
+
+wwwwwwwwwwwwwwwwwwwwwwwww
+wwwwww...................
+....................vvvvv
+.........................
+
+00:51
+Current process in queue: x
+Current index 		: 31
+Required size 5
++ Added Process x | Size:  5 | Duration: 4
+
+wwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwxxxxx..............
+....................vvvvv
+.........................
+
+00:52
+Current process in queue: y
+Current index 		: 36
+Required size 31
++ Added Process y | Size: 31 | Duration: 5
+
+wwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwxxxxxyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyy...vvvvv
+.........................
+
+00:53
+Current process in queue: z
+Current index 		: 67
+Required size 17
++ Added Process z | Size: 17 | Duration: 3
+
+wwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwxxxxxyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyy...vvvvv
+zzzzzzzzzzzzzzzzz........
+
+00:54
+Current process in queue: 0
+Current index 		: 92
+Required size 31
+
+wwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwxxxxxyyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyy........
+zzzzzzzzzzzzzzzzz........
+
+00:55
+Current process in queue: 1
+Current index 		: 0
+Required size 11
++ Added Process 1 | Size: 11 | Duration: 2
+
+11111111111..............
+...........yyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyy........
+zzzzzzzzzzzzzzzzz........
+
+00:56
+Current process in queue: 2
+Current index 		: 11
+Required size 5
++ Added Process 2 | Size:  5 | Duration: 2
+
+1111111111122222.........
+...........yyyyyyyyyyyyyy
+yyyyyyyyyyyyyyyyy........
+.........................
+
+00:57
+Current process in queue: 3
+Current index 		: 16
+Required size 31
++ Added Process 3 | Size: 31 | Duration: 1
+
+...........22222333333333
+3333333333333333333333...
+.........................
+.........................
+
+00:58
+Current process in queue: 4
+Current index 		: 47
+Required size 11
++ Added Process 4 | Size: 11 | Duration: 4
+
+.........................
+......................444
+44444444.................
+.........................
+
+00:59
+Current process in queue: 5
+Current index 		: 58
+Required size 11
++ Added Process 5 | Size: 11 | Duration: 1
+
+.........................
+......................444
+4444444455555555555......
+.........................
+
+00:60
+Current process in queue: 6
+Current index 		: 69
+Required size 11
++ Added Process 6 | Size: 11 | Duration: 4
+
+.........................
+......................444
+44444444...........666666
+66666....................
+Simulation Time Exceeded
+Swapped Processes: 65
+
+Process|Size|Duration
+   0   |  5 |  2 sec
+   1   | 17 |  4 sec
+   2   | 17 |  5 sec
+   3   | 11 |  2 sec
+   4   | 17 |  5 sec
+   5   | 31 |  3 sec
+   6   |  5 |  5 sec
+   7   | 31 |  1 sec
+   8   | 17 |  1 sec
+   9   | 17 |  5 sec
+   A   |  5 |  4 sec
+   B   | 17 |  4 sec
+   C   |  5 |  5 sec
+   D   |  5 |  5 sec
+   E   | 11 |  5 sec
+   F   |  5 |  4 sec
+   G   | 17 |  5 sec
+   H   |  5 |  1 sec
+   I   | 17 |  4 sec
+   J   | 11 |  4 sec
+   K   |  5 |  2 sec
+   L   | 11 |  3 sec
+   M   | 31 |  2 sec
+   N   | 31 |  3 sec
+   O   | 11 |  3 sec
+   P   | 31 |  3 sec
+   Q   | 11 |  4 sec
+   R   | 31 |  2 sec
+   S   | 11 |  4 sec
+   T   | 11 |  4 sec
+   U   |  5 |  3 sec
+   V   | 17 |  3 sec
+   W   | 31 |  1 sec
+   X   | 17 |  3 sec
+   Y   |  5 |  2 sec
+   Z   | 11 |  5 sec
+   a   |  5 |  4 sec
+   b   |  5 |  3 sec
+   c   | 11 |  1 sec
+   d   | 31 |  3 sec
+   e   |  5 |  3 sec
+   f   | 17 |  5 sec
+   g   | 31 |  1 sec
+   h   | 11 |  5 sec
+   i   |  5 |  4 sec
+   j   | 17 |  1 sec
+   k   | 31 |  4 sec
+   l   | 17 |  5 sec
+   m   | 31 |  3 sec
+   n   | 31 |  4 sec
+   o   |  5 |  2 sec
+   p   | 17 |  3 sec
+   q   | 17 |  4 sec
+   r   | 17 |  2 sec
+   s   | 11 |  3 sec
+   t   | 11 |  4 sec
+   u   | 17 |  5 sec
+   v   | 11 |  5 sec
+   w   |  5 |  3 sec
+   x   | 17 |  1 sec
+   y   |  5 |  5 sec
+   z   |  5 |  4 sec
+   0   |  5 |  3 sec
+   1   | 11 |  3 sec
+   2   | 17 |  4 sec
+   3   | 11 |  2 sec
+   4   |  5 |  3 sec
+   5   | 11 |  2 sec
+   6   | 17 |  2 sec
+   7   | 17 |  1 sec
+   8   | 31 |  5 sec
+   9   |  5 |  1 sec
+   A   | 17 |  4 sec
+   B   | 31 |  4 sec
+   C   | 31 |  2 sec
+   D   | 17 |  2 sec
+   E   |  5 |  4 sec
+   F   | 17 |  3 sec
+   G   |  5 |  5 sec
+   H   | 31 |  3 sec
+   I   | 31 |  5 sec
+   J   |  5 |  5 sec
+   K   |  5 |  2 sec
+   L   | 11 |  4 sec
+   M   |  5 |  5 sec
+   N   |  5 |  4 sec
+   O   | 17 |  3 sec
+   P   |  5 |  5 sec
+   Q   | 11 |  2 sec
+   R   | 17 |  4 sec
+   S   | 31 |  1 sec
+   T   | 31 |  3 sec
+   U   | 17 |  4 sec
+   V   |  5 |  2 sec
+   W   |  5 |  3 sec
+   X   |  5 |  5 sec
+   Y   | 31 |  5 sec
+   Z   | 17 |  5 sec
+   a   |  5 |  2 sec
+   b   |  5 |  1 sec
+   c   | 17 |  2 sec
+   d   | 31 |  5 sec
+   e   |  5 |  5 sec
+   f   | 31 |  4 sec
+   g   | 17 |  1 sec
+   h   | 11 |  3 sec
+   i   | 17 |  4 sec
+   j   |  5 |  1 sec
+   k   | 11 |  3 sec
+   l   | 17 |  4 sec
+   m   | 31 |  3 sec
+   n   |  5 |  4 sec
+   o   | 11 |  4 sec
+   p   | 11 |  2 sec
+   q   | 11 |  1 sec
+   r   | 11 |  1 sec
+   s   | 11 |  4 sec
+   t   | 17 |  5 sec
+   u   | 17 |  2 sec
+   v   | 17 |  3 sec
+   w   | 17 |  4 sec
+   x   | 11 |  4 sec
+   y   | 31 |  4 sec
+   z   |  5 |  3 sec
+   0   | 11 |  1 sec
+   1   | 11 |  4 sec
+   2   | 31 |  1 sec
+   3   | 11 |  4 sec
+   4   | 31 |  5 sec
+   5   |  5 |  3 sec
+   6   | 31 |  1 sec
+   7   | 17 |  1 sec
+   8   |  5 |  1 sec
+   9   | 11 |  1 sec
+   A   | 11 |  4 sec
+   B   | 17 |  4 sec
+   C   | 17 |  2 sec
+   D   | 31 |  1 sec
+   E   |  5 |  4 sec
+   F   | 11 |  4 sec
+   G   |  5 |  3 sec
+   H   |  5 |  3 sec
+   I   | 31 |  2 sec
+   J   | 17 |  4 sec
+   K   | 31 |  4 sec
+   L   | 17 |  1 sec
+   M   | 31 |  1 sec
+   N   | 11 |  5 sec
+   O   |  5 |  5 sec
+   P   | 11 |  3 sec
+
++ Added Process 0 | Size:  5 | Duration: 2
+
++ Added Process 1 | Size: 17 | Duration: 4
+
++ Added Process 2 | Size: 17 | Duration: 5
+
++ Added Process 3 | Size: 11 | Duration: 2
+
++ Added Process 4 | Size: 17 | Duration: 5
+
++ Added Process 5 | Size: 31 | Duration: 3
+
+Cannot fit process 6
+
+0000011111111111111111222
+2222222222222233333333333
+4444444444444444455555555
+55555555555555555555555..
+
+00:00
+Current process in queue: 6
+Current index 		: 0
+Required size 5
+
+0000011111111111111111222
+2222222222222233333333333
+4444444444444444455555555
+55555555555555555555555..
+
+00:01
+Current process in queue: 7
+Current index 		: 0
+Required size 31
+
+.....11111111111111111222
+22222222222222...........
+4444444444444444455555555
+55555555555555555555555..
+
+00:02
+Current process in queue: 8
+Current index 		: 0
+Required size 17
++ Added Process 8 | Size: 17 | Duration: 1
+
+.....11111111111111111222
+22222222222222...........
+4444444444444444488888888
+888888888................
+
+00:03
+Current process in queue: 9
+Current index 		: 84
+Required size 17
++ Added Process 9 | Size: 17 | Duration: 5
+
+99999999999999999.....222
+22222222222222...........
+44444444444444444........
+.........................
+
+00:04
+Current process in queue: A
+Current index 		: 17
+Required size 5
++ Added Process A | Size:  5 | Duration: 4
+
+99999999999999999AAAAA...
+.........................
+.........................
+.........................
+
+00:05
+Current process in queue: B
+Current index 		: 22
+Required size 17
++ Added Process B | Size: 17 | Duration: 4
+
+99999999999999999AAAAABBB
+BBBBBBBBBBBBBB...........
+.........................
+.........................
+
+00:06
+Current process in queue: C
+Current index 		: 39
+Required size 5
++ Added Process C | Size:  5 | Duration: 5
+
+99999999999999999AAAAABBB
+BBBBBBBBBBBBBBCCCCC......
+.........................
+.........................
+
+00:07
+Current process in queue: D
+Current index 		: 44
+Required size 5
++ Added Process D | Size:  5 | Duration: 5
+
+99999999999999999AAAAABBB
+BBBBBBBBBBBBBBCCCCCDDDDD.
+.........................
+.........................
+
+00:08
+Current process in queue: E
+Current index 		: 49
+Required size 11
++ Added Process E | Size: 11 | Duration: 5
+
+......................BBB
+BBBBBBBBBBBBBBCCCCCDDDDDE
+EEEEEEEEEE...............
+.........................
+
+00:09
+Current process in queue: F
+Current index 		: 60
+Required size 5
++ Added Process F | Size:  5 | Duration: 4
+
+.........................
+..............CCCCCDDDDDE
+EEEEEEEEEEFFFFF..........
+.........................
+
+00:10
+Current process in queue: G
+Current index 		: 65
+Required size 17
++ Added Process G | Size: 17 | Duration: 5
+
+.........................
+..............CCCCCDDDDDE
+EEEEEEEEEEFFFFFGGGGGGGGGG
+GGGGGGG..................
+
+00:11
+Current process in queue: H
+Current index 		: 82
+Required size 5
++ Added Process H | Size:  5 | Duration: 1
+
+.........................
+...................DDDDDE
+EEEEEEEEEEFFFFFGGGGGGGGGG
+GGGGGGGHHHHH.............
+
+00:12
+Current process in queue: I
+Current index 		: 87
+Required size 17
++ Added Process I | Size: 17 | Duration: 4
+
+IIIIIIIIIIIIIIIII........
+........................E
+EEEEEEEEEEFFFFFGGGGGGGGGG
+GGGGGGG..................
+
+00:13
+Current process in queue: J
+Current index 		: 17
+Required size 11
++ Added Process J | Size: 11 | Duration: 4
+
+IIIIIIIIIIIIIIIIIJJJJJJJJ
+JJJ......................
+...............GGGGGGGGGG
+GGGGGGG..................
+
+00:14
+Current process in queue: K
+Current index 		: 28
+Required size 5
++ Added Process K | Size:  5 | Duration: 2
+
+IIIIIIIIIIIIIIIIIJJJJJJJJ
+JJJKKKKK.................
+...............GGGGGGGGGG
+GGGGGGG..................
+
+00:15
+Current process in queue: L
+Current index 		: 33
+Required size 11
++ Added Process L | Size: 11 | Duration: 3
+
+IIIIIIIIIIIIIIIIIJJJJJJJJ
+JJJKKKKKLLLLLLLLLLL......
+.........................
+.........................
+
+00:16
+Current process in queue: M
+Current index 		: 44
+Required size 31
++ Added Process M | Size: 31 | Duration: 2
+
+.................JJJJJJJJ
+JJJ.....LLLLLLLLLLLMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMM
+.........................
+
+00:17
+Current process in queue: N
+Current index 		: 75
+Required size 31
++ Added Process N | Size: 31 | Duration: 3
+
+NNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNN..LLLLLLLLLLLMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMM
+.........................
+
+00:18
+Current process in queue: O
+Current index 		: 31
+Required size 11
++ Added Process O | Size: 11 | Duration: 3
+
+NNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNOOOOOOOOOOO........
+.........................
+.........................
+
+00:19
+Current process in queue: P
+Current index 		: 42
+Required size 31
++ Added Process P | Size: 31 | Duration: 3
+
+NNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNOOOOOOOOOOOPPPPPPPP
+PPPPPPPPPPPPPPPPPPPPPPP..
+.........................
+
+00:20
+Current process in queue: Q
+Current index 		: 73
+Required size 11
++ Added Process Q | Size: 11 | Duration: 4
+
+.........................
+......OOOOOOOOOOOPPPPPPPP
+PPPPPPPPPPPPPPPPPPPPPPPQQ
+QQQQQQQQQ................
+
+00:21
+Current process in queue: R
+Current index 		: 84
+Required size 31
++ Added Process R | Size: 31 | Duration: 2
+
+RRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRR...........PPPPPPPP
+PPPPPPPPPPPPPPPPPPPPPPPQQ
+QQQQQQQQQ................
+
+00:22
+Current process in queue: S
+Current index 		: 31
+Required size 11
++ Added Process S | Size: 11 | Duration: 4
+
+RRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRSSSSSSSSSSS........
+.......................QQ
+QQQQQQQQQ................
+
+00:23
+Current process in queue: T
+Current index 		: 42
+Required size 11
++ Added Process T | Size: 11 | Duration: 4
+
+.........................
+......SSSSSSSSSSSTTTTTTTT
+TTT....................QQ
+QQQQQQQQQ................
+
+00:24
+Current process in queue: U
+Current index 		: 53
+Required size 5
++ Added Process U | Size:  5 | Duration: 3
+
+.........................
+......SSSSSSSSSSSTTTTTTTT
+TTTUUUUU.................
+.........................
+
+00:25
+Current process in queue: V
+Current index 		: 58
+Required size 17
++ Added Process V | Size: 17 | Duration: 3
+
+.........................
+......SSSSSSSSSSSTTTTTTTT
+TTTUUUUUVVVVVVVVVVVVVVVVV
+.........................
+
+00:26
+Current process in queue: W
+Current index 		: 75
+Required size 31
++ Added Process W | Size: 31 | Duration: 1
+
+WWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWW...........TTTTTTTT
+TTTUUUUUVVVVVVVVVVVVVVVVV
+.........................
+
+00:27
+Current process in queue: X
+Current index 		: 31
+Required size 17
++ Added Process X | Size: 17 | Duration: 3
+
+.........................
+......XXXXXXXXXXXXXXXXX..
+........VVVVVVVVVVVVVVVVV
+.........................
+
+00:28
+Current process in queue: Y
+Current index 		: 48
+Required size 5
++ Added Process Y | Size:  5 | Duration: 2
+
+.........................
+......XXXXXXXXXXXXXXXXXYY
+YYY......................
+.........................
+
+00:29
+Current process in queue: Z
+Current index 		: 53
+Required size 11
++ Added Process Z | Size: 11 | Duration: 5
+
+.........................
+......XXXXXXXXXXXXXXXXXYY
+YYYZZZZZZZZZZZ...........
+.........................
+
+00:30
+Current process in queue: a
+Current index 		: 64
+Required size 5
++ Added Process a | Size:  5 | Duration: 4
+
+.........................
+.........................
+...ZZZZZZZZZZZaaaaa......
+.........................
+
+00:31
+Current process in queue: b
+Current index 		: 69
+Required size 5
++ Added Process b | Size:  5 | Duration: 3
+
+.........................
+.........................
+...ZZZZZZZZZZZaaaaabbbbb.
+.........................
+
+00:32
+Current process in queue: c
+Current index 		: 74
+Required size 11
++ Added Process c | Size: 11 | Duration: 1
+
+.........................
+.........................
+...ZZZZZZZZZZZaaaaabbbbbc
+cccccccccc...............
+
+00:33
+Current process in queue: d
+Current index 		: 85
+Required size 31
++ Added Process d | Size: 31 | Duration: 3
+
+ddddddddddddddddddddddddd
+dddddd...................
+...ZZZZZZZZZZZaaaaabbbbb.
+.........................
+
+00:34
+Current process in queue: e
+Current index 		: 31
+Required size 5
++ Added Process e | Size:  5 | Duration: 3
+
+ddddddddddddddddddddddddd
+ddddddeeeee..............
+.........................
+.........................
+
+00:35
+Current process in queue: f
+Current index 		: 36
+Required size 17
++ Added Process f | Size: 17 | Duration: 5
+
+ddddddddddddddddddddddddd
+ddddddeeeeeffffffffffffff
+fff......................
+.........................
+
+00:36
+Current process in queue: g
+Current index 		: 53
+Required size 31
++ Added Process g | Size: 31 | Duration: 1
+
+.........................
+......eeeeeffffffffffffff
+fffgggggggggggggggggggggg
+ggggggggg................
+
+00:37
+Current process in queue: h
+Current index 		: 84
+Required size 11
++ Added Process h | Size: 11 | Duration: 5
+
+.........................
+...........ffffffffffffff
+fff......................
+.........hhhhhhhhhhh.....
+
+00:38
+Current process in queue: i
+Current index 		: 95
+Required size 5
++ Added Process i | Size:  5 | Duration: 4
+
+.........................
+...........ffffffffffffff
+fff......................
+.........hhhhhhhhhhhiiiii
+
+00:39
+Current process in queue: j
+Current index 		: 100
+Required size 17
++ Added Process j | Size: 17 | Duration: 1
+
+jjjjjjjjjjjjjjjjj........
+...........ffffffffffffff
+fff......................
+.........hhhhhhhhhhhiiiii
+
+00:40
+Current process in queue: k
+Current index 		: 17
+Required size 31
++ Added Process k | Size: 31 | Duration: 4
+
+.................kkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkk..
+.........................
+.........hhhhhhhhhhhiiiii
+
+00:41
+Current process in queue: l
+Current index 		: 48
+Required size 17
++ Added Process l | Size: 17 | Duration: 5
+
+.................kkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkll
+lllllllllllllll..........
+.........hhhhhhhhhhhiiiii
+
+00:42
+Current process in queue: m
+Current index 		: 65
+Required size 31
++ Added Process m | Size: 31 | Duration: 3
+
+.................kkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkll
+lllllllllllllllmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmm....
+
+00:43
+Current process in queue: n
+Current index 		: 96
+Required size 31
+
+.................kkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkll
+lllllllllllllllmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmm....
+
+00:44
+Current process in queue: o
+Current index 		: 0
+Required size 5
++ Added Process o | Size:  5 | Duration: 2
+
+ooooo....................
+.......................ll
+lllllllllllllllmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmm....
+
+00:45
+Current process in queue: p
+Current index 		: 5
+Required size 17
++ Added Process p | Size: 17 | Duration: 3
+
+oooooppppppppppppppppp...
+.......................ll
+lllllllllllllll..........
+.........................
+
+00:46
+Current process in queue: q
+Current index 		: 22
+Required size 17
++ Added Process q | Size: 17 | Duration: 4
+
+.....pppppppppppppppppqqq
+qqqqqqqqqqqqqq...........
+.........................
+.........................
+
+00:47
+Current process in queue: r
+Current index 		: 39
+Required size 17
++ Added Process r | Size: 17 | Duration: 2
+
+.....pppppppppppppppppqqq
+qqqqqqqqqqqqqqrrrrrrrrrrr
+rrrrrr...................
+.........................
+
+00:48
+Current process in queue: s
+Current index 		: 56
+Required size 11
++ Added Process s | Size: 11 | Duration: 3
+
+......................qqq
+qqqqqqqqqqqqqqrrrrrrrrrrr
+rrrrrrsssssssssss........
+.........................
+
+00:49
+Current process in queue: t
+Current index 		: 67
+Required size 11
++ Added Process t | Size: 11 | Duration: 4
+
+......................qqq
+qqqqqqqqqqqqqq...........
+......ssssssssssstttttttt
+ttt......................
+
+00:50
+Current process in queue: u
+Current index 		: 78
+Required size 17
++ Added Process u | Size: 17 | Duration: 5
+
+.........................
+.........................
+......ssssssssssstttttttt
+tttuuuuuuuuuuuuuuuuu.....
+
+00:51
+Current process in queue: v
+Current index 		: 95
+Required size 11
++ Added Process v | Size: 11 | Duration: 5
+
+vvvvvvvvvvv..............
+.........................
+.................tttttttt
+tttuuuuuuuuuuuuuuuuu.....
+
+00:52
+Current process in queue: w
+Current index 		: 11
+Required size 5
++ Added Process w | Size:  5 | Duration: 3
+
+vvvvvvvvvvvwwwww.........
+.........................
+.................tttttttt
+tttuuuuuuuuuuuuuuuuu.....
+
+00:53
+Current process in queue: x
+Current index 		: 16
+Required size 17
++ Added Process x | Size: 17 | Duration: 1
+
+vvvvvvvvvvvwwwwwxxxxxxxxx
+xxxxxxxx.................
+.........................
+...uuuuuuuuuuuuuuuuu.....
+
+00:54
+Current process in queue: y
+Current index 		: 33
+Required size 5
++ Added Process y | Size:  5 | Duration: 5
+
+vvvvvvvvvvvwwwww.........
+........yyyyy............
+.........................
+...uuuuuuuuuuuuuuuuu.....
+
+00:55
+Current process in queue: z
+Current index 		: 38
+Required size 5
++ Added Process z | Size:  5 | Duration: 4
+
+vvvvvvvvvvv..............
+........yyyyyzzzzz.......
+.........................
+.........................
+
+00:56
+Current process in queue: 0
+Current index 		: 43
+Required size 5
++ Added Process 0 | Size:  5 | Duration: 3
+
+.........................
+........yyyyyzzzzz00000..
+.........................
+.........................
+
+00:57
+Current process in queue: 1
+Current index 		: 48
+Required size 11
++ Added Process 1 | Size: 11 | Duration: 3
+
+.........................
+........yyyyyzzzzz0000011
+111111111................
+.........................
+
+00:58
+Current process in queue: 2
+Current index 		: 59
+Required size 17
++ Added Process 2 | Size: 17 | Duration: 4
+
+.........................
+........yyyyyzzzzz0000011
+1111111112222222222222222
+2........................
+
+00:59
+Current process in queue: 3
+Current index 		: 76
+Required size 11
++ Added Process 3 | Size: 11 | Duration: 2
+
+.........................
+.......................11
+1111111112222222222222222
+233333333333.............
+
+00:60
+Current process in queue: 4
+Current index 		: 87
+Required size 5
++ Added Process 4 | Size:  5 | Duration: 3
+
+.........................
+.........................
+.........2222222222222222
+23333333333344444........
+Simulation Time Exceeded
+Swapped Processes: 64
+
+Process|Size|Duration
+   0   | 17 |  5 sec
+   1   | 11 |  5 sec
+   2   |  5 |  2 sec
+   3   | 11 |  4 sec
+   4   |  5 |  3 sec
+   5   |  5 |  1 sec
+   6   |  5 |  1 sec
+   7   |  5 |  2 sec
+   8   | 17 |  4 sec
+   9   | 17 |  5 sec
+   A   | 31 |  4 sec
+   B   | 11 |  3 sec
+   C   | 31 |  2 sec
+   D   | 31 |  1 sec
+   E   |  5 |  4 sec
+   F   |  5 |  2 sec
+   G   | 31 |  2 sec
+   H   |  5 |  1 sec
+   I   | 17 |  5 sec
+   J   |  5 |  4 sec
+   K   | 11 |  4 sec
+   L   | 17 |  3 sec
+   M   | 17 |  1 sec
+   N   | 31 |  4 sec
+   O   | 11 |  3 sec
+   P   |  5 |  5 sec
+   Q   | 17 |  4 sec
+   R   | 11 |  4 sec
+   S   | 11 |  2 sec
+   T   |  5 |  2 sec
+   U   | 17 |  3 sec
+   V   |  5 |  1 sec
+   W   | 11 |  5 sec
+   X   | 31 |  4 sec
+   Y   | 11 |  2 sec
+   Z   |  5 |  4 sec
+   a   | 17 |  5 sec
+   b   | 17 |  3 sec
+   c   | 31 |  2 sec
+   d   |  5 |  2 sec
+   e   | 11 |  5 sec
+   f   | 31 |  1 sec
+   g   |  5 |  4 sec
+   h   |  5 |  5 sec
+   i   |  5 |  5 sec
+   j   | 31 |  3 sec
+   k   |  5 |  5 sec
+   l   | 17 |  5 sec
+   m   | 17 |  2 sec
+   n   |  5 |  2 sec
+   o   |  5 |  2 sec
+   p   |  5 |  4 sec
+   q   | 17 |  3 sec
+   r   | 17 |  2 sec
+   s   | 31 |  1 sec
+   t   | 11 |  2 sec
+   u   | 17 |  3 sec
+   v   | 31 |  5 sec
+   w   |  5 |  5 sec
+   x   |  5 |  5 sec
+   y   | 31 |  1 sec
+   z   | 11 |  5 sec
+   0   | 11 |  5 sec
+   1   |  5 |  2 sec
+   2   |  5 |  4 sec
+   3   | 17 |  4 sec
+   4   | 11 |  5 sec
+   5   | 11 |  4 sec
+   6   |  5 |  2 sec
+   7   |  5 |  5 sec
+   8   | 17 |  5 sec
+   9   |  5 |  3 sec
+   A   | 17 |  1 sec
+   B   | 17 |  1 sec
+   C   | 17 |  2 sec
+   D   | 17 |  2 sec
+   E   |  5 |  1 sec
+   F   | 31 |  3 sec
+   G   | 17 |  2 sec
+   H   |  5 |  4 sec
+   I   |  5 |  5 sec
+   J   | 11 |  1 sec
+   K   | 31 |  2 sec
+   L   | 31 |  3 sec
+   M   | 11 |  4 sec
+   N   | 31 |  1 sec
+   O   | 11 |  4 sec
+   P   | 31 |  3 sec
+   Q   | 11 |  4 sec
+   R   |  5 |  4 sec
+   S   | 31 |  5 sec
+   T   | 31 |  2 sec
+   U   | 11 |  5 sec
+   V   |  5 |  3 sec
+   W   | 17 |  1 sec
+   X   |  5 |  2 sec
+   Y   | 11 |  4 sec
+   Z   | 17 |  5 sec
+   a   | 17 |  2 sec
+   b   | 31 |  5 sec
+   c   |  5 |  5 sec
+   d   | 17 |  1 sec
+   e   |  5 |  2 sec
+   f   | 31 |  4 sec
+   g   | 17 |  1 sec
+   h   |  5 |  1 sec
+   i   | 11 |  3 sec
+   j   | 31 |  4 sec
+   k   | 17 |  2 sec
+   l   |  5 |  2 sec
+   m   | 17 |  3 sec
+   n   | 11 |  5 sec
+   o   |  5 |  1 sec
+   p   | 31 |  5 sec
+   q   | 31 |  3 sec
+   r   | 17 |  4 sec
+   s   |  5 |  2 sec
+   t   |  5 |  4 sec
+   u   | 11 |  4 sec
+   v   | 11 |  1 sec
+   w   | 31 |  5 sec
+   x   | 31 |  2 sec
+   y   | 11 |  3 sec
+   z   | 17 |  3 sec
+   0   | 11 |  3 sec
+   1   | 17 |  5 sec
+   2   | 17 |  3 sec
+   3   | 17 |  5 sec
+   4   | 11 |  1 sec
+   5   |  5 |  1 sec
+   6   | 17 |  3 sec
+   7   | 31 |  4 sec
+   8   | 17 |  2 sec
+   9   | 17 |  2 sec
+   A   | 31 |  3 sec
+   B   | 11 |  2 sec
+   C   |  5 |  3 sec
+   D   | 11 |  3 sec
+   E   | 11 |  5 sec
+   F   | 31 |  1 sec
+   G   | 11 |  2 sec
+   H   | 11 |  5 sec
+   I   | 31 |  2 sec
+   J   |  5 |  5 sec
+   K   | 31 |  2 sec
+   L   |  5 |  1 sec
+   M   | 17 |  3 sec
+   N   | 31 |  5 sec
+   O   | 17 |  4 sec
+   P   | 17 |  2 sec
+
++ Added Process 0 | Size: 17 | Duration: 5
+
++ Added Process 1 | Size: 11 | Duration: 5
+
++ Added Process 2 | Size:  5 | Duration: 2
+
++ Added Process 3 | Size: 11 | Duration: 4
+
++ Added Process 4 | Size:  5 | Duration: 3
+
++ Added Process 5 | Size:  5 | Duration: 1
+
++ Added Process 6 | Size:  5 | Duration: 1
+
++ Added Process 7 | Size:  5 | Duration: 2
+
++ Added Process 8 | Size: 17 | Duration: 4
+
++ Added Process 9 | Size: 17 | Duration: 5
+
+Cannot fit process A
+
+0000000000000000011111111
+1112222233333333333444445
+5555666667777788888888888
+88888899999999999999999..
+
+00:00
+Current process in queue: A
+Current index 		: 0
+Required size 31
+
+0000000000000000011111111
+111222223333333333344444.
+.........7777788888888888
+88888899999999999999999..
+
+00:01
+Current process in queue: B
+Current index 		: 0
+Required size 11
++ Added Process B | Size: 11 | Duration: 3
+
+0000000000000000011111111
+111.....3333333333344444B
+BBBBBBBBBB....88888888888
+88888899999999999999999..
+
+00:02
+Current process in queue: C
+Current index 		: 60
+Required size 31
+
+0000000000000000011111111
+111.....33333333333.....B
+BBBBBBBBBB....88888888888
+88888899999999999999999..
+
+00:03
+Current process in queue: D
+Current index 		: 0
+Required size 31
+
+0000000000000000011111111
+111.....................B
+BBBBBBBBBB...............
+......99999999999999999..
+
+00:04
+Current process in queue: E
+Current index 		: 0
+Required size 5
++ Added Process E | Size:  5 | Duration: 4
+
+EEEEE....................
+.........................
+.........................
+.........................
+
+00:05
+Current process in queue: F
+Current index 		: 5
+Required size 5
++ Added Process F | Size:  5 | Duration: 2
+
+EEEEEFFFFF...............
+.........................
+.........................
+.........................
+
+00:06
+Current process in queue: G
+Current index 		: 10
+Required size 31
++ Added Process G | Size: 31 | Duration: 2
+
+EEEEEFFFFFGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGG.........
+.........................
+.........................
+
+00:07
+Current process in queue: H
+Current index 		: 41
+Required size 5
++ Added Process H | Size:  5 | Duration: 1
+
+EEEEE.....GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGHHHHH....
+.........................
+.........................
+
+00:08
+Current process in queue: I
+Current index 		: 46
+Required size 17
++ Added Process I | Size: 17 | Duration: 5
+
+.........................
+.....................IIII
+IIIIIIIIIIIII............
+.........................
+
+00:09
+Current process in queue: J
+Current index 		: 63
+Required size 5
++ Added Process J | Size:  5 | Duration: 4
+
+.........................
+.....................IIII
+IIIIIIIIIIIIIJJJJJ.......
+.........................
+
+00:10
+Current process in queue: K
+Current index 		: 68
+Required size 11
++ Added Process K | Size: 11 | Duration: 4
+
+.........................
+.....................IIII
+IIIIIIIIIIIIIJJJJJKKKKKKK
+KKKK.....................
+
+00:11
+Current process in queue: L
+Current index 		: 79
+Required size 17
++ Added Process L | Size: 17 | Duration: 3
+
+.........................
+.....................IIII
+IIIIIIIIIIIIIJJJJJKKKKKKK
+KKKKLLLLLLLLLLLLLLLLL....
+
+00:12
+Current process in queue: M
+Current index 		: 96
+Required size 17
++ Added Process M | Size: 17 | Duration: 1
+
+MMMMMMMMMMMMMMMMM........
+.....................IIII
+IIIIIIIIIIIIIJJJJJKKKKKKK
+KKKKLLLLLLLLLLLLLLLLL....
+
+00:13
+Current process in queue: N
+Current index 		: 17
+Required size 31
++ Added Process N | Size: 31 | Duration: 4
+
+.................NNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNN..
+..................KKKKKKK
+KKKKLLLLLLLLLLLLLLLLL....
+
+00:14
+Current process in queue: O
+Current index 		: 48
+Required size 11
++ Added Process O | Size: 11 | Duration: 3
+
+.................NNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNOO
+OOOOOOOOO................
+.........................
+
+00:15
+Current process in queue: P
+Current index 		: 59
+Required size 5
++ Added Process P | Size:  5 | Duration: 5
+
+.................NNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNOO
+OOOOOOOOOPPPPP...........
+.........................
+
+00:16
+Current process in queue: Q
+Current index 		: 64
+Required size 17
++ Added Process Q | Size: 17 | Duration: 4
+
+.................NNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNOO
+OOOOOOOOOPPPPPQQQQQQQQQQQ
+QQQQQQ...................
+
+00:17
+Current process in queue: R
+Current index 		: 81
+Required size 11
++ Added Process R | Size: 11 | Duration: 4
+
+.........................
+.........................
+.........PPPPPQQQQQQQQQQQ
+QQQQQQRRRRRRRRRRR........
+
+00:18
+Current process in queue: S
+Current index 		: 92
+Required size 11
++ Added Process S | Size: 11 | Duration: 2
+
+SSSSSSSSSSS..............
+.........................
+.........PPPPPQQQQQQQQQQQ
+QQQQQQRRRRRRRRRRR........
+
+00:19
+Current process in queue: T
+Current index 		: 11
+Required size 5
++ Added Process T | Size:  5 | Duration: 2
+
+SSSSSSSSSSSTTTTT.........
+.........................
+.........PPPPPQQQQQQQQQQQ
+QQQQQQRRRRRRRRRRR........
+
+00:20
+Current process in queue: U
+Current index 		: 16
+Required size 17
++ Added Process U | Size: 17 | Duration: 3
+
+...........TTTTTUUUUUUUUU
+UUUUUUUU.................
+.........................
+......RRRRRRRRRRR........
+
+00:21
+Current process in queue: V
+Current index 		: 33
+Required size 5
++ Added Process V | Size:  5 | Duration: 1
+
+................UUUUUUUUU
+UUUUUUUUVVVVV............
+.........................
+.........................
+
+00:22
+Current process in queue: W
+Current index 		: 38
+Required size 11
++ Added Process W | Size: 11 | Duration: 5
+
+................UUUUUUUUU
+UUUUUUUU.....WWWWWWWWWWW.
+.........................
+.........................
+
+00:23
+Current process in queue: X
+Current index 		: 49
+Required size 31
++ Added Process X | Size: 31 | Duration: 4
+
+.........................
+.............WWWWWWWWWWWX
+XXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXX....................
+
+00:24
+Current process in queue: Y
+Current index 		: 80
+Required size 11
++ Added Process Y | Size: 11 | Duration: 2
+
+.........................
+.............WWWWWWWWWWWX
+XXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXYYYYYYYYYYY.........
+
+00:25
+Current process in queue: Z
+Current index 		: 91
+Required size 5
++ Added Process Z | Size:  5 | Duration: 4
+
+.........................
+.............WWWWWWWWWWWX
+XXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXYYYYYYYYYYYZZZZZ....
+
+00:26
+Current process in queue: a
+Current index 		: 96
+Required size 17
++ Added Process a | Size: 17 | Duration: 5
+
+aaaaaaaaaaaaaaaaa........
+.............WWWWWWWWWWWX
+XXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXX...........ZZZZZ....
+
+00:27
+Current process in queue: b
+Current index 		: 17
+Required size 17
++ Added Process b | Size: 17 | Duration: 3
+
+aaaaaaaaaaaaaaaaabbbbbbbb
+bbbbbbbbb................
+.........................
+................ZZZZZ....
+
+00:28
+Current process in queue: c
+Current index 		: 34
+Required size 31
++ Added Process c | Size: 31 | Duration: 2
+
+aaaaaaaaaaaaaaaaabbbbbbbb
+bbbbbbbbbcccccccccccccccc
+ccccccccccccccc..........
+................ZZZZZ....
+
+00:29
+Current process in queue: d
+Current index 		: 65
+Required size 5
++ Added Process d | Size:  5 | Duration: 2
+
+aaaaaaaaaaaaaaaaabbbbbbbb
+bbbbbbbbbcccccccccccccccc
+cccccccccccccccddddd.....
+.........................
+
+00:30
+Current process in queue: e
+Current index 		: 70
+Required size 11
++ Added Process e | Size: 11 | Duration: 5
+
+aaaaaaaaaaaaaaaaa........
+.........................
+...............dddddeeeee
+eeeeee...................
+
+00:31
+Current process in queue: f
+Current index 		: 81
+Required size 31
++ Added Process f | Size: 31 | Duration: 1
+
+fffffffffffffffffffffffff
+ffffff...................
+....................eeeee
+eeeeee...................
+
+00:32
+Current process in queue: g
+Current index 		: 31
+Required size 5
++ Added Process g | Size:  5 | Duration: 4
+
+.........................
+......ggggg..............
+....................eeeee
+eeeeee...................
+
+00:33
+Current process in queue: h
+Current index 		: 36
+Required size 5
++ Added Process h | Size:  5 | Duration: 5
+
+.........................
+......ggggghhhhh.........
+....................eeeee
+eeeeee...................
+
+00:34
+Current process in queue: i
+Current index 		: 41
+Required size 5
++ Added Process i | Size:  5 | Duration: 5
+
+.........................
+......ggggghhhhhiiiii....
+....................eeeee
+eeeeee...................
+
+00:35
+Current process in queue: j
+Current index 		: 46
+Required size 31
++ Added Process j | Size: 31 | Duration: 3
+
+.........................
+......ggggghhhhhiiiiijjjj
+jjjjjjjjjjjjjjjjjjjjjjjjj
+jj.......................
+
+00:36
+Current process in queue: k
+Current index 		: 77
+Required size 5
++ Added Process k | Size:  5 | Duration: 5
+
+.........................
+...........hhhhhiiiiijjjj
+jjjjjjjjjjjjjjjjjjjjjjjjj
+jjkkkkk..................
+
+00:37
+Current process in queue: l
+Current index 		: 82
+Required size 17
++ Added Process l | Size: 17 | Duration: 5
+
+.........................
+...........hhhhhiiiiijjjj
+jjjjjjjjjjjjjjjjjjjjjjjjj
+jjkkkkklllllllllllllllll.
+
+00:38
+Current process in queue: m
+Current index 		: 99
+Required size 17
++ Added Process m | Size: 17 | Duration: 2
+
+mmmmmmmmmmmmmmmmm........
+................iiiii....
+.........................
+..kkkkklllllllllllllllll.
+
+00:39
+Current process in queue: n
+Current index 		: 17
+Required size 5
++ Added Process n | Size:  5 | Duration: 2
+
+mmmmmmmmmmmmmmmmmnnnnn...
+.........................
+.........................
+..kkkkklllllllllllllllll.
+
+00:40
+Current process in queue: o
+Current index 		: 22
+Required size 5
++ Added Process o | Size:  5 | Duration: 2
+
+.................nnnnnooo
+oo.......................
+.........................
+..kkkkklllllllllllllllll.
+
+00:41
+Current process in queue: p
+Current index 		: 27
+Required size 5
++ Added Process p | Size:  5 | Duration: 4
+
+......................ooo
+ooppppp..................
+.........................
+.......lllllllllllllllll.
+
+00:42
+Current process in queue: q
+Current index 		: 32
+Required size 17
++ Added Process q | Size: 17 | Duration: 3
+
+.........................
+..pppppqqqqqqqqqqqqqqqqq.
+.........................
+.........................
+
+00:43
+Current process in queue: r
+Current index 		: 49
+Required size 17
++ Added Process r | Size: 17 | Duration: 2
+
+.........................
+..pppppqqqqqqqqqqqqqqqqqr
+rrrrrrrrrrrrrrrr.........
+.........................
+
+00:44
+Current process in queue: s
+Current index 		: 66
+Required size 31
++ Added Process s | Size: 31 | Duration: 1
+
+.........................
+..pppppqqqqqqqqqqqqqqqqqr
+rrrrrrrrrrrrrrrrsssssssss
+ssssssssssssssssssssss...
+
+00:45
+Current process in queue: t
+Current index 		: 97
+Required size 11
++ Added Process t | Size: 11 | Duration: 2
+
+ttttttttttt..............
+.........................
+.........................
+.........................
+
+00:46
+Current process in queue: u
+Current index 		: 11
+Required size 17
++ Added Process u | Size: 17 | Duration: 3
+
+tttttttttttuuuuuuuuuuuuuu
+uuu......................
+.........................
+.........................
+
+00:47
+Current process in queue: v
+Current index 		: 28
+Required size 31
++ Added Process v | Size: 31 | Duration: 5
+
+...........uuuuuuuuuuuuuu
+uuuvvvvvvvvvvvvvvvvvvvvvv
+vvvvvvvvv................
+.........................
+
+00:48
+Current process in queue: w
+Current index 		: 59
+Required size 5
++ Added Process w | Size:  5 | Duration: 5
+
+...........uuuuuuuuuuuuuu
+uuuvvvvvvvvvvvvvvvvvvvvvv
+vvvvvvvvvwwwww...........
+.........................
+
+00:49
+Current process in queue: x
+Current index 		: 64
+Required size 5
++ Added Process x | Size:  5 | Duration: 5
+
+.........................
+...vvvvvvvvvvvvvvvvvvvvvv
+vvvvvvvvvwwwwwxxxxx......
+.........................
+
+00:50
+Current process in queue: y
+Current index 		: 69
+Required size 31
++ Added Process y | Size: 31 | Duration: 1
+
+.........................
+...vvvvvvvvvvvvvvvvvvvvvv
+vvvvvvvvvwwwwwxxxxxyyyyyy
+yyyyyyyyyyyyyyyyyyyyyyyyy
+
+00:51
+Current process in queue: z
+Current index 		: 100
+Required size 11
++ Added Process z | Size: 11 | Duration: 5
+
+zzzzzzzzzzz..............
+...vvvvvvvvvvvvvvvvvvvvvv
+vvvvvvvvvwwwwwxxxxx......
+.........................
+
+00:52
+Current process in queue: 0
+Current index 		: 11
+Required size 11
++ Added Process 0 | Size: 11 | Duration: 5
+
+zzzzzzzzzzz00000000000...
+.........................
+.........wwwwwxxxxx......
+.........................
+
+00:53
+Current process in queue: 1
+Current index 		: 22
+Required size 5
++ Added Process 1 | Size:  5 | Duration: 2
+
+zzzzzzzzzzz00000000000111
+11.......................
+..............xxxxx......
+.........................
+
+00:54
+Current process in queue: 2
+Current index 		: 27
+Required size 5
++ Added Process 2 | Size:  5 | Duration: 4
+
+zzzzzzzzzzz00000000000111
+1122222..................
+.........................
+.........................
+
+00:55
+Current process in queue: 3
+Current index 		: 32
+Required size 17
++ Added Process 3 | Size: 17 | Duration: 4
+
+zzzzzzzzzzz00000000000...
+..2222233333333333333333.
+.........................
+.........................
+
+00:56
+Current process in queue: 4
+Current index 		: 49
+Required size 11
++ Added Process 4 | Size: 11 | Duration: 5
+
+...........00000000000...
+..22222333333333333333334
+4444444444...............
+.........................
+
+00:57
+Current process in queue: 5
+Current index 		: 60
+Required size 11
++ Added Process 5 | Size: 11 | Duration: 4
+
+.........................
+..22222333333333333333334
+444444444455555555555....
+.........................
+
+00:58
+Current process in queue: 6
+Current index 		: 71
+Required size 5
++ Added Process 6 | Size:  5 | Duration: 2
+
+.........................
+.......333333333333333334
+4444444444555555555556666
+6........................
+
+00:59
+Current process in queue: 7
+Current index 		: 76
+Required size 5
++ Added Process 7 | Size:  5 | Duration: 5
+
+.........................
+........................4
+4444444444555555555556666
+677777...................
+
+00:60
+Current process in queue: 8
+Current index 		: 81
+Required size 17
++ Added Process 8 | Size: 17 | Duration: 5
+
+.........................
+........................4
+444444444455555555555....
+.7777788888888888888888..
+Simulation Time Exceeded
+Swapped Processes: 68
+
+Process|Size|Duration
+   0   | 11 |  5 sec
+   1   | 11 |  4 sec
+   2   | 17 |  1 sec
+   3   | 11 |  1 sec
+   4   | 31 |  1 sec
+   5   |  5 |  5 sec
+   6   | 31 |  3 sec
+   7   | 31 |  3 sec
+   8   | 11 |  4 sec
+   9   | 17 |  1 sec
+   A   |  5 |  3 sec
+   B   | 17 |  5 sec
+   C   | 17 |  5 sec
+   D   | 31 |  2 sec
+   E   | 31 |  2 sec
+   F   |  5 |  1 sec
+   G   |  5 |  3 sec
+   H   | 17 |  2 sec
+   I   |  5 |  3 sec
+   J   | 11 |  2 sec
+   K   | 17 |  4 sec
+   L   | 17 |  5 sec
+   M   | 31 |  3 sec
+   N   |  5 |  2 sec
+   O   | 11 |  4 sec
+   P   | 31 |  2 sec
+   Q   | 17 |  5 sec
+   R   |  5 |  5 sec
+   S   |  5 |  4 sec
+   T   | 31 |  3 sec
+   U   |  5 |  2 sec
+   V   |  5 |  5 sec
+   W   |  5 |  3 sec
+   X   | 17 |  4 sec
+   Y   |  5 |  4 sec
+   Z   | 31 |  4 sec
+   a   | 31 |  3 sec
+   b   | 17 |  2 sec
+   c   | 11 |  4 sec
+   d   | 17 |  3 sec
+   e   | 31 |  2 sec
+   f   | 31 |  4 sec
+   g   | 17 |  1 sec
+   h   |  5 |  2 sec
+   i   | 31 |  3 sec
+   j   | 17 |  3 sec
+   k   | 17 |  5 sec
+   l   | 17 |  5 sec
+   m   | 31 |  2 sec
+   n   | 17 |  5 sec
+   o   | 31 |  3 sec
+   p   | 11 |  3 sec
+   q   | 11 |  1 sec
+   r   | 11 |  1 sec
+   s   | 11 |  5 sec
+   t   |  5 |  3 sec
+   u   |  5 |  1 sec
+   v   | 11 |  4 sec
+   w   | 31 |  3 sec
+   x   | 11 |  1 sec
+   y   |  5 |  5 sec
+   z   |  5 |  1 sec
+   0   |  5 |  3 sec
+   1   |  5 |  2 sec
+   2   | 17 |  2 sec
+   3   | 11 |  5 sec
+   4   | 17 |  4 sec
+   5   |  5 |  5 sec
+   6   | 11 |  2 sec
+   7   | 11 |  3 sec
+   8   | 31 |  2 sec
+   9   | 11 |  4 sec
+   A   |  5 |  2 sec
+   B   | 17 |  4 sec
+   C   | 31 |  1 sec
+   D   |  5 |  1 sec
+   E   | 11 |  5 sec
+   F   | 11 |  5 sec
+   G   | 17 |  3 sec
+   H   | 31 |  5 sec
+   I   | 31 |  3 sec
+   J   | 11 |  5 sec
+   K   | 17 |  2 sec
+   L   |  5 |  2 sec
+   M   | 11 |  1 sec
+   N   |  5 |  1 sec
+   O   | 17 |  2 sec
+   P   |  5 |  1 sec
+   Q   | 31 |  2 sec
+   R   | 11 |  5 sec
+   S   |  5 |  2 sec
+   T   |  5 |  5 sec
+   U   | 11 |  3 sec
+   V   | 11 |  3 sec
+   W   | 31 |  3 sec
+   X   | 17 |  5 sec
+   Y   | 31 |  2 sec
+   Z   | 31 |  2 sec
+   a   |  5 |  3 sec
+   b   | 31 |  3 sec
+   c   |  5 |  3 sec
+   d   | 17 |  2 sec
+   e   |  5 |  3 sec
+   f   |  5 |  2 sec
+   g   | 31 |  1 sec
+   h   |  5 |  4 sec
+   i   | 11 |  4 sec
+   j   | 31 |  4 sec
+   k   | 11 |  3 sec
+   l   |  5 |  2 sec
+   m   | 31 |  4 sec
+   n   | 17 |  3 sec
+   o   | 17 |  5 sec
+   p   | 31 |  4 sec
+   q   |  5 |  4 sec
+   r   | 31 |  4 sec
+   s   | 11 |  5 sec
+   t   | 17 |  2 sec
+   u   | 17 |  1 sec
+   v   | 31 |  4 sec
+   w   | 17 |  4 sec
+   x   | 31 |  2 sec
+   y   | 17 |  1 sec
+   z   | 11 |  3 sec
+   0   | 11 |  5 sec
+   1   | 31 |  1 sec
+   2   |  5 |  2 sec
+   3   | 17 |  4 sec
+   4   | 17 |  2 sec
+   5   | 31 |  5 sec
+   6   | 17 |  5 sec
+   7   | 17 |  5 sec
+   8   | 31 |  5 sec
+   9   | 31 |  5 sec
+   A   | 17 |  4 sec
+   B   | 17 |  3 sec
+   C   |  5 |  4 sec
+   D   |  5 |  4 sec
+   E   | 31 |  2 sec
+   F   | 17 |  4 sec
+   G   | 17 |  3 sec
+   H   |  5 |  2 sec
+   I   | 17 |  1 sec
+   J   | 31 |  1 sec
+   K   | 17 |  4 sec
+   L   | 11 |  1 sec
+   M   | 11 |  5 sec
+   N   | 31 |  3 sec
+   O   |  5 |  5 sec
+   P   | 11 |  5 sec
+
++ Added Process 0 | Size: 11 | Duration: 5
+
++ Added Process 1 | Size: 11 | Duration: 4
+
++ Added Process 2 | Size: 17 | Duration: 1
+
++ Added Process 3 | Size: 11 | Duration: 1
+
++ Added Process 4 | Size: 31 | Duration: 1
+
++ Added Process 5 | Size:  5 | Duration: 5
+
+Cannot fit process 6
+
+0000000000011111111111222
+2222222222222233333333333
+4444444444444444444444444
+44444455555..............
+
+00:00
+Current process in queue: 6
+Current index 		: 0
+Required size 31
++ Added Process 6 | Size: 31 | Duration: 3
+
+0000000000011111111111666
+6666666666666666666666666
+666......................
+......55555..............
+
+00:01
+Current process in queue: 7
+Current index 		: 53
+Required size 31
+
+0000000000011111111111666
+6666666666666666666666666
+666......................
+......55555..............
+
+00:02
+Current process in queue: 8
+Current index 		: 0
+Required size 11
++ Added Process 8 | Size: 11 | Duration: 4
+
+0000000000011111111111666
+6666666666666666666666666
+66688888888888...........
+......55555..............
+
+00:03
+Current process in queue: 9
+Current index 		: 64
+Required size 17
++ Added Process 9 | Size: 17 | Duration: 1
+
+00000000000..............
+.........................
+...8888888888899999999999
+99999955555..............
+
+00:04
+Current process in queue: A
+Current index 		: 81
+Required size 5
++ Added Process A | Size:  5 | Duration: 3
+
+.........................
+.........................
+...88888888888...........
+......AAAAA..............
+
+00:05
+Current process in queue: B
+Current index 		: 86
+Required size 17
++ Added Process B | Size: 17 | Duration: 5
+
+BBBBBBBBBBBBBBBBB........
+.........................
+...88888888888...........
+......AAAAA..............
+
+00:06
+Current process in queue: C
+Current index 		: 17
+Required size 17
++ Added Process C | Size: 17 | Duration: 5
+
+BBBBBBBBBBBBBBBBBCCCCCCCC
+CCCCCCCCC................
+.........................
+......AAAAA..............
+
+00:07
+Current process in queue: D
+Current index 		: 34
+Required size 31
++ Added Process D | Size: 31 | Duration: 2
+
+BBBBBBBBBBBBBBBBBCCCCCCCC
+CCCCCCCCCDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDD..........
+.........................
+
+00:08
+Current process in queue: E
+Current index 		: 65
+Required size 31
++ Added Process E | Size: 31 | Duration: 2
+
+BBBBBBBBBBBBBBBBBCCCCCCCC
+CCCCCCCCCDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEEE....
+
+00:09
+Current process in queue: F
+Current index 		: 96
+Required size 5
++ Added Process F | Size:  5 | Duration: 1
+
+BBBBBBBBBBBBBBBBBCCCCCCCC
+CCCCCCCCCFFFFF...........
+...............EEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEEE....
+
+00:10
+Current process in queue: G
+Current index 		: 39
+Required size 5
++ Added Process G | Size:  5 | Duration: 3
+
+.................CCCCCCCC
+CCCCCCCCC.....GGGGG......
+.........................
+.........................
+
+00:11
+Current process in queue: H
+Current index 		: 44
+Required size 17
++ Added Process H | Size: 17 | Duration: 2
+
+.........................
+..............GGGGGHHHHHH
+HHHHHHHHHHH..............
+.........................
+
+00:12
+Current process in queue: I
+Current index 		: 61
+Required size 5
++ Added Process I | Size:  5 | Duration: 3
+
+.........................
+..............GGGGGHHHHHH
+HHHHHHHHHHHIIIII.........
+.........................
+
+00:13
+Current process in queue: J
+Current index 		: 66
+Required size 11
++ Added Process J | Size: 11 | Duration: 2
+
+.........................
+.........................
+...........IIIIIJJJJJJJJJ
+JJ.......................
+
+00:14
+Current process in queue: K
+Current index 		: 77
+Required size 17
++ Added Process K | Size: 17 | Duration: 4
+
+.........................
+.........................
+...........IIIIIJJJJJJJJJ
+JJKKKKKKKKKKKKKKKKK......
+
+00:15
+Current process in queue: L
+Current index 		: 94
+Required size 17
++ Added Process L | Size: 17 | Duration: 5
+
+LLLLLLLLLLLLLLLLL........
+.........................
+.........................
+..KKKKKKKKKKKKKKKKK......
+
+00:16
+Current process in queue: M
+Current index 		: 17
+Required size 31
++ Added Process M | Size: 31 | Duration: 3
+
+LLLLLLLLLLLLLLLLLMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMM..
+.........................
+..KKKKKKKKKKKKKKKKK......
+
+00:17
+Current process in queue: N
+Current index 		: 48
+Required size 5
++ Added Process N | Size:  5 | Duration: 2
+
+LLLLLLLLLLLLLLLLLMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMNN
+NNN......................
+..KKKKKKKKKKKKKKKKK......
+
+00:18
+Current process in queue: O
+Current index 		: 53
+Required size 11
++ Added Process O | Size: 11 | Duration: 4
+
+LLLLLLLLLLLLLLLLLMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMNN
+NNNOOOOOOOOOOO...........
+.........................
+
+00:19
+Current process in queue: P
+Current index 		: 64
+Required size 31
++ Added Process P | Size: 31 | Duration: 2
+
+LLLLLLLLLLLLLLLLL........
+.........................
+...OOOOOOOOOOOPPPPPPPPPPP
+PPPPPPPPPPPPPPPPPPPP.....
+
+00:20
+Current process in queue: Q
+Current index 		: 95
+Required size 17
++ Added Process Q | Size: 17 | Duration: 5
+
+QQQQQQQQQQQQQQQQQ........
+.........................
+...OOOOOOOOOOOPPPPPPPPPPP
+PPPPPPPPPPPPPPPPPPPP.....
+
+00:21
+Current process in queue: R
+Current index 		: 17
+Required size 5
++ Added Process R | Size:  5 | Duration: 5
+
+QQQQQQQQQQQQQQQQQRRRRR...
+.........................
+...OOOOOOOOOOO...........
+.........................
+
+00:22
+Current process in queue: S
+Current index 		: 22
+Required size 5
++ Added Process S | Size:  5 | Duration: 4
+
+QQQQQQQQQQQQQQQQQRRRRRSSS
+SS.......................
+.........................
+.........................
+
+00:23
+Current process in queue: T
+Current index 		: 27
+Required size 31
++ Added Process T | Size: 31 | Duration: 3
+
+QQQQQQQQQQQQQQQQQRRRRRSSS
+SSTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTT.................
+.........................
+
+00:24
+Current process in queue: U
+Current index 		: 58
+Required size 5
++ Added Process U | Size:  5 | Duration: 2
+
+QQQQQQQQQQQQQQQQQRRRRRSSS
+SSTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTUUUUU............
+.........................
+
+00:25
+Current process in queue: V
+Current index 		: 63
+Required size 5
++ Added Process V | Size:  5 | Duration: 5
+
+.................RRRRRSSS
+SSTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTUUUUUVVVVV.......
+.........................
+
+00:26
+Current process in queue: W
+Current index 		: 68
+Required size 5
++ Added Process W | Size:  5 | Duration: 3
+
+.........................
+.........................
+.............VVVVVWWWWW..
+.........................
+
+00:27
+Current process in queue: X
+Current index 		: 73
+Required size 17
++ Added Process X | Size: 17 | Duration: 4
+
+.........................
+.........................
+.............VVVVVWWWWWXX
+XXXXXXXXXXXXXXX..........
+
+00:28
+Current process in queue: Y
+Current index 		: 90
+Required size 5
++ Added Process Y | Size:  5 | Duration: 4
+
+.........................
+.........................
+.............VVVVVWWWWWXX
+XXXXXXXXXXXXXXXYYYYY.....
+
+00:29
+Current process in queue: Z
+Current index 		: 95
+Required size 31
++ Added Process Z | Size: 31 | Duration: 4
+
+ZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZ...................
+.............VVVVV.....XX
+XXXXXXXXXXXXXXXYYYYY.....
+
+00:30
+Current process in queue: a
+Current index 		: 31
+Required size 31
++ Added Process a | Size: 31 | Duration: 3
+
+ZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaa...........XX
+XXXXXXXXXXXXXXXYYYYY.....
+
+00:31
+Current process in queue: b
+Current index 		: 62
+Required size 17
++ Added Process b | Size: 17 | Duration: 2
+
+ZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaabbbbbbbbbbbbb
+bbbb...........YYYYY.....
+
+00:32
+Current process in queue: c
+Current index 		: 79
+Required size 11
++ Added Process c | Size: 11 | Duration: 4
+
+ZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaabbbbbbbbbbbbb
+bbbbccccccccccc..........
+
+00:33
+Current process in queue: d
+Current index 		: 90
+Required size 17
++ Added Process d | Size: 17 | Duration: 3
+
+ddddddddddddddddd........
+.........................
+.........................
+....ccccccccccc..........
+
+00:34
+Current process in queue: e
+Current index 		: 17
+Required size 31
++ Added Process e | Size: 31 | Duration: 2
+
+dddddddddddddddddeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeee..
+.........................
+....ccccccccccc..........
+
+00:35
+Current process in queue: f
+Current index 		: 48
+Required size 31
++ Added Process f | Size: 31 | Duration: 4
+
+dddddddddddddddddeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeff
+fffffffffffffffffffffffff
+ffffccccccccccc..........
+
+00:36
+Current process in queue: g
+Current index 		: 79
+Required size 17
++ Added Process g | Size: 17 | Duration: 1
+
+.........................
+.......................ff
+fffffffffffffffffffffffff
+ffffggggggggggggggggg....
+
+00:37
+Current process in queue: h
+Current index 		: 96
+Required size 5
++ Added Process h | Size:  5 | Duration: 2
+
+hhhhh....................
+.......................ff
+fffffffffffffffffffffffff
+ffff.....................
+
+00:38
+Current process in queue: i
+Current index 		: 5
+Required size 31
++ Added Process i | Size: 31 | Duration: 3
+
+hhhhhiiiiiiiiiiiiiiiiiiii
+iiiiiiiiiii............ff
+fffffffffffffffffffffffff
+ffff.....................
+
+00:39
+Current process in queue: j
+Current index 		: 36
+Required size 17
++ Added Process j | Size: 17 | Duration: 3
+
+.....iiiiiiiiiiiiiiiiiiii
+iiiiiiiiiiijjjjjjjjjjjjjj
+jjj......................
+.........................
+
+00:40
+Current process in queue: k
+Current index 		: 53
+Required size 17
++ Added Process k | Size: 17 | Duration: 5
+
+.....iiiiiiiiiiiiiiiiiiii
+iiiiiiiiiiijjjjjjjjjjjjjj
+jjjkkkkkkkkkkkkkkkkk.....
+.........................
+
+00:41
+Current process in queue: l
+Current index 		: 70
+Required size 17
++ Added Process l | Size: 17 | Duration: 5
+
+.........................
+...........jjjjjjjjjjjjjj
+jjjkkkkkkkkkkkkkkkkklllll
+llllllllllll.............
+
+00:42
+Current process in queue: m
+Current index 		: 87
+Required size 31
++ Added Process m | Size: 31 | Duration: 2
+
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmm...................
+...kkkkkkkkkkkkkkkkklllll
+llllllllllll.............
+
+00:43
+Current process in queue: n
+Current index 		: 31
+Required size 17
++ Added Process n | Size: 17 | Duration: 5
+
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmnnnnnnnnnnnnnnnnn..
+...kkkkkkkkkkkkkkkkklllll
+llllllllllll.............
+
+00:44
+Current process in queue: o
+Current index 		: 48
+Required size 31
++ Added Process o | Size: 31 | Duration: 3
+
+ooooooooooooooooooooooooo
+oooooonnnnnnnnnnnnnnnnn..
+...kkkkkkkkkkkkkkkkklllll
+llllllllllll.............
+
+00:45
+Current process in queue: p
+Current index 		: 31
+Required size 11
++ Added Process p | Size: 11 | Duration: 3
+
+ooooooooooooooooooooooooo
+oooooonnnnnnnnnnnnnnnnnpp
+ppppppppp...........lllll
+llllllllllll.............
+
+00:46
+Current process in queue: q
+Current index 		: 59
+Required size 11
++ Added Process q | Size: 11 | Duration: 1
+
+ooooooooooooooooooooooooo
+oooooonnnnnnnnnnnnnnnnnpp
+pppppppppqqqqqqqqqqq.....
+.........................
+
+00:47
+Current process in queue: r
+Current index 		: 70
+Required size 11
++ Added Process r | Size: 11 | Duration: 1
+
+.........................
+......nnnnnnnnnnnnnnnnnpp
+ppppppppp...........rrrrr
+rrrrrr...................
+
+00:48
+Current process in queue: s
+Current index 		: 81
+Required size 11
++ Added Process s | Size: 11 | Duration: 5
+
+.........................
+.........................
+.........................
+......sssssssssss........
+
+00:49
+Current process in queue: t
+Current index 		: 92
+Required size 5
++ Added Process t | Size:  5 | Duration: 3
+
+.........................
+.........................
+.........................
+......sssssssssssttttt...
+
+00:50
+Current process in queue: u
+Current index 		: 97
+Required size 5
++ Added Process u | Size:  5 | Duration: 1
+
+uuuuu....................
+.........................
+.........................
+......sssssssssssttttt...
+
+00:51
+Current process in queue: v
+Current index 		: 5
+Required size 11
++ Added Process v | Size: 11 | Duration: 4
+
+.....vvvvvvvvvvv.........
+.........................
+.........................
+......sssssssssssttttt...
+
+00:52
+Current process in queue: w
+Current index 		: 16
+Required size 31
++ Added Process w | Size: 31 | Duration: 3
+
+.....vvvvvvvvvvvwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwww...
+.........................
+......sssssssssss........
+
+00:53
+Current process in queue: x
+Current index 		: 47
+Required size 11
++ Added Process x | Size: 11 | Duration: 1
+
+.....vvvvvvvvvvvwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwxxx
+xxxxxxxx.................
+.........................
+
+00:54
+Current process in queue: y
+Current index 		: 58
+Required size 5
++ Added Process y | Size:  5 | Duration: 5
+
+.....vvvvvvvvvvvwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwww...
+........yyyyy............
+.........................
+
+00:55
+Current process in queue: z
+Current index 		: 63
+Required size 5
++ Added Process z | Size:  5 | Duration: 1
+
+.........................
+.........................
+........yyyyyzzzzz.......
+.........................
+
+00:56
+Current process in queue: 0
+Current index 		: 68
+Required size 5
++ Added Process 0 | Size:  5 | Duration: 3
+
+.........................
+.........................
+........yyyyy.....00000..
+.........................
+
+00:57
+Current process in queue: 1
+Current index 		: 73
+Required size 5
++ Added Process 1 | Size:  5 | Duration: 2
+
+.........................
+.........................
+........yyyyy.....0000011
+111......................
+
+00:58
+Current process in queue: 2
+Current index 		: 78
+Required size 17
++ Added Process 2 | Size: 17 | Duration: 2
+
+.........................
+.........................
+........yyyyy.....0000011
+11122222222222222222.....
+
+00:59
+Current process in queue: 3
+Current index 		: 95
+Required size 11
++ Added Process 3 | Size: 11 | Duration: 5
+
+33333333333..............
+.........................
+.........................
+...22222222222222222.....
+
+00:60
+Current process in queue: 4
+Current index 		: 11
+Required size 17
++ Added Process 4 | Size: 17 | Duration: 4
+
+3333333333344444444444444
+444......................
+.........................
+.........................
+Simulation Time Exceeded
+Swapped Processes: 66
+
+Process|Size|Duration
+   0   |  5 |  4 sec
+   1   | 17 |  3 sec
+   2   | 11 |  5 sec
+   3   | 31 |  5 sec
+   4   | 11 |  2 sec
+   5   |  5 |  3 sec
+   6   | 11 |  2 sec
+   7   | 11 |  4 sec
+   8   | 17 |  5 sec
+   9   | 17 |  2 sec
+   A   |  5 |  3 sec
+   B   | 11 |  2 sec
+   C   | 17 |  3 sec
+   D   |  5 |  3 sec
+   E   | 17 |  5 sec
+   F   | 11 |  4 sec
+   G   | 17 |  3 sec
+   H   | 17 |  2 sec
+   I   | 17 |  3 sec
+   J   | 11 |  3 sec
+   K   |  5 |  1 sec
+   L   | 31 |  2 sec
+   M   |  5 |  2 sec
+   N   |  5 |  4 sec
+   O   |  5 |  5 sec
+   P   | 17 |  4 sec
+   Q   | 31 |  1 sec
+   R   | 11 |  3 sec
+   S   | 31 |  3 sec
+   T   |  5 |  5 sec
+   U   | 11 |  2 sec
+   V   | 31 |  5 sec
+   W   | 31 |  5 sec
+   X   | 11 |  5 sec
+   Y   | 11 |  1 sec
+   Z   | 31 |  5 sec
+   a   | 31 |  3 sec
+   b   | 11 |  5 sec
+   c   | 17 |  5 sec
+   d   | 11 |  1 sec
+   e   |  5 |  1 sec
+   f   | 11 |  4 sec
+   g   | 11 |  4 sec
+   h   |  5 |  3 sec
+   i   | 31 |  2 sec
+   j   | 11 |  3 sec
+   k   | 11 |  3 sec
+   l   | 17 |  4 sec
+   m   |  5 |  4 sec
+   n   | 11 |  2 sec
+   o   |  5 |  4 sec
+   p   | 17 |  4 sec
+   q   | 17 |  1 sec
+   r   | 17 |  1 sec
+   s   |  5 |  4 sec
+   t   | 11 |  5 sec
+   u   | 11 |  5 sec
+   v   | 31 |  3 sec
+   w   | 31 |  1 sec
+   x   | 17 |  1 sec
+   y   | 17 |  2 sec
+   z   | 11 |  4 sec
+   0   | 17 |  3 sec
+   1   | 31 |  2 sec
+   2   | 11 |  5 sec
+   3   | 17 |  1 sec
+   4   | 31 |  3 sec
+   5   |  5 |  1 sec
+   6   | 31 |  1 sec
+   7   |  5 |  3 sec
+   8   |  5 |  3 sec
+   9   | 31 |  1 sec
+   A   | 17 |  5 sec
+   B   | 31 |  2 sec
+   C   |  5 |  3 sec
+   D   | 31 |  5 sec
+   E   | 31 |  2 sec
+   F   | 11 |  4 sec
+   G   | 31 |  2 sec
+   H   | 17 |  2 sec
+   I   | 31 |  1 sec
+   J   | 17 |  2 sec
+   K   |  5 |  2 sec
+   L   | 31 |  2 sec
+   M   |  5 |  3 sec
+   N   | 11 |  3 sec
+   O   |  5 |  5 sec
+   P   | 11 |  1 sec
+   Q   | 11 |  1 sec
+   R   | 31 |  2 sec
+   S   |  5 |  4 sec
+   T   | 31 |  5 sec
+   U   | 31 |  1 sec
+   V   | 31 |  5 sec
+   W   | 31 |  1 sec
+   X   | 17 |  4 sec
+   Y   |  5 |  4 sec
+   Z   | 31 |  4 sec
+   a   | 17 |  2 sec
+   b   | 17 |  5 sec
+   c   | 11 |  3 sec
+   d   | 11 |  4 sec
+   e   | 31 |  2 sec
+   f   | 17 |  3 sec
+   g   | 11 |  1 sec
+   h   | 11 |  3 sec
+   i   |  5 |  4 sec
+   j   | 31 |  2 sec
+   k   | 31 |  1 sec
+   l   |  5 |  2 sec
+   m   | 17 |  4 sec
+   n   | 31 |  4 sec
+   o   | 17 |  5 sec
+   p   | 17 |  2 sec
+   q   |  5 |  3 sec
+   r   | 11 |  4 sec
+   s   |  5 |  5 sec
+   t   | 11 |  3 sec
+   u   |  5 |  3 sec
+   v   | 31 |  5 sec
+   w   | 11 |  3 sec
+   x   | 17 |  5 sec
+   y   |  5 |  1 sec
+   z   | 31 |  2 sec
+   0   | 31 |  3 sec
+   1   | 11 |  1 sec
+   2   | 11 |  5 sec
+   3   |  5 |  5 sec
+   4   | 31 |  1 sec
+   5   | 31 |  3 sec
+   6   | 17 |  1 sec
+   7   |  5 |  4 sec
+   8   | 31 |  2 sec
+   9   | 11 |  2 sec
+   A   |  5 |  3 sec
+   B   |  5 |  3 sec
+   C   |  5 |  4 sec
+   D   | 11 |  5 sec
+   E   |  5 |  1 sec
+   F   |  5 |  3 sec
+   G   | 31 |  2 sec
+   H   |  5 |  1 sec
+   I   | 11 |  5 sec
+   J   | 31 |  3 sec
+   K   | 17 |  3 sec
+   L   | 31 |  5 sec
+   M   | 31 |  4 sec
+   N   | 17 |  4 sec
+   O   | 31 |  4 sec
+   P   |  5 |  1 sec
+
++ Added Process 0 | Size:  5 | Duration: 4
+
++ Added Process 1 | Size: 17 | Duration: 3
+
++ Added Process 2 | Size: 11 | Duration: 5
+
++ Added Process 3 | Size: 31 | Duration: 5
+
++ Added Process 4 | Size: 11 | Duration: 2
+
++ Added Process 5 | Size:  5 | Duration: 3
+
++ Added Process 6 | Size: 11 | Duration: 2
+
+Cannot fit process 7
+
+0000011111111111111111222
+2222222233333333333333333
+3333333333333344444444444
+5555566666666666.........
+
+00:00
+Current process in queue: 7
+Current index 		: 0
+Required size 11
+
+0000011111111111111111222
+2222222233333333333333333
+3333333333333344444444444
+5555566666666666.........
+
+00:01
+Current process in queue: 8
+Current index 		: 0
+Required size 17
++ Added Process 8 | Size: 17 | Duration: 5
+
+0000011111111111111111222
+2222222233333333333333333
+33333333333333...........
+5555588888888888888888...
+
+00:02
+Current process in queue: 9
+Current index 		: 97
+Required size 17
++ Added Process 9 | Size: 17 | Duration: 2
+
+0000099999999999999999222
+2222222233333333333333333
+33333333333333...........
+.....88888888888888888...
+
+00:03
+Current process in queue: A
+Current index 		: 22
+Required size 5
++ Added Process A | Size:  5 | Duration: 3
+
+.....99999999999999999222
+2222222233333333333333333
+33333333333333AAAAA......
+.....88888888888888888...
+
+00:04
+Current process in queue: B
+Current index 		: 69
+Required size 11
++ Added Process B | Size: 11 | Duration: 2
+
+.........................
+.........................
+..............AAAAABBBBBB
+BBBBB88888888888888888...
+
+00:05
+Current process in queue: C
+Current index 		: 80
+Required size 17
++ Added Process C | Size: 17 | Duration: 3
+
+CCCCCCCCCCCCCCCCC........
+.........................
+..............AAAAABBBBBB
+BBBBB88888888888888888...
+
+00:06
+Current process in queue: D
+Current index 		: 17
+Required size 5
++ Added Process D | Size:  5 | Duration: 3
+
+CCCCCCCCCCCCCCCCCDDDDD...
+.........................
+.........................
+.........................
+
+00:07
+Current process in queue: E
+Current index 		: 22
+Required size 17
++ Added Process E | Size: 17 | Duration: 5
+
+CCCCCCCCCCCCCCCCCDDDDDEEE
+EEEEEEEEEEEEEE...........
+.........................
+.........................
+
+00:08
+Current process in queue: F
+Current index 		: 39
+Required size 11
++ Added Process F | Size: 11 | Duration: 4
+
+.................DDDDDEEE
+EEEEEEEEEEEEEEFFFFFFFFFFF
+.........................
+.........................
+
+00:09
+Current process in queue: G
+Current index 		: 50
+Required size 17
++ Added Process G | Size: 17 | Duration: 3
+
+......................EEE
+EEEEEEEEEEEEEEFFFFFFFFFFF
+GGGGGGGGGGGGGGGGG........
+.........................
+
+00:10
+Current process in queue: H
+Current index 		: 67
+Required size 17
++ Added Process H | Size: 17 | Duration: 2
+
+......................EEE
+EEEEEEEEEEEEEEFFFFFFFFFFF
+GGGGGGGGGGGGGGGGGHHHHHHHH
+HHHHHHHHH................
+
+00:11
+Current process in queue: I
+Current index 		: 84
+Required size 17
++ Added Process I | Size: 17 | Duration: 3
+
+IIIIIIIIIIIIIIIII.....EEE
+EEEEEEEEEEEEEEFFFFFFFFFFF
+GGGGGGGGGGGGGGGGGHHHHHHHH
+HHHHHHHHH................
+
+00:12
+Current process in queue: J
+Current index 		: 17
+Required size 11
++ Added Process J | Size: 11 | Duration: 3
+
+IIIIIIIIIIIIIIIIIJJJJJJJJ
+JJJ......................
+.........................
+.........................
+
+00:13
+Current process in queue: K
+Current index 		: 28
+Required size 5
++ Added Process K | Size:  5 | Duration: 1
+
+IIIIIIIIIIIIIIIIIJJJJJJJJ
+JJJKKKKK.................
+.........................
+.........................
+
+00:14
+Current process in queue: L
+Current index 		: 33
+Required size 31
++ Added Process L | Size: 31 | Duration: 2
+
+.................JJJJJJJJ
+JJJ.....LLLLLLLLLLLLLLLLL
+LLLLLLLLLLLLLL...........
+.........................
+
+00:15
+Current process in queue: M
+Current index 		: 64
+Required size 5
++ Added Process M | Size:  5 | Duration: 2
+
+.........................
+........LLLLLLLLLLLLLLLLL
+LLLLLLLLLLLLLLMMMMM......
+.........................
+
+00:16
+Current process in queue: N
+Current index 		: 69
+Required size 5
++ Added Process N | Size:  5 | Duration: 4
+
+.........................
+.........................
+..............MMMMMNNNNN.
+.........................
+
+00:17
+Current process in queue: O
+Current index 		: 74
+Required size 5
++ Added Process O | Size:  5 | Duration: 5
+
+.........................
+.........................
+...................NNNNNO
+OOOO.....................
+
+00:18
+Current process in queue: P
+Current index 		: 79
+Required size 17
++ Added Process P | Size: 17 | Duration: 4
+
+.........................
+.........................
+...................NNNNNO
+OOOOPPPPPPPPPPPPPPPPP....
+
+00:19
+Current process in queue: Q
+Current index 		: 96
+Required size 31
++ Added Process Q | Size: 31 | Duration: 1
+
+QQQQQQQQQQQQQQQQQQQQQQQQQ
+QQQQQQ...................
+...................NNNNNO
+OOOOPPPPPPPPPPPPPPPPP....
+
+00:20
+Current process in queue: R
+Current index 		: 31
+Required size 11
++ Added Process R | Size: 11 | Duration: 3
+
+.........................
+......RRRRRRRRRRR........
+........................O
+OOOOPPPPPPPPPPPPPPPPP....
+
+00:21
+Current process in queue: S
+Current index 		: 42
+Required size 31
++ Added Process S | Size: 31 | Duration: 3
+
+.........................
+......RRRRRRRRRRRSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSS.O
+OOOOPPPPPPPPPPPPPPPPP....
+
+00:22
+Current process in queue: T
+Current index 		: 73
+Required size 5
++ Added Process T | Size:  5 | Duration: 5
+
+.........................
+......RRRRRRRRRRRSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSTT
+TTT......................
+
+00:23
+Current process in queue: U
+Current index 		: 78
+Required size 11
++ Added Process U | Size: 11 | Duration: 2
+
+.........................
+.................SSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSSSTT
+TTTUUUUUUUUUUU...........
+
+00:24
+Current process in queue: V
+Current index 		: 89
+Required size 31
++ Added Process V | Size: 31 | Duration: 5
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVV...................
+.......................TT
+TTTUUUUUUUUUUU...........
+
+00:25
+Current process in queue: W
+Current index 		: 31
+Required size 31
++ Added Process W | Size: 31 | Duration: 5
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWW...........TT
+TTT......................
+
+00:26
+Current process in queue: X
+Current index 		: 62
+Required size 11
++ Added Process X | Size: 11 | Duration: 5
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWXXXXXXXXXXXTT
+TTT......................
+
+00:27
+Current process in queue: Y
+Current index 		: 73
+Required size 11
++ Added Process Y | Size: 11 | Duration: 1
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWXXXXXXXXXXXYY
+YYYYYYYYY................
+
+00:28
+Current process in queue: Z
+Current index 		: 84
+Required size 31
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWXXXXXXXXXXX..
+.........................
+
+00:29
+Current process in queue: a
+Current index 		: 0
+Required size 31
++ Added Process a | Size: 31 | Duration: 3
+
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWXXXXXXXXXXX..
+.........................
+
+00:30
+Current process in queue: b
+Current index 		: 31
+Required size 11
++ Added Process b | Size: 11 | Duration: 5
+
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaabbbbbbbbbbb........
+............XXXXXXXXXXX..
+.........................
+
+00:31
+Current process in queue: c
+Current index 		: 42
+Required size 17
++ Added Process c | Size: 17 | Duration: 5
+
+aaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaabbbbbbbbbbbcccccccc
+ccccccccc................
+.........................
+
+00:32
+Current process in queue: d
+Current index 		: 59
+Required size 11
++ Added Process d | Size: 11 | Duration: 1
+
+.........................
+......bbbbbbbbbbbcccccccc
+cccccccccddddddddddd.....
+.........................
+
+00:33
+Current process in queue: e
+Current index 		: 70
+Required size 5
++ Added Process e | Size:  5 | Duration: 1
+
+.........................
+......bbbbbbbbbbbcccccccc
+ccccccccc...........eeeee
+.........................
+
+00:34
+Current process in queue: f
+Current index 		: 75
+Required size 11
++ Added Process f | Size: 11 | Duration: 4
+
+.........................
+......bbbbbbbbbbbcccccccc
+ccccccccc................
+fffffffffff..............
+
+00:35
+Current process in queue: g
+Current index 		: 86
+Required size 11
++ Added Process g | Size: 11 | Duration: 4
+
+.........................
+.................cccccccc
+ccccccccc................
+fffffffffffggggggggggg...
+
+00:36
+Current process in queue: h
+Current index 		: 97
+Required size 5
++ Added Process h | Size:  5 | Duration: 3
+
+hhhhh....................
+.........................
+.........................
+fffffffffffggggggggggg...
+
+00:37
+Current process in queue: i
+Current index 		: 5
+Required size 31
++ Added Process i | Size: 31 | Duration: 2
+
+hhhhhiiiiiiiiiiiiiiiiiiii
+iiiiiiiiiii..............
+.........................
+fffffffffffggggggggggg...
+
+00:38
+Current process in queue: j
+Current index 		: 36
+Required size 11
++ Added Process j | Size: 11 | Duration: 3
+
+hhhhhiiiiiiiiiiiiiiiiiiii
+iiiiiiiiiiijjjjjjjjjjj...
+.........................
+...........ggggggggggg...
+
+00:39
+Current process in queue: k
+Current index 		: 47
+Required size 11
++ Added Process k | Size: 11 | Duration: 3
+
+.........................
+...........jjjjjjjjjjjkkk
+kkkkkkkk.................
+.........................
+
+00:40
+Current process in queue: l
+Current index 		: 58
+Required size 17
++ Added Process l | Size: 17 | Duration: 4
+
+.........................
+...........jjjjjjjjjjjkkk
+kkkkkkkklllllllllllllllll
+.........................
+
+00:41
+Current process in queue: m
+Current index 		: 75
+Required size 5
++ Added Process m | Size:  5 | Duration: 4
+
+.........................
+......................kkk
+kkkkkkkklllllllllllllllll
+mmmmm....................
+
+00:42
+Current process in queue: n
+Current index 		: 80
+Required size 11
++ Added Process n | Size: 11 | Duration: 2
+
+.........................
+.........................
+........lllllllllllllllll
+mmmmmnnnnnnnnnnn.........
+
+00:43
+Current process in queue: o
+Current index 		: 91
+Required size 5
++ Added Process o | Size:  5 | Duration: 4
+
+.........................
+.........................
+........lllllllllllllllll
+mmmmmnnnnnnnnnnnooooo....
+
+00:44
+Current process in queue: p
+Current index 		: 96
+Required size 17
++ Added Process p | Size: 17 | Duration: 4
+
+ppppppppppppppppp........
+.........................
+.........................
+mmmmm...........ooooo....
+
+00:45
+Current process in queue: q
+Current index 		: 17
+Required size 17
++ Added Process q | Size: 17 | Duration: 1
+
+pppppppppppppppppqqqqqqqq
+qqqqqqqqq................
+.........................
+................ooooo....
+
+00:46
+Current process in queue: r
+Current index 		: 34
+Required size 17
++ Added Process r | Size: 17 | Duration: 1
+
+ppppppppppppppppp........
+.........rrrrrrrrrrrrrrrr
+r........................
+................ooooo....
+
+00:47
+Current process in queue: s
+Current index 		: 51
+Required size 5
++ Added Process s | Size:  5 | Duration: 4
+
+ppppppppppppppppp........
+.........................
+.sssss...................
+.........................
+
+00:48
+Current process in queue: t
+Current index 		: 56
+Required size 11
++ Added Process t | Size: 11 | Duration: 5
+
+.........................
+.........................
+.sssssttttttttttt........
+.........................
+
+00:49
+Current process in queue: u
+Current index 		: 67
+Required size 11
++ Added Process u | Size: 11 | Duration: 5
+
+.........................
+.........................
+.ssssstttttttttttuuuuuuuu
+uuu......................
+
+00:50
+Current process in queue: v
+Current index 		: 78
+Required size 31
++ Added Process v | Size: 31 | Duration: 3
+
+vvvvvvvvvvvvvvvvvvvvvvvvv
+vvvvvv...................
+.ssssstttttttttttuuuuuuuu
+uuu......................
+
+00:51
+Current process in queue: w
+Current index 		: 31
+Required size 31
+
+vvvvvvvvvvvvvvvvvvvvvvvvv
+vvvvvv...................
+......tttttttttttuuuuuuuu
+uuu......................
+
+00:52
+Current process in queue: x
+Current index 		: 0
+Required size 17
++ Added Process x | Size: 17 | Duration: 1
+
+vvvvvvvvvvvvvvvvvvvvvvvvv
+vvvvvvxxxxxxxxxxxxxxxxx..
+......tttttttttttuuuuuuuu
+uuu......................
+
+00:53
+Current process in queue: y
+Current index 		: 48
+Required size 17
++ Added Process y | Size: 17 | Duration: 2
+
+.........................
+.......................yy
+yyyyyyyyyyyyyyy..uuuuuuuu
+uuu......................
+
+00:54
+Current process in queue: z
+Current index 		: 65
+Required size 11
++ Added Process z | Size: 11 | Duration: 4
+
+.........................
+.......................yy
+yyyyyyyyyyyyyyyzzzzzzzzzz
+z........................
+
+00:55
+Current process in queue: 0
+Current index 		: 76
+Required size 17
++ Added Process 0 | Size: 17 | Duration: 3
+
+.........................
+.........................
+...............zzzzzzzzzz
+z00000000000000000.......
+
+00:56
+Current process in queue: 1
+Current index 		: 93
+Required size 31
++ Added Process 1 | Size: 31 | Duration: 2
+
+1111111111111111111111111
+111111...................
+...............zzzzzzzzzz
+z00000000000000000.......
+
+00:57
+Current process in queue: 2
+Current index 		: 31
+Required size 11
++ Added Process 2 | Size: 11 | Duration: 5
+
+1111111111111111111111111
+11111122222222222........
+...............zzzzzzzzzz
+z00000000000000000.......
+
+00:58
+Current process in queue: 3
+Current index 		: 42
+Required size 17
++ Added Process 3 | Size: 17 | Duration: 1
+
+.........................
+......2222222222233333333
+333333333................
+.........................
+
+00:59
+Current process in queue: 4
+Current index 		: 59
+Required size 31
++ Added Process 4 | Size: 31 | Duration: 3
+
+.........................
+......22222222222........
+.........4444444444444444
+444444444444444..........
+
+00:60
+Current process in queue: 5
+Current index 		: 90
+Required size 5
++ Added Process 5 | Size:  5 | Duration: 1
+
+.........................
+......22222222222........
+.........4444444444444444
+44444444444444455555.....
+Simulation Time Exceeded
+Swapped Processes: 65

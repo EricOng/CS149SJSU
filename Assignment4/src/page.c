@@ -36,6 +36,13 @@ Page* initializePages(int size, bool create)
 			book[i] = createPage(i);
 			i++;
 		}
+	}else{
+		int i = 0;
+		while(i < size)
+		{
+			book[i].pid = '*';
+			i++;
+		}
 	}	
 	return book;
 }

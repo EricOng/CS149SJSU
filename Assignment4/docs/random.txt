@@ -1,0 +1,1454 @@
+0 Called page A
++ Added  page A
+= Pages: [A|*|*|*]
+0 Called page A
+= Pages: [A|*|*|*]
+0 Called page J
++ Added  page J
+= Pages: [A|J|*|*]
+0 Called page J
+= Pages: [A|J|*|*]
+0 Called page G
++ Added  page G
+= Pages: [A|J|G|*]
+0 Called page F
++ Added  page F
+= Pages: [A|J|G|F]
+0 Called page F
+= Pages: [A|J|G|F]
+0 Called page E
+- Removed page F
++ Added  page E
+= Pages: [A|J|G|E]
+0 Called page J
+= Pages: [A|J|G|E]
+0 Called page J
+= Pages: [A|J|G|E]
+0 Called page G
+= Pages: [A|J|G|E]
+0 Called page F
+- Removed page G
++ Added  page F
+= Pages: [A|J|F|E]
+0 Called page E
+= Pages: [A|J|F|E]
+0 Called page D
+- Removed page A
++ Added  page D
+= Pages: [D|J|F|E]
+0 Called page D
+= Pages: [D|J|F|E]
+0 Called page C
+- Removed page E
++ Added  page C
+= Pages: [D|J|F|C]
+0 Called page B
+- Removed page C
++ Added  page B
+= Pages: [D|J|F|B]
+0 Called page F
+= Pages: [D|J|F|B]
+0 Called page F
+= Pages: [D|J|F|B]
+0 Called page E
+- Removed page F
++ Added  page E
+= Pages: [D|J|E|B]
+0 Called page E
+= Pages: [D|J|E|B]
+0 Called page D
+= Pages: [D|J|E|B]
+0 Called page A
+- Removed page B
++ Added  page A
+= Pages: [D|J|E|A]
+0 Called page J
+= Pages: [D|J|E|A]
+0 Called page J
+= Pages: [D|J|E|A]
+0 Called page J
+= Pages: [D|J|E|A]
+0 Called page J
+= Pages: [D|J|E|A]
+0 Called page I
+- Removed page D
++ Added  page I
+= Pages: [I|J|E|A]
+0 Called page I
+= Pages: [I|J|E|A]
+0 Called page I
+= Pages: [I|J|E|A]
+0 Called page H
+- Removed page E
++ Added  page H
+= Pages: [I|J|H|A]
+0 Called page G
+- Removed page I
++ Added  page G
+= Pages: [G|J|H|A]
+0 Called page G
+= Pages: [G|J|H|A]
+0 Called page G
+= Pages: [G|J|H|A]
+0 Called page F
+- Removed page A
++ Added  page F
+= Pages: [G|J|H|F]
+0 Called page E
+- Removed page G
++ Added  page E
+= Pages: [E|J|H|F]
+0 Called page D
+- Removed page H
++ Added  page D
+= Pages: [E|J|D|F]
+0 Called page I
+- Removed page E
++ Added  page I
+= Pages: [I|J|D|F]
+0 Called page H
+- Removed page J
++ Added  page H
+= Pages: [I|H|D|F]
+0 Called page G
+- Removed page F
++ Added  page G
+= Pages: [I|H|D|G]
+0 Called page J
+- Removed page I
++ Added  page J
+= Pages: [J|H|D|G]
+0 Called page B
+- Removed page G
++ Added  page B
+= Pages: [J|H|D|B]
+0 Called page F
+- Removed page J
++ Added  page F
+= Pages: [F|H|D|B]
+0 Called page E
+- Removed page B
++ Added  page E
+= Pages: [F|H|D|E]
+0 Called page A
+- Removed page H
++ Added  page A
+= Pages: [F|A|D|E]
+0 Called page A
+= Pages: [F|A|D|E]
+0 Called page A
+= Pages: [F|A|D|E]
+0 Called page C
+- Removed page E
++ Added  page C
+= Pages: [F|A|D|C]
+0 Called page E
+- Removed page D
++ Added  page E
+= Pages: [F|A|E|C]
+0 Called page D
+- Removed page F
++ Added  page D
+= Pages: [D|A|E|C]
+0 Called page D
+= Pages: [D|A|E|C]
+0 Called page D
+= Pages: [D|A|E|C]
+0 Called page D
+= Pages: [D|A|E|C]
+0 Called page D
+= Pages: [D|A|E|C]
+0 Called page J
+- Removed page E
++ Added  page J
+= Pages: [D|A|J|C]
+0 Called page J
+= Pages: [D|A|J|C]
+0 Called page J
+= Pages: [D|A|J|C]
+0 Called page I
+- Removed page A
++ Added  page I
+= Pages: [D|I|J|C]
+0 Called page H
+- Removed page C
++ Added  page H
+= Pages: [D|I|J|H]
+0 Called page H
+= Pages: [D|I|J|H]
+0 Called page H
+= Pages: [D|I|J|H]
+0 Called page H
+= Pages: [D|I|J|H]
+0 Called page G
+- Removed page D
++ Added  page G
+= Pages: [G|I|J|H]
+0 Called page F
+- Removed page H
++ Added  page F
+= Pages: [G|I|J|F]
+0 Called page J
+= Pages: [G|I|J|F]
+0 Called page J
+= Pages: [G|I|J|F]
+0 Called page J
+= Pages: [G|I|J|F]
+0 Called page I
+= Pages: [G|I|J|F]
+0 Called page A
+- Removed page G
++ Added  page A
+= Pages: [A|I|J|F]
+0 Called page A
+= Pages: [A|I|J|F]
+0 Called page A
+= Pages: [A|I|J|F]
+0 Called page A
+= Pages: [A|I|J|F]
+0 Called page E
+- Removed page A
++ Added  page E
+= Pages: [E|I|J|F]
+0 Called page A
+- Removed page J
++ Added  page A
+= Pages: [E|I|A|F]
+0 Called page D
+- Removed page A
++ Added  page D
+= Pages: [E|I|D|F]
+0 Called page C
+- Removed page E
++ Added  page C
+= Pages: [C|I|D|F]
+0 Called page E
+- Removed page I
++ Added  page E
+= Pages: [C|E|D|F]
+0 Called page B
+- Removed page E
++ Added  page B
+= Pages: [C|B|D|F]
+0 Called page B
+= Pages: [C|B|D|F]
+0 Called page A
+- Removed page F
++ Added  page A
+= Pages: [C|B|D|A]
+0 Called page J
+- Removed page C
++ Added  page J
+= Pages: [J|B|D|A]
+0 Called page C
+- Removed page B
++ Added  page C
+= Pages: [J|C|D|A]
+0 Called page C
+= Pages: [J|C|D|A]
+0 Called page C
+= Pages: [J|C|D|A]
+0 Called page F
+- Removed page C
++ Added  page F
+= Pages: [J|F|D|A]
+0 Called page F
+= Pages: [J|F|D|A]
+0 Called page F
+= Pages: [J|F|D|A]
+0 Called page E
+- Removed page J
++ Added  page E
+= Pages: [E|F|D|A]
+0 Called page G
+- Removed page E
++ Added  page G
+= Pages: [G|F|D|A]
+0 Called page G
+= Pages: [G|F|D|A]
+0 Called page F
+= Pages: [G|F|D|A]
+0 Called page F
+= Pages: [G|F|D|A]
+0 Called page F
+= Pages: [G|F|D|A]
+0 Called page E
+- Removed page F
++ Added  page E
+= Pages: [G|E|D|A]
+0 Called page E
+= Pages: [G|E|D|A]
+0 Called page E
+= Pages: [G|E|D|A]
+0 Called page E
+= Pages: [G|E|D|A]
+0 Called page D
+= Pages: [G|E|D|A]
+0 Called page C
+- Removed page A
++ Added  page C
+= Pages: [G|E|D|C]
+0 Called page B
+- Removed page E
++ Added  page B
+= Pages: [G|B|D|C]
+----------------------------
+% Hit Ratio: 51
+
+0 Called page J
++ Added  page J
+= Pages: [J|*|*|*]
+0 Called page J
+= Pages: [J|*|*|*]
+0 Called page J
+= Pages: [J|*|*|*]
+0 Called page B
++ Added  page B
+= Pages: [J|B|*|*]
+0 Called page A
++ Added  page A
+= Pages: [J|B|A|*]
+0 Called page D
++ Added  page D
+= Pages: [J|B|A|D]
+0 Called page C
+- Removed page D
++ Added  page C
+= Pages: [J|B|A|C]
+0 Called page I
+- Removed page B
++ Added  page I
+= Pages: [J|I|A|C]
+0 Called page D
+- Removed page C
++ Added  page D
+= Pages: [J|I|A|D]
+0 Called page C
+- Removed page I
++ Added  page C
+= Pages: [J|C|A|D]
+0 Called page J
+= Pages: [J|C|A|D]
+0 Called page I
+- Removed page J
++ Added  page I
+= Pages: [I|C|A|D]
+0 Called page A
+= Pages: [I|C|A|D]
+0 Called page F
+- Removed page A
++ Added  page F
+= Pages: [I|C|F|D]
+0 Called page F
+= Pages: [I|C|F|D]
+0 Called page E
+- Removed page D
++ Added  page E
+= Pages: [I|C|F|E]
+0 Called page D
+- Removed page E
++ Added  page D
+= Pages: [I|C|F|D]
+0 Called page C
+= Pages: [I|C|F|D]
+0 Called page B
+- Removed page D
++ Added  page B
+= Pages: [I|C|F|B]
+0 Called page A
+- Removed page B
++ Added  page A
+= Pages: [I|C|F|A]
+0 Called page J
+- Removed page A
++ Added  page J
+= Pages: [I|C|F|J]
+0 Called page I
+= Pages: [I|C|F|J]
+0 Called page I
+= Pages: [I|C|F|J]
+0 Called page I
+= Pages: [I|C|F|J]
+0 Called page H
+- Removed page J
++ Added  page H
+= Pages: [I|C|F|H]
+0 Called page H
+= Pages: [I|C|F|H]
+0 Called page G
+- Removed page F
++ Added  page G
+= Pages: [I|C|G|H]
+0 Called page F
+- Removed page I
++ Added  page F
+= Pages: [F|C|G|H]
+0 Called page F
+= Pages: [F|C|G|H]
+0 Called page F
+= Pages: [F|C|G|H]
+0 Called page F
+= Pages: [F|C|G|H]
+0 Called page F
+= Pages: [F|C|G|H]
+0 Called page F
+= Pages: [F|C|G|H]
+0 Called page F
+= Pages: [F|C|G|H]
+0 Called page E
+- Removed page H
++ Added  page E
+= Pages: [F|C|G|E]
+0 Called page D
+- Removed page G
++ Added  page D
+= Pages: [F|C|D|E]
+0 Called page G
+- Removed page F
++ Added  page G
+= Pages: [G|C|D|E]
+0 Called page F
+- Removed page C
++ Added  page F
+= Pages: [G|F|D|E]
+0 Called page E
+= Pages: [G|F|D|E]
+0 Called page D
+= Pages: [G|F|D|E]
+0 Called page J
+- Removed page D
++ Added  page J
+= Pages: [G|F|J|E]
+0 Called page J
+= Pages: [G|F|J|E]
+0 Called page C
+- Removed page E
++ Added  page C
+= Pages: [G|F|J|C]
+0 Called page C
+= Pages: [G|F|J|C]
+0 Called page C
+= Pages: [G|F|J|C]
+0 Called page B
+- Removed page F
++ Added  page B
+= Pages: [G|B|J|C]
+0 Called page B
+= Pages: [G|B|J|C]
+0 Called page G
+= Pages: [G|B|J|C]
+0 Called page D
+- Removed page B
++ Added  page D
+= Pages: [G|D|J|C]
+0 Called page C
+= Pages: [G|D|J|C]
+0 Called page B
+- Removed page J
++ Added  page B
+= Pages: [G|D|B|C]
+0 Called page B
+= Pages: [G|D|B|C]
+0 Called page B
+= Pages: [G|D|B|C]
+0 Called page B
+= Pages: [G|D|B|C]
+0 Called page B
+= Pages: [G|D|B|C]
+0 Called page B
+= Pages: [G|D|B|C]
+0 Called page D
+= Pages: [G|D|B|C]
+0 Called page C
+= Pages: [G|D|B|C]
+0 Called page B
+= Pages: [G|D|B|C]
+0 Called page I
+- Removed page B
++ Added  page I
+= Pages: [G|D|I|C]
+0 Called page A
+- Removed page I
++ Added  page A
+= Pages: [G|D|A|C]
+0 Called page A
+= Pages: [G|D|A|C]
+0 Called page C
+= Pages: [G|D|A|C]
+0 Called page C
+= Pages: [G|D|A|C]
+0 Called page B
+- Removed page A
++ Added  page B
+= Pages: [G|D|B|C]
+0 Called page I
+- Removed page G
++ Added  page I
+= Pages: [I|D|B|C]
+0 Called page I
+= Pages: [I|D|B|C]
+0 Called page E
+- Removed page D
++ Added  page E
+= Pages: [I|E|B|C]
+0 Called page A
+- Removed page C
++ Added  page A
+= Pages: [I|E|B|A]
+0 Called page F
+- Removed page I
++ Added  page F
+= Pages: [F|E|B|A]
+0 Called page F
+= Pages: [F|E|B|A]
+0 Called page E
+= Pages: [F|E|B|A]
+0 Called page E
+= Pages: [F|E|B|A]
+0 Called page D
+- Removed page E
++ Added  page D
+= Pages: [F|D|B|A]
+0 Called page I
+- Removed page B
++ Added  page I
+= Pages: [F|D|I|A]
+0 Called page I
+= Pages: [F|D|I|A]
+0 Called page I
+= Pages: [F|D|I|A]
+0 Called page H
+- Removed page D
++ Added  page H
+= Pages: [F|H|I|A]
+0 Called page G
+- Removed page F
++ Added  page G
+= Pages: [G|H|I|A]
+0 Called page F
+- Removed page A
++ Added  page F
+= Pages: [G|H|I|F]
+0 Called page E
+- Removed page H
++ Added  page E
+= Pages: [G|E|I|F]
+0 Called page D
+- Removed page I
++ Added  page D
+= Pages: [G|E|D|F]
+0 Called page D
+= Pages: [G|E|D|F]
+0 Called page I
+- Removed page D
++ Added  page I
+= Pages: [G|E|I|F]
+0 Called page H
+- Removed page G
++ Added  page H
+= Pages: [H|E|I|F]
+0 Called page H
+= Pages: [H|E|I|F]
+0 Called page H
+= Pages: [H|E|I|F]
+0 Called page G
+- Removed page E
++ Added  page G
+= Pages: [H|G|I|F]
+0 Called page C
+- Removed page I
++ Added  page C
+= Pages: [H|G|C|F]
+0 Called page I
+- Removed page F
++ Added  page I
+= Pages: [H|G|C|I]
+0 Called page I
+= Pages: [H|G|C|I]
+0 Called page H
+= Pages: [H|G|C|I]
+0 Called page G
+= Pages: [H|G|C|I]
+0 Called page G
+= Pages: [H|G|C|I]
+0 Called page C
+= Pages: [H|G|C|I]
+0 Called page C
+= Pages: [H|G|C|I]
+0 Called page B
+- Removed page H
++ Added  page B
+= Pages: [B|G|C|I]
+0 Called page E
+- Removed page B
++ Added  page E
+= Pages: [E|G|C|I]
+0 Called page E
+= Pages: [E|G|C|I]
+0 Called page D
+- Removed page E
++ Added  page D
+= Pages: [D|G|C|I]
+----------------------------
+% Hit Ratio: 51
+
+0 Called page I
++ Added  page I
+= Pages: [I|*|*|*]
+0 Called page C
++ Added  page C
+= Pages: [I|C|*|*]
+0 Called page B
++ Added  page B
+= Pages: [I|C|B|*]
+0 Called page A
++ Added  page A
+= Pages: [I|C|B|A]
+0 Called page A
+= Pages: [I|C|B|A]
+0 Called page J
+- Removed page A
++ Added  page J
+= Pages: [I|C|B|J]
+0 Called page J
+= Pages: [I|C|B|J]
+0 Called page A
+- Removed page B
++ Added  page A
+= Pages: [I|C|A|J]
+0 Called page A
+= Pages: [I|C|A|J]
+0 Called page A
+= Pages: [I|C|A|J]
+0 Called page A
+= Pages: [I|C|A|J]
+0 Called page A
+= Pages: [I|C|A|J]
+0 Called page J
+= Pages: [I|C|A|J]
+0 Called page J
+= Pages: [I|C|A|J]
+0 Called page J
+= Pages: [I|C|A|J]
+0 Called page I
+= Pages: [I|C|A|J]
+0 Called page H
+- Removed page C
++ Added  page H
+= Pages: [I|H|A|J]
+0 Called page H
+= Pages: [I|H|A|J]
+0 Called page H
+= Pages: [I|H|A|J]
+0 Called page G
+- Removed page H
++ Added  page G
+= Pages: [I|G|A|J]
+0 Called page A
+= Pages: [I|G|A|J]
+0 Called page J
+= Pages: [I|G|A|J]
+0 Called page J
+= Pages: [I|G|A|J]
+0 Called page I
+= Pages: [I|G|A|J]
+0 Called page I
+= Pages: [I|G|A|J]
+0 Called page H
+- Removed page G
++ Added  page H
+= Pages: [I|H|A|J]
+0 Called page H
+= Pages: [I|H|A|J]
+0 Called page H
+= Pages: [I|H|A|J]
+0 Called page G
+- Removed page I
++ Added  page G
+= Pages: [G|H|A|J]
+0 Called page A
+= Pages: [G|H|A|J]
+0 Called page J
+= Pages: [G|H|A|J]
+0 Called page E
+- Removed page G
++ Added  page E
+= Pages: [E|H|A|J]
+0 Called page E
+= Pages: [E|H|A|J]
+0 Called page D
+- Removed page J
++ Added  page D
+= Pages: [E|H|A|D]
+0 Called page C
+- Removed page D
++ Added  page C
+= Pages: [E|H|A|C]
+0 Called page B
+- Removed page E
++ Added  page B
+= Pages: [B|H|A|C]
+0 Called page A
+= Pages: [B|H|A|C]
+0 Called page J
+- Removed page C
++ Added  page J
+= Pages: [B|H|A|J]
+0 Called page J
+= Pages: [B|H|A|J]
+0 Called page I
+- Removed page A
++ Added  page I
+= Pages: [B|H|I|J]
+0 Called page H
+= Pages: [B|H|I|J]
+0 Called page H
+= Pages: [B|H|I|J]
+0 Called page G
+- Removed page J
++ Added  page G
+= Pages: [B|H|I|G]
+0 Called page G
+= Pages: [B|H|I|G]
+0 Called page F
+- Removed page B
++ Added  page F
+= Pages: [F|H|I|G]
+0 Called page E
+- Removed page H
++ Added  page E
+= Pages: [F|E|I|G]
+0 Called page E
+= Pages: [F|E|I|G]
+0 Called page J
+- Removed page E
++ Added  page J
+= Pages: [F|J|I|G]
+0 Called page I
+= Pages: [F|J|I|G]
+0 Called page H
+- Removed page I
++ Added  page H
+= Pages: [F|J|H|G]
+0 Called page H
+= Pages: [F|J|H|G]
+0 Called page D
+- Removed page H
++ Added  page D
+= Pages: [F|J|D|G]
+0 Called page D
+= Pages: [F|J|D|G]
+0 Called page H
+- Removed page F
++ Added  page H
+= Pages: [H|J|D|G]
+0 Called page G
+= Pages: [H|J|D|G]
+0 Called page F
+- Removed page G
++ Added  page F
+= Pages: [H|J|D|F]
+0 Called page F
+= Pages: [H|J|D|F]
+0 Called page B
+- Removed page J
++ Added  page B
+= Pages: [H|B|D|F]
+0 Called page A
+- Removed page F
++ Added  page A
+= Pages: [H|B|D|A]
+0 Called page J
+- Removed page D
++ Added  page J
+= Pages: [H|B|J|A]
+0 Called page J
+= Pages: [H|B|J|A]
+0 Called page I
+- Removed page A
++ Added  page I
+= Pages: [H|B|J|I]
+0 Called page F
+- Removed page I
++ Added  page F
+= Pages: [H|B|J|F]
+0 Called page E
+- Removed page H
++ Added  page E
+= Pages: [E|B|J|F]
+0 Called page E
+= Pages: [E|B|J|F]
+0 Called page E
+= Pages: [E|B|J|F]
+0 Called page E
+= Pages: [E|B|J|F]
+0 Called page D
+- Removed page J
++ Added  page D
+= Pages: [E|B|D|F]
+0 Called page F
+= Pages: [E|B|D|F]
+0 Called page F
+= Pages: [E|B|D|F]
+0 Called page C
+- Removed page D
++ Added  page C
+= Pages: [E|B|C|F]
+0 Called page C
+= Pages: [E|B|C|F]
+0 Called page C
+= Pages: [E|B|C|F]
+0 Called page I
+- Removed page C
++ Added  page I
+= Pages: [E|B|I|F]
+0 Called page I
+= Pages: [E|B|I|F]
+0 Called page D
+- Removed page F
++ Added  page D
+= Pages: [E|B|I|D]
+0 Called page D
+= Pages: [E|B|I|D]
+0 Called page A
+- Removed page I
++ Added  page A
+= Pages: [E|B|A|D]
+0 Called page A
+= Pages: [E|B|A|D]
+0 Called page A
+= Pages: [E|B|A|D]
+0 Called page I
+- Removed page B
++ Added  page I
+= Pages: [E|I|A|D]
+0 Called page A
+= Pages: [E|I|A|D]
+0 Called page A
+= Pages: [E|I|A|D]
+0 Called page J
+- Removed page I
++ Added  page J
+= Pages: [E|J|A|D]
+0 Called page E
+= Pages: [E|J|A|D]
+0 Called page J
+= Pages: [E|J|A|D]
+0 Called page J
+= Pages: [E|J|A|D]
+0 Called page J
+= Pages: [E|J|A|D]
+0 Called page J
+= Pages: [E|J|A|D]
+0 Called page G
+- Removed page E
++ Added  page G
+= Pages: [G|J|A|D]
+0 Called page G
+= Pages: [G|J|A|D]
+0 Called page G
+= Pages: [G|J|A|D]
+0 Called page F
+- Removed page A
++ Added  page F
+= Pages: [G|J|F|D]
+0 Called page C
+- Removed page D
++ Added  page C
+= Pages: [G|J|F|C]
+0 Called page C
+= Pages: [G|J|F|C]
+0 Called page C
+= Pages: [G|J|F|C]
+0 Called page B
+- Removed page G
++ Added  page B
+= Pages: [B|J|F|C]
+0 Called page G
+- Removed page F
++ Added  page G
+= Pages: [B|J|G|C]
+0 Called page B
+= Pages: [B|J|G|C]
+0 Called page A
+- Removed page G
++ Added  page A
+= Pages: [B|J|A|C]
+----------------------------
+% Hit Ratio: 57
+
+0 Called page I
++ Added  page I
+= Pages: [I|*|*|*]
+0 Called page I
+= Pages: [I|*|*|*]
+0 Called page H
++ Added  page H
+= Pages: [I|H|*|*]
+0 Called page G
++ Added  page G
+= Pages: [I|H|G|*]
+0 Called page B
++ Added  page B
+= Pages: [I|H|G|B]
+0 Called page A
+- Removed page B
++ Added  page A
+= Pages: [I|H|G|A]
+0 Called page J
+- Removed page A
++ Added  page J
+= Pages: [I|H|G|J]
+0 Called page E
+- Removed page G
++ Added  page E
+= Pages: [I|H|E|J]
+0 Called page E
+= Pages: [I|H|E|J]
+0 Called page E
+= Pages: [I|H|E|J]
+0 Called page I
+= Pages: [I|H|E|J]
+0 Called page I
+= Pages: [I|H|E|J]
+0 Called page I
+= Pages: [I|H|E|J]
+0 Called page H
+= Pages: [I|H|E|J]
+0 Called page G
+- Removed page H
++ Added  page G
+= Pages: [I|G|E|J]
+0 Called page F
+- Removed page E
++ Added  page F
+= Pages: [I|G|F|J]
+0 Called page F
+= Pages: [I|G|F|J]
+0 Called page E
+- Removed page I
++ Added  page E
+= Pages: [E|G|F|J]
+0 Called page D
+- Removed page J
++ Added  page D
+= Pages: [E|G|F|D]
+0 Called page D
+= Pages: [E|G|F|D]
+0 Called page D
+= Pages: [E|G|F|D]
+0 Called page D
+= Pages: [E|G|F|D]
+0 Called page J
+- Removed page E
++ Added  page J
+= Pages: [J|G|F|D]
+0 Called page J
+= Pages: [J|G|F|D]
+0 Called page I
+- Removed page G
++ Added  page I
+= Pages: [J|I|F|D]
+0 Called page I
+= Pages: [J|I|F|D]
+0 Called page I
+= Pages: [J|I|F|D]
+0 Called page I
+= Pages: [J|I|F|D]
+0 Called page I
+= Pages: [J|I|F|D]
+0 Called page H
+- Removed page J
++ Added  page H
+= Pages: [H|I|F|D]
+0 Called page J
+- Removed page D
++ Added  page J
+= Pages: [H|I|F|J]
+0 Called page J
+= Pages: [H|I|F|J]
+0 Called page I
+= Pages: [H|I|F|J]
+0 Called page I
+= Pages: [H|I|F|J]
+0 Called page I
+= Pages: [H|I|F|J]
+0 Called page F
+= Pages: [H|I|F|J]
+0 Called page F
+= Pages: [H|I|F|J]
+0 Called page E
+- Removed page H
++ Added  page E
+= Pages: [E|I|F|J]
+0 Called page D
+- Removed page E
++ Added  page D
+= Pages: [D|I|F|J]
+0 Called page H
+- Removed page F
++ Added  page H
+= Pages: [D|I|H|J]
+0 Called page H
+= Pages: [D|I|H|J]
+0 Called page B
+- Removed page H
++ Added  page B
+= Pages: [D|I|B|J]
+0 Called page A
+- Removed page D
++ Added  page A
+= Pages: [A|I|B|J]
+0 Called page H
+- Removed page B
++ Added  page H
+= Pages: [A|I|H|J]
+0 Called page G
+- Removed page A
++ Added  page G
+= Pages: [G|I|H|J]
+0 Called page G
+= Pages: [G|I|H|J]
+0 Called page G
+= Pages: [G|I|H|J]
+0 Called page A
+- Removed page H
++ Added  page A
+= Pages: [G|I|A|J]
+0 Called page A
+= Pages: [G|I|A|J]
+0 Called page C
+- Removed page J
++ Added  page C
+= Pages: [G|I|A|C]
+0 Called page I
+= Pages: [G|I|A|C]
+0 Called page I
+= Pages: [G|I|A|C]
+0 Called page I
+= Pages: [G|I|A|C]
+0 Called page I
+= Pages: [G|I|A|C]
+0 Called page H
+- Removed page A
++ Added  page H
+= Pages: [G|I|H|C]
+0 Called page H
+= Pages: [G|I|H|C]
+0 Called page A
+- Removed page G
++ Added  page A
+= Pages: [A|I|H|C]
+0 Called page G
+- Removed page A
++ Added  page G
+= Pages: [G|I|H|C]
+0 Called page G
+= Pages: [G|I|H|C]
+0 Called page F
+- Removed page C
++ Added  page F
+= Pages: [G|I|H|F]
+0 Called page E
+- Removed page F
++ Added  page E
+= Pages: [G|I|H|E]
+0 Called page B
+- Removed page H
++ Added  page B
+= Pages: [G|I|B|E]
+0 Called page A
+- Removed page G
++ Added  page A
+= Pages: [A|I|B|E]
+0 Called page H
+- Removed page I
++ Added  page H
+= Pages: [A|H|B|E]
+0 Called page G
+- Removed page A
++ Added  page G
+= Pages: [G|H|B|E]
+0 Called page A
+- Removed page B
++ Added  page A
+= Pages: [G|H|A|E]
+0 Called page A
+= Pages: [G|H|A|E]
+0 Called page J
+- Removed page A
++ Added  page J
+= Pages: [G|H|J|E]
+0 Called page I
+- Removed page E
++ Added  page I
+= Pages: [G|H|J|I]
+0 Called page I
+= Pages: [G|H|J|I]
+0 Called page E
+- Removed page J
++ Added  page E
+= Pages: [G|H|E|I]
+0 Called page E
+= Pages: [G|H|E|I]
+0 Called page D
+- Removed page G
++ Added  page D
+= Pages: [D|H|E|I]
+0 Called page D
+= Pages: [D|H|E|I]
+0 Called page C
+- Removed page D
++ Added  page C
+= Pages: [C|H|E|I]
+0 Called page B
+- Removed page C
++ Added  page B
+= Pages: [B|H|E|I]
+0 Called page B
+= Pages: [B|H|E|I]
+0 Called page A
+- Removed page H
++ Added  page A
+= Pages: [B|A|E|I]
+0 Called page D
+- Removed page I
++ Added  page D
+= Pages: [B|A|E|D]
+0 Called page C
+- Removed page B
++ Added  page C
+= Pages: [C|A|E|D]
+0 Called page C
+= Pages: [C|A|E|D]
+0 Called page C
+= Pages: [C|A|E|D]
+0 Called page B
+- Removed page E
++ Added  page B
+= Pages: [C|A|B|D]
+0 Called page A
+= Pages: [C|A|B|D]
+0 Called page A
+= Pages: [C|A|B|D]
+0 Called page A
+= Pages: [C|A|B|D]
+0 Called page A
+= Pages: [C|A|B|D]
+0 Called page J
+- Removed page D
++ Added  page J
+= Pages: [C|A|B|J]
+0 Called page J
+= Pages: [C|A|B|J]
+0 Called page J
+= Pages: [C|A|B|J]
+0 Called page I
+- Removed page J
++ Added  page I
+= Pages: [C|A|B|I]
+0 Called page I
+= Pages: [C|A|B|I]
+0 Called page I
+= Pages: [C|A|B|I]
+0 Called page H
+- Removed page I
++ Added  page H
+= Pages: [C|A|B|H]
+0 Called page G
+- Removed page C
++ Added  page G
+= Pages: [G|A|B|H]
+0 Called page G
+= Pages: [G|A|B|H]
+0 Called page F
+- Removed page B
++ Added  page F
+= Pages: [G|A|F|H]
+0 Called page C
+- Removed page A
++ Added  page C
+= Pages: [G|C|F|H]
+0 Called page B
+- Removed page G
++ Added  page B
+= Pages: [B|C|F|H]
+0 Called page B
+= Pages: [B|C|F|H]
+----------------------------
+% Hit Ratio: 49
+
+0 Called page A
++ Added  page A
+= Pages: [A|*|*|*]
+0 Called page G
++ Added  page G
+= Pages: [A|G|*|*]
+0 Called page F
++ Added  page F
+= Pages: [A|G|F|*]
+0 Called page F
+= Pages: [A|G|F|*]
+0 Called page A
+= Pages: [A|G|F|*]
+0 Called page J
++ Added  page J
+= Pages: [A|G|F|J]
+0 Called page I
+- Removed page G
++ Added  page I
+= Pages: [A|I|F|J]
+0 Called page H
+- Removed page F
++ Added  page H
+= Pages: [A|I|H|J]
+0 Called page H
+= Pages: [A|I|H|J]
+0 Called page H
+= Pages: [A|I|H|J]
+0 Called page G
+- Removed page H
++ Added  page G
+= Pages: [A|I|G|J]
+0 Called page F
+- Removed page I
++ Added  page F
+= Pages: [A|F|G|J]
+0 Called page C
+- Removed page J
++ Added  page C
+= Pages: [A|F|G|C]
+0 Called page C
+= Pages: [A|F|G|C]
+0 Called page C
+= Pages: [A|F|G|C]
+0 Called page B
+- Removed page A
++ Added  page B
+= Pages: [B|F|G|C]
+0 Called page A
+- Removed page G
++ Added  page A
+= Pages: [B|F|A|C]
+0 Called page J
+- Removed page C
++ Added  page J
+= Pages: [B|F|A|J]
+0 Called page C
+- Removed page F
++ Added  page C
+= Pages: [B|C|A|J]
+0 Called page I
+- Removed page B
++ Added  page I
+= Pages: [I|C|A|J]
+0 Called page I
+= Pages: [I|C|A|J]
+0 Called page D
+- Removed page C
++ Added  page D
+= Pages: [I|D|A|J]
+0 Called page D
+= Pages: [I|D|A|J]
+0 Called page I
+= Pages: [I|D|A|J]
+0 Called page I
+= Pages: [I|D|A|J]
+0 Called page H
+- Removed page D
++ Added  page H
+= Pages: [I|H|A|J]
+0 Called page G
+- Removed page I
++ Added  page G
+= Pages: [G|H|A|J]
+0 Called page G
+= Pages: [G|H|A|J]
+0 Called page G
+= Pages: [G|H|A|J]
+0 Called page F
+- Removed page H
++ Added  page F
+= Pages: [G|F|A|J]
+0 Called page I
+- Removed page G
++ Added  page I
+= Pages: [I|F|A|J]
+0 Called page I
+= Pages: [I|F|A|J]
+0 Called page I
+= Pages: [I|F|A|J]
+0 Called page I
+= Pages: [I|F|A|J]
+0 Called page I
+= Pages: [I|F|A|J]
+0 Called page I
+= Pages: [I|F|A|J]
+0 Called page H
+- Removed page J
++ Added  page H
+= Pages: [I|F|A|H]
+0 Called page G
+- Removed page A
++ Added  page G
+= Pages: [I|F|G|H]
+0 Called page I
+= Pages: [I|F|G|H]
+0 Called page B
+- Removed page H
++ Added  page B
+= Pages: [I|F|G|B]
+0 Called page A
+- Removed page G
++ Added  page A
+= Pages: [I|F|A|B]
+0 Called page J
+- Removed page A
++ Added  page J
+= Pages: [I|F|J|B]
+0 Called page I
+= Pages: [I|F|J|B]
+0 Called page H
+- Removed page I
++ Added  page H
+= Pages: [H|F|J|B]
+0 Called page J
+= Pages: [H|F|J|B]
+0 Called page I
+- Removed page B
++ Added  page I
+= Pages: [H|F|J|I]
+0 Called page I
+= Pages: [H|F|J|I]
+0 Called page H
+= Pages: [H|F|J|I]
+0 Called page H
+= Pages: [H|F|J|I]
+0 Called page H
+= Pages: [H|F|J|I]
+0 Called page H
+= Pages: [H|F|J|I]
+0 Called page H
+= Pages: [H|F|J|I]
+0 Called page B
+- Removed page H
++ Added  page B
+= Pages: [B|F|J|I]
+0 Called page B
+= Pages: [B|F|J|I]
+0 Called page B
+= Pages: [B|F|J|I]
+0 Called page B
+= Pages: [B|F|J|I]
+0 Called page A
+- Removed page B
++ Added  page A
+= Pages: [A|F|J|I]
+0 Called page I
+= Pages: [A|F|J|I]
+0 Called page I
+= Pages: [A|F|J|I]
+0 Called page I
+= Pages: [A|F|J|I]
+0 Called page H
+- Removed page F
++ Added  page H
+= Pages: [A|H|J|I]
+0 Called page H
+= Pages: [A|H|J|I]
+0 Called page H
+= Pages: [A|H|J|I]
+0 Called page G
+- Removed page H
++ Added  page G
+= Pages: [A|G|J|I]
+0 Called page F
+- Removed page G
++ Added  page F
+= Pages: [A|F|J|I]
+0 Called page A
+= Pages: [A|F|J|I]
+0 Called page J
+= Pages: [A|F|J|I]
+0 Called page I
+= Pages: [A|F|J|I]
+0 Called page H
+- Removed page J
++ Added  page H
+= Pages: [A|F|H|I]
+0 Called page H
+= Pages: [A|F|H|I]
+0 Called page G
+- Removed page F
++ Added  page G
+= Pages: [A|G|H|I]
+0 Called page G
+= Pages: [A|G|H|I]
+0 Called page G
+= Pages: [A|G|H|I]
+0 Called page G
+= Pages: [A|G|H|I]
+0 Called page G
+= Pages: [A|G|H|I]
+0 Called page G
+= Pages: [A|G|H|I]
+0 Called page A
+= Pages: [A|G|H|I]
+0 Called page H
+= Pages: [A|G|H|I]
+0 Called page G
+= Pages: [A|G|H|I]
+0 Called page I
+= Pages: [A|G|H|I]
+0 Called page A
+= Pages: [A|G|H|I]
+0 Called page A
+= Pages: [A|G|H|I]
+0 Called page A
+= Pages: [A|G|H|I]
+0 Called page J
+- Removed page A
++ Added  page J
+= Pages: [J|G|H|I]
+0 Called page F
+- Removed page G
++ Added  page F
+= Pages: [J|F|H|I]
+0 Called page F
+= Pages: [J|F|H|I]
+0 Called page F
+= Pages: [J|F|H|I]
+0 Called page C
+- Removed page H
++ Added  page C
+= Pages: [J|F|C|I]
+0 Called page J
+= Pages: [J|F|C|I]
+0 Called page J
+= Pages: [J|F|C|I]
+0 Called page I
+= Pages: [J|F|C|I]
+0 Called page I
+= Pages: [J|F|C|I]
+0 Called page I
+= Pages: [J|F|C|I]
+0 Called page I
+= Pages: [J|F|C|I]
+0 Called page I
+= Pages: [J|F|C|I]
+0 Called page H
+- Removed page C
++ Added  page H
+= Pages: [J|F|H|I]
+0 Called page C
+- Removed page I
++ Added  page C
+= Pages: [J|F|H|C]
+0 Called page F
+= Pages: [J|F|H|C]
+0 Called page J
+= Pages: [J|F|H|C]
+0 Called page J
+= Pages: [J|F|H|C]
+----------------------------
+% Hit Ratio: 62

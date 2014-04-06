@@ -1,0 +1,3318 @@
+Process|Size|Duration
+   0   | 31 |  1 sec
+   1   | 17 |  5 sec
+   2   |  5 |  1 sec
+   3   |  5 |  3 sec
+   4   |  5 |  1 sec
+   5   | 31 |  4 sec
+   6   | 17 |  2 sec
+   7   |  5 |  2 sec
+   8   | 17 |  1 sec
+   9   | 11 |  1 sec
+   A   | 17 |  3 sec
+   B   |  5 |  2 sec
+   C   | 31 |  2 sec
+   D   |  5 |  4 sec
+   E   | 11 |  3 sec
+   F   |  5 |  4 sec
+   G   | 17 |  3 sec
+   H   | 31 |  2 sec
+   I   | 31 |  1 sec
+   J   | 31 |  4 sec
+   K   |  5 |  2 sec
+   L   | 31 |  2 sec
+   M   | 31 |  5 sec
+   N   | 31 |  1 sec
+   O   |  5 |  1 sec
+   P   | 11 |  3 sec
+   Q   | 31 |  3 sec
+   R   | 11 |  1 sec
+   S   |  5 |  1 sec
+   T   | 31 |  1 sec
+   U   | 11 |  3 sec
+   V   |  5 |  4 sec
+   W   | 11 |  5 sec
+   X   | 11 |  2 sec
+   Y   | 11 |  5 sec
+   Z   | 31 |  5 sec
+   a   | 11 |  4 sec
+   b   | 17 |  2 sec
+   c   | 11 |  3 sec
+   d   |  5 |  1 sec
+   e   |  5 |  2 sec
+   f   | 17 |  5 sec
+   g   | 11 |  2 sec
+   h   | 17 |  4 sec
+   i   | 31 |  5 sec
+   j   | 11 |  3 sec
+   k   |  5 |  1 sec
+   l   | 31 |  1 sec
+   m   | 31 |  3 sec
+   n   | 17 |  4 sec
+   o   |  5 |  3 sec
+   p   | 11 |  5 sec
+   q   | 31 |  3 sec
+   r   | 11 |  2 sec
+   s   |  5 |  5 sec
+   t   |  5 |  2 sec
+   u   | 17 |  1 sec
+   v   |  5 |  4 sec
+   w   | 11 |  2 sec
+   x   |  5 |  3 sec
+   y   | 17 |  5 sec
+   z   |  5 |  2 sec
+   0   | 17 |  4 sec
+   1   |  5 |  4 sec
+   2   | 17 |  3 sec
+   3   | 11 |  5 sec
+   4   | 17 |  1 sec
+   5   | 31 |  5 sec
+   6   | 17 |  5 sec
+   7   |  5 |  4 sec
+   8   |  5 |  1 sec
+   9   | 17 |  4 sec
+   A   | 17 |  5 sec
+   B   | 11 |  5 sec
+   C   | 31 |  2 sec
+   D   | 17 |  1 sec
+   E   | 11 |  1 sec
+   F   |  5 |  5 sec
+   G   |  5 |  3 sec
+   H   |  5 |  4 sec
+   I   | 11 |  1 sec
+   J   |  5 |  5 sec
+   K   | 31 |  1 sec
+   L   |  5 |  3 sec
+   M   | 17 |  4 sec
+   N   | 31 |  5 sec
+   O   |  5 |  3 sec
+   P   |  5 |  2 sec
+   Q   | 31 |  2 sec
+   R   |  5 |  5 sec
+   S   | 11 |  1 sec
+   T   | 31 |  3 sec
+   U   |  5 |  3 sec
+   V   | 11 |  2 sec
+   W   | 17 |  4 sec
+   X   | 17 |  3 sec
+   Y   | 17 |  2 sec
+   Z   | 17 |  5 sec
+   a   | 11 |  4 sec
+   b   | 17 |  1 sec
+   c   | 11 |  3 sec
+   d   | 17 |  5 sec
+   e   | 11 |  4 sec
+   f   | 17 |  4 sec
+   g   | 31 |  3 sec
+   h   | 17 |  2 sec
+   i   |  5 |  2 sec
+   j   | 17 |  2 sec
+   k   |  5 |  3 sec
+   l   | 31 |  3 sec
+   m   |  5 |  2 sec
+   n   | 11 |  2 sec
+   o   |  5 |  5 sec
+   p   | 31 |  1 sec
+   q   |  5 |  5 sec
+   r   |  5 |  1 sec
+   s   | 11 |  4 sec
+   t   | 17 |  3 sec
+   u   |  5 |  3 sec
+   v   | 17 |  2 sec
+   w   | 17 |  4 sec
+   x   | 17 |  1 sec
+   y   |  5 |  4 sec
+   z   | 11 |  3 sec
+   0   |  5 |  1 sec
+   1   | 17 |  3 sec
+   2   | 11 |  3 sec
+   3   | 17 |  1 sec
+   4   | 11 |  5 sec
+   5   | 17 |  4 sec
+   6   | 11 |  1 sec
+   7   | 11 |  5 sec
+   8   |  5 |  1 sec
+   9   | 31 |  3 sec
+   A   | 31 |  2 sec
+   B   | 17 |  1 sec
+   C   |  5 |  3 sec
+   D   | 17 |  4 sec
+   E   |  5 |  4 sec
+   F   |  5 |  1 sec
+   G   | 17 |  3 sec
+   H   |  5 |  1 sec
+   I   |  5 |  5 sec
+   J   |  5 |  1 sec
+   K   | 17 |  4 sec
+   L   | 11 |  2 sec
+   M   |  5 |  5 sec
+   N   |  5 |  5 sec
+   O   | 11 |  1 sec
+   P   | 31 |  2 sec
+
++ Added Process 0 | Size: 31 | Duration: 1
+
++ Added Process 1 | Size: 17 | Duration: 5
+
++ Added Process 2 | Size:  5 | Duration: 1
+
++ Added Process 3 | Size:  5 | Duration: 3
+
++ Added Process 4 | Size:  5 | Duration: 1
+
++ Added Process 5 | Size: 31 | Duration: 4
+
+Cannot fit process 6
+
+0000000000000000000000000
+0000001111111111111111122
+2223333344444555555555555
+5555555555555555555......
+
+00:00
++ Added Process 6 | Size: 17 | Duration: 2
+
+66666666666666666........
+......11111111111111111..
+...33333.....555555555555
+5555555555555555555......
+
+00:01
++ Added Process 7 | Size:  5 | Duration: 2
+
+66666666666666666........
+......1111111111111111177
+77733333.....555555555555
+5555555555555555555......
+
+00:02
++ Added Process 8 | Size: 17 | Duration: 1
+
+88888888888888888........
+......1111111111111111177
+777..........555555555555
+5555555555555555555......
+
+00:03
++ Added Process 9 | Size: 11 | Duration: 1
+
+99999999999..............
+......11111111111111111..
+.........................
+.........................
+
+00:04
++ Added Process A | Size: 17 | Duration: 3
+
+AAAAAAAAAAAAAAAAA........
+.........................
+.........................
+.........................
+
+00:05
++ Added Process B | Size:  5 | Duration: 2
+
+AAAAAAAAAAAAAAAAABBBBB...
+.........................
+.........................
+.........................
+
+00:06
++ Added Process C | Size: 31 | Duration: 2
+
+AAAAAAAAAAAAAAAAABBBBBCCC
+CCCCCCCCCCCCCCCCCCCCCCCCC
+CCC......................
+.........................
+
+00:07
++ Added Process D | Size:  5 | Duration: 4
+
+DDDDD.................CCC
+CCCCCCCCCCCCCCCCCCCCCCCCC
+CCC......................
+.........................
+
+00:08
++ Added Process E | Size: 11 | Duration: 3
+
+DDDDDEEEEEEEEEEE.........
+.........................
+.........................
+.........................
+
+00:09
++ Added Process F | Size:  5 | Duration: 4
+
+DDDDDEEEEEEEEEEEFFFFF....
+.........................
+.........................
+.........................
+
+00:10
++ Added Process G | Size: 17 | Duration: 3
+
+DDDDDEEEEEEEEEEEFFFFFGGGG
+GGGGGGGGGGGGG............
+.........................
+.........................
+
+00:11
++ Added Process H | Size: 31 | Duration: 2
+
+................FFFFFGGGG
+GGGGGGGGGGGGGHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHH......
+.........................
+
+00:12
++ Added Process I | Size: 31 | Duration: 1
+
+................FFFFFGGGG
+GGGGGGGGGGGGGHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIII
+
+00:13
++ Added Process J | Size: 31 | Duration: 4
+
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJJJJ...................
+.........................
+.........................
+
+00:14
++ Added Process K | Size:  5 | Duration: 2
+
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJJJJKKKKK..............
+.........................
+.........................
+
+00:15
++ Added Process L | Size: 31 | Duration: 2
+
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJJJJKKKKKLLLLLLLLLLLLLL
+LLLLLLLLLLLLLLLLL........
+.........................
+
+00:16
++ Added Process M | Size: 31 | Duration: 5
+
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJJJJ.....LLLLLLLLLLLLLL
+LLLLLLLLLLLLLLLLLMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMM..
+
+00:17
++ Added Process N | Size: 31 | Duration: 1
+
+NNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNN...................
+.................MMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMM..
+
+00:18
++ Added Process O | Size:  5 | Duration: 1
+
+OOOOO....................
+.........................
+.................MMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMM..
+
+00:19
++ Added Process P | Size: 11 | Duration: 3
+
+PPPPPPPPPPP..............
+.........................
+.................MMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMM..
+
+00:20
++ Added Process Q | Size: 31 | Duration: 3
+
+PPPPPPPPPPPQQQQQQQQQQQQQQ
+QQQQQQQQQQQQQQQQQ........
+.................MMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMM..
+
+00:21
++ Added Process R | Size: 11 | Duration: 1
+
+PPPPPPPPPPPQQQQQQQQQQQQQQ
+QQQQQQQQQQQQQQQQQRRRRRRRR
+RRR......................
+.........................
+
+00:22
++ Added Process S | Size:  5 | Duration: 1
+
+SSSSS......QQQQQQQQQQQQQQ
+QQQQQQQQQQQQQQQQQ........
+.........................
+.........................
+
+00:23
++ Added Process T | Size: 31 | Duration: 1
+
+TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTT...................
+.........................
+.........................
+
+00:24
++ Added Process U | Size: 11 | Duration: 3
+
+UUUUUUUUUUU..............
+.........................
+.........................
+.........................
+
+00:25
++ Added Process V | Size:  5 | Duration: 4
+
+UUUUUUUUUUUVVVVV.........
+.........................
+.........................
+.........................
+
+00:26
++ Added Process W | Size: 11 | Duration: 5
+
+UUUUUUUUUUUVVVVVWWWWWWWWW
+WW.......................
+.........................
+.........................
+
+00:27
++ Added Process X | Size: 11 | Duration: 2
+
+XXXXXXXXXXXVVVVVWWWWWWWWW
+WW.......................
+.........................
+.........................
+
+00:28
++ Added Process Y | Size: 11 | Duration: 5
+
+XXXXXXXXXXXVVVVVWWWWWWWWW
+WWYYYYYYYYYYY............
+.........................
+.........................
+
+00:29
++ Added Process Z | Size: 31 | Duration: 5
+
+................WWWWWWWWW
+WWYYYYYYYYYYYZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZ......
+.........................
+
+00:30
++ Added Process a | Size: 11 | Duration: 4
+
+aaaaaaaaaaa.....WWWWWWWWW
+WWYYYYYYYYYYYZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZ......
+.........................
+
+00:31
++ Added Process b | Size: 17 | Duration: 2
+
+aaaaaaaaaaa..............
+..YYYYYYYYYYYZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZbbbbbb
+bbbbbbbbbbb..............
+
+00:32
++ Added Process c | Size: 11 | Duration: 3
+
+aaaaaaaaaaa..............
+..YYYYYYYYYYYZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZbbbbbb
+bbbbbbbbbbbccccccccccc...
+
+00:33
++ Added Process d | Size:  5 | Duration: 1
+
+aaaaaaaaaaa..............
+.............ZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZddddd.
+...........ccccccccccc...
+
+00:34
++ Added Process e | Size:  5 | Duration: 2
+
+eeeee....................
+.........................
+.........................
+...........ccccccccccc...
+
+00:35
++ Added Process f | Size: 17 | Duration: 5
+
+eeeeefffffffffffffffff...
+.........................
+.........................
+.........................
+
+00:36
++ Added Process g | Size: 11 | Duration: 2
+
+.....fffffffffffffffffggg
+gggggggg.................
+.........................
+.........................
+
+00:37
++ Added Process h | Size: 17 | Duration: 4
+
+.....fffffffffffffffffggg
+gggggggghhhhhhhhhhhhhhhhh
+.........................
+.........................
+
+00:38
++ Added Process i | Size: 31 | Duration: 5
+
+.....fffffffffffffffff...
+........hhhhhhhhhhhhhhhhh
+iiiiiiiiiiiiiiiiiiiiiiiii
+iiiiii...................
+
+00:39
++ Added Process j | Size: 11 | Duration: 3
+
+.....fffffffffffffffffjjj
+jjjjjjjjhhhhhhhhhhhhhhhhh
+iiiiiiiiiiiiiiiiiiiiiiiii
+iiiiii...................
+
+00:40
++ Added Process k | Size:  5 | Duration: 1
+
+......................jjj
+jjjjjjjjhhhhhhhhhhhhhhhhh
+iiiiiiiiiiiiiiiiiiiiiiiii
+iiiiiikkkkk..............
+
+00:41
+
+Cannot fit process l
+
+......................jjj
+jjjjjjjj.................
+iiiiiiiiiiiiiiiiiiiiiiiii
+iiiiii...................
+
+00:42
++ Added Process l | Size: 31 | Duration: 1
+
+lllllllllllllllllllllllll
+llllll...................
+iiiiiiiiiiiiiiiiiiiiiiiii
+iiiiii...................
+
+00:43
++ Added Process m | Size: 31 | Duration: 3
+
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmm...................
+.........................
+.........................
+
+00:44
++ Added Process n | Size: 17 | Duration: 4
+
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmnnnnnnnnnnnnnnnnn..
+.........................
+.........................
+
+00:45
++ Added Process o | Size:  5 | Duration: 3
+
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmnnnnnnnnnnnnnnnnnoo
+ooo......................
+.........................
+
+00:46
++ Added Process p | Size: 11 | Duration: 5
+
+ppppppppppp..............
+......nnnnnnnnnnnnnnnnnoo
+ooo......................
+.........................
+
+00:47
++ Added Process q | Size: 31 | Duration: 3
+
+ppppppppppp..............
+......nnnnnnnnnnnnnnnnnoo
+oooqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqq................
+
+00:48
++ Added Process r | Size: 11 | Duration: 2
+
+ppppppppppp..............
+.........................
+...qqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqrrrrrrrrrrr.....
+
+00:49
++ Added Process s | Size:  5 | Duration: 5
+
+ppppppppppp..............
+.........................
+...qqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqrrrrrrrrrrrsssss
+
+00:50
++ Added Process t | Size:  5 | Duration: 2
+
+pppppppppppttttt.........
+.........................
+.........................
+....................sssss
+
+00:51
++ Added Process u | Size: 17 | Duration: 1
+
+...........tttttuuuuuuuuu
+uuuuuuuu.................
+.........................
+....................sssss
+
+00:52
++ Added Process v | Size:  5 | Duration: 4
+
+vvvvv....................
+.........................
+.........................
+....................sssss
+
+00:53
++ Added Process w | Size: 11 | Duration: 2
+
+vvvvvwwwwwwwwwww.........
+.........................
+.........................
+....................sssss
+
+00:54
++ Added Process x | Size:  5 | Duration: 3
+
+vvvvvwwwwwwwwwwwxxxxx....
+.........................
+.........................
+.........................
+
+00:55
++ Added Process y | Size: 17 | Duration: 5
+
+vvvvv...........xxxxxyyyy
+yyyyyyyyyyyyy............
+.........................
+.........................
+
+00:56
++ Added Process z | Size:  5 | Duration: 2
+
+zzzzz...........xxxxxyyyy
+yyyyyyyyyyyyy............
+.........................
+.........................
+
+00:57
++ Added Process 0 | Size: 17 | Duration: 4
+
+zzzzz................yyyy
+yyyyyyyyyyyyy000000000000
+00000....................
+.........................
+
+00:58
++ Added Process 1 | Size:  5 | Duration: 4
+
+11111................yyyy
+yyyyyyyyyyyyy000000000000
+00000....................
+.........................
+
+00:59
++ Added Process 2 | Size: 17 | Duration: 3
+
+11111................yyyy
+yyyyyyyyyyyyy000000000000
+0000022222222222222222...
+.........................
+
+00:60
++ Added Process 3 | Size: 11 | Duration: 5
+
+11111....................
+.............000000000000
+0000022222222222222222333
+33333333.................
+Simulation Time Exceeded
+Swapped Processes: 66
+
+Process|Size|Duration
+   0   |  5 |  5 sec
+   1   | 31 |  4 sec
+   2   | 31 |  1 sec
+   3   | 17 |  1 sec
+   4   | 31 |  1 sec
+   5   | 11 |  2 sec
+   6   | 11 |  3 sec
+   7   |  5 |  5 sec
+   8   | 17 |  2 sec
+   9   | 17 |  1 sec
+   A   | 31 |  4 sec
+   B   | 11 |  3 sec
+   C   | 31 |  1 sec
+   D   |  5 |  3 sec
+   E   | 17 |  4 sec
+   F   | 11 |  1 sec
+   G   | 17 |  1 sec
+   H   |  5 |  5 sec
+   I   |  5 |  3 sec
+   J   | 11 |  3 sec
+   K   | 31 |  2 sec
+   L   | 17 |  2 sec
+   M   | 17 |  3 sec
+   N   | 11 |  2 sec
+   O   |  5 |  5 sec
+   P   |  5 |  2 sec
+   Q   |  5 |  1 sec
+   R   |  5 |  1 sec
+   S   | 31 |  3 sec
+   T   | 31 |  3 sec
+   U   | 11 |  5 sec
+   V   | 31 |  5 sec
+   W   |  5 |  1 sec
+   X   |  5 |  5 sec
+   Y   | 11 |  4 sec
+   Z   | 31 |  3 sec
+   a   | 17 |  1 sec
+   b   |  5 |  4 sec
+   c   | 31 |  2 sec
+   d   |  5 |  4 sec
+   e   | 31 |  1 sec
+   f   | 17 |  3 sec
+   g   | 11 |  3 sec
+   h   | 31 |  5 sec
+   i   | 11 |  4 sec
+   j   |  5 |  2 sec
+   k   | 17 |  4 sec
+   l   | 11 |  2 sec
+   m   | 31 |  5 sec
+   n   | 17 |  1 sec
+   o   | 11 |  3 sec
+   p   |  5 |  3 sec
+   q   | 17 |  2 sec
+   r   | 17 |  5 sec
+   s   | 11 |  1 sec
+   t   |  5 |  3 sec
+   u   | 17 |  2 sec
+   v   |  5 |  1 sec
+   w   |  5 |  4 sec
+   x   | 17 |  1 sec
+   y   |  5 |  2 sec
+   z   | 31 |  2 sec
+   0   | 17 |  2 sec
+   1   | 11 |  5 sec
+   2   |  5 |  5 sec
+   3   |  5 |  4 sec
+   4   |  5 |  3 sec
+   5   | 31 |  5 sec
+   6   | 11 |  2 sec
+   7   | 17 |  5 sec
+   8   |  5 |  1 sec
+   9   | 17 |  1 sec
+   A   | 11 |  3 sec
+   B   | 11 |  2 sec
+   C   |  5 |  1 sec
+   D   | 17 |  2 sec
+   E   | 11 |  3 sec
+   F   | 31 |  5 sec
+   G   | 11 |  4 sec
+   H   | 31 |  4 sec
+   I   | 17 |  4 sec
+   J   | 17 |  4 sec
+   K   |  5 |  5 sec
+   L   | 31 |  3 sec
+   M   | 31 |  1 sec
+   N   | 17 |  4 sec
+   O   |  5 |  1 sec
+   P   |  5 |  4 sec
+   Q   | 17 |  2 sec
+   R   | 11 |  3 sec
+   S   |  5 |  4 sec
+   T   | 31 |  1 sec
+   U   | 11 |  3 sec
+   V   |  5 |  1 sec
+   W   | 11 |  1 sec
+   X   | 31 |  2 sec
+   Y   | 17 |  5 sec
+   Z   | 11 |  1 sec
+   a   | 31 |  2 sec
+   b   | 17 |  1 sec
+   c   | 11 |  4 sec
+   d   |  5 |  2 sec
+   e   | 11 |  4 sec
+   f   | 11 |  3 sec
+   g   | 11 |  2 sec
+   h   | 11 |  5 sec
+   i   | 17 |  5 sec
+   j   | 11 |  4 sec
+   k   | 11 |  4 sec
+   l   |  5 |  1 sec
+   m   |  5 |  2 sec
+   n   | 11 |  5 sec
+   o   | 11 |  2 sec
+   p   |  5 |  1 sec
+   q   | 11 |  2 sec
+   r   | 11 |  2 sec
+   s   | 17 |  1 sec
+   t   | 31 |  5 sec
+   u   |  5 |  2 sec
+   v   | 17 |  3 sec
+   w   | 31 |  4 sec
+   x   | 11 |  1 sec
+   y   | 31 |  4 sec
+   z   | 31 |  2 sec
+   0   | 31 |  1 sec
+   1   | 17 |  1 sec
+   2   | 17 |  1 sec
+   3   | 11 |  4 sec
+   4   |  5 |  5 sec
+   5   | 17 |  3 sec
+   6   | 17 |  3 sec
+   7   | 31 |  3 sec
+   8   | 31 |  4 sec
+   9   | 31 |  4 sec
+   A   | 31 |  1 sec
+   B   |  5 |  4 sec
+   C   |  5 |  5 sec
+   D   | 17 |  3 sec
+   E   |  5 |  1 sec
+   F   | 17 |  4 sec
+   G   | 31 |  2 sec
+   H   | 17 |  5 sec
+   I   | 17 |  4 sec
+   J   |  5 |  5 sec
+   K   | 31 |  1 sec
+   L   | 31 |  5 sec
+   M   | 11 |  3 sec
+   N   | 11 |  1 sec
+   O   |  5 |  1 sec
+   P   |  5 |  2 sec
+
++ Added Process 0 | Size:  5 | Duration: 5
+
++ Added Process 1 | Size: 31 | Duration: 4
+
++ Added Process 2 | Size: 31 | Duration: 1
+
++ Added Process 3 | Size: 17 | Duration: 1
+
+Cannot fit process 4
+
+0000011111111111111111111
+1111111111122222222222222
+2222222222222222233333333
+333333333................
+
+00:00
++ Added Process 4 | Size: 31 | Duration: 1
+
+0000011111111111111111111
+1111111111144444444444444
+44444444444444444........
+.........................
+
+00:01
++ Added Process 5 | Size: 11 | Duration: 2
+
+0000011111111111111111111
+1111111111155555555555...
+.........................
+.........................
+
+00:02
++ Added Process 6 | Size: 11 | Duration: 3
+
+0000011111111111111111111
+1111111111155555555555666
+66666666.................
+.........................
+
+00:03
++ Added Process 7 | Size:  5 | Duration: 5
+
+0000077777...............
+......................666
+66666666.................
+.........................
+
+00:04
++ Added Process 8 | Size: 17 | Duration: 2
+
+.....77777888888888888888
+88....................666
+66666666.................
+.........................
+
+00:05
++ Added Process 9 | Size: 17 | Duration: 1
+
+.....77777888888888888888
+8899999999999999999......
+.........................
+.........................
+
+00:06
++ Added Process A | Size: 31 | Duration: 4
+
+.....77777AAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA.........
+.........................
+.........................
+
+00:07
++ Added Process B | Size: 11 | Duration: 3
+
+.....77777AAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAABBBBBBBBB
+BB.......................
+.........................
+
+00:08
++ Added Process C | Size: 31 | Duration: 1
+
+..........AAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAABBBBBBBBB
+BBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCC.................
+
+00:09
++ Added Process D | Size:  5 | Duration: 3
+
+DDDDD.....AAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAABBBBBBBBB
+BB.......................
+.........................
+
+00:10
++ Added Process E | Size: 17 | Duration: 4
+
+DDDDDEEEEEEEEEEEEEEEEE...
+.........................
+.........................
+.........................
+
+00:11
++ Added Process F | Size: 11 | Duration: 1
+
+DDDDDEEEEEEEEEEEEEEEEEFFF
+FFFFFFFF.................
+.........................
+.........................
+
+00:12
++ Added Process G | Size: 17 | Duration: 1
+
+.....EEEEEEEEEEEEEEEEEGGG
+GGGGGGGGGGGGGG...........
+.........................
+.........................
+
+00:13
++ Added Process H | Size:  5 | Duration: 5
+
+HHHHHEEEEEEEEEEEEEEEEE...
+.........................
+.........................
+.........................
+
+00:14
++ Added Process I | Size:  5 | Duration: 3
+
+HHHHHIIIII...............
+.........................
+.........................
+.........................
+
+00:15
++ Added Process J | Size: 11 | Duration: 3
+
+HHHHHIIIIIJJJJJJJJJJJ....
+.........................
+.........................
+.........................
+
+00:16
++ Added Process K | Size: 31 | Duration: 2
+
+HHHHHIIIIIJJJJJJJJJJJKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKK
+KK.......................
+.........................
+
+00:17
++ Added Process L | Size: 17 | Duration: 2
+
+HHHHH.....JJJJJJJJJJJKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKK
+KKLLLLLLLLLLLLLLLLL......
+.........................
+
+00:18
++ Added Process M | Size: 17 | Duration: 3
+
+.........................
+.........................
+..LLLLLLLLLLLLLLLLLMMMMMM
+MMMMMMMMMMM..............
+
+00:19
++ Added Process N | Size: 11 | Duration: 2
+
+.........................
+.........................
+...................MMMMMM
+MMMMMMMMMMMNNNNNNNNNNN...
+
+00:20
++ Added Process O | Size:  5 | Duration: 5
+
+OOOOO....................
+.........................
+...................MMMMMM
+MMMMMMMMMMMNNNNNNNNNNN...
+
+00:21
++ Added Process P | Size:  5 | Duration: 2
+
+OOOOOPPPPP...............
+.........................
+.........................
+.........................
+
+00:22
++ Added Process Q | Size:  5 | Duration: 1
+
+OOOOOPPPPPQQQQQ..........
+.........................
+.........................
+.........................
+
+00:23
++ Added Process R | Size:  5 | Duration: 1
+
+OOOOORRRRR...............
+.........................
+.........................
+.........................
+
+00:24
++ Added Process S | Size: 31 | Duration: 3
+
+OOOOOSSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSS..............
+.........................
+.........................
+
+00:25
++ Added Process T | Size: 31 | Duration: 3
+
+.....SSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTT........
+.........................
+
+00:26
++ Added Process U | Size: 11 | Duration: 5
+
+.....SSSSSSSSSSSSSSSSSSSS
+SSSSSSSSSSSTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTUUUUUUUU
+UUU......................
+
+00:27
++ Added Process V | Size: 31 | Duration: 5
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVV.....TTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTUUUUUUUU
+UUU......................
+
+00:28
++ Added Process W | Size:  5 | Duration: 1
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVV...................
+.................UUUUUUUU
+UUUWWWWW.................
+
+00:29
++ Added Process X | Size:  5 | Duration: 5
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVV...................
+.................UUUUUUUU
+UUUXXXXX.................
+
+00:30
++ Added Process Y | Size: 11 | Duration: 4
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVV...................
+.................UUUUUUUU
+UUUXXXXXYYYYYYYYYYY......
+
+00:31
++ Added Process Z | Size: 31 | Duration: 3
+
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZ.............
+...XXXXXYYYYYYYYYYY......
+
+00:32
++ Added Process a | Size: 17 | Duration: 1
+
+aaaaaaaaaaaaaaaaa........
+......ZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZ.............
+...XXXXXYYYYYYYYYYY......
+
+00:33
++ Added Process b | Size:  5 | Duration: 4
+
+.........................
+......ZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZ.............
+...XXXXXYYYYYYYYYYYbbbbb.
+
+00:34
++ Added Process c | Size: 31 | Duration: 2
+
+ccccccccccccccccccccccccc
+cccccc...................
+.........................
+...................bbbbb.
+
+00:35
++ Added Process d | Size:  5 | Duration: 4
+
+ccccccccccccccccccccccccc
+ccccccddddd..............
+.........................
+...................bbbbb.
+
+00:36
++ Added Process e | Size: 31 | Duration: 1
+
+eeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeddddd..............
+.........................
+...................bbbbb.
+
+00:37
++ Added Process f | Size: 17 | Duration: 3
+
+fffffffffffffffff........
+......ddddd..............
+.........................
+.........................
+
+00:38
++ Added Process g | Size: 11 | Duration: 3
+
+fffffffffffffffffgggggggg
+ggg...ddddd..............
+.........................
+.........................
+
+00:39
++ Added Process h | Size: 31 | Duration: 5
+
+fffffffffffffffffgggggggg
+ggghhhhhhhhhhhhhhhhhhhhhh
+hhhhhhhhh................
+.........................
+
+00:40
++ Added Process i | Size: 11 | Duration: 4
+
+iiiiiiiiiii......gggggggg
+ggghhhhhhhhhhhhhhhhhhhhhh
+hhhhhhhhh................
+.........................
+
+00:41
++ Added Process j | Size:  5 | Duration: 2
+
+iiiiiiiiiiijjjjj.........
+...hhhhhhhhhhhhhhhhhhhhhh
+hhhhhhhhh................
+.........................
+
+00:42
++ Added Process k | Size: 17 | Duration: 4
+
+iiiiiiiiiiijjjjj.........
+...hhhhhhhhhhhhhhhhhhhhhh
+hhhhhhhhhkkkkkkkkkkkkkkkk
+k........................
+
+00:43
++ Added Process l | Size: 11 | Duration: 2
+
+iiiiiiiiiiilllllllllll...
+...hhhhhhhhhhhhhhhhhhhhhh
+hhhhhhhhhkkkkkkkkkkkkkkkk
+k........................
+
+00:44
++ Added Process m | Size: 31 | Duration: 5
+
+...........lllllllllllmmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmm......kkkkkkkkkkkkkkkk
+k........................
+
+00:45
++ Added Process n | Size: 17 | Duration: 1
+
+nnnnnnnnnnnnnnnnn.....mmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmm......kkkkkkkkkkkkkkkk
+k........................
+
+00:46
++ Added Process o | Size: 11 | Duration: 3
+
+ooooooooooo...........mmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmm......................
+.........................
+
+00:47
++ Added Process p | Size:  5 | Duration: 3
+
+oooooooooooppppp......mmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmm......................
+.........................
+
+00:48
++ Added Process q | Size: 17 | Duration: 2
+
+oooooooooooppppp......mmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmqqqqqqqqqqqqqqqqq.....
+.........................
+
+00:49
++ Added Process r | Size: 17 | Duration: 5
+
+...........ppppp.........
+.........................
+...qqqqqqqqqqqqqqqqqrrrrr
+rrrrrrrrrrrr.............
+
+00:50
++ Added Process s | Size: 11 | Duration: 1
+
+.........................
+.........................
+....................rrrrr
+rrrrrrrrrrrrsssssssssss..
+
+00:51
++ Added Process t | Size:  5 | Duration: 3
+
+.........................
+.........................
+....................rrrrr
+rrrrrrrrrrrrttttt........
+
+00:52
++ Added Process u | Size: 17 | Duration: 2
+
+uuuuuuuuuuuuuuuuu........
+.........................
+....................rrrrr
+rrrrrrrrrrrrttttt........
+
+00:53
++ Added Process v | Size:  5 | Duration: 1
+
+uuuuuuuuuuuuuuuuu........
+.........................
+....................rrrrr
+rrrrrrrrrrrrtttttvvvvv...
+
+00:54
++ Added Process w | Size:  5 | Duration: 4
+
+wwwww....................
+.........................
+.........................
+.........................
+
+00:55
++ Added Process x | Size: 17 | Duration: 1
+
+wwwwwxxxxxxxxxxxxxxxxx...
+.........................
+.........................
+.........................
+
+00:56
++ Added Process y | Size:  5 | Duration: 2
+
+wwwwwyyyyy...............
+.........................
+.........................
+.........................
+
+00:57
++ Added Process z | Size: 31 | Duration: 2
+
+wwwwwyyyyyzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz.........
+.........................
+.........................
+
+00:58
++ Added Process 0 | Size: 17 | Duration: 2
+
+..........zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz000000000
+00000000.................
+.........................
+
+00:59
++ Added Process 1 | Size: 11 | Duration: 5
+
+11111111111..............
+................000000000
+00000000.................
+.........................
+
+00:60
++ Added Process 2 | Size:  5 | Duration: 5
+
+1111111111122222.........
+.........................
+.........................
+.........................
+Simulation Time Exceeded
+Swapped Processes: 65
+
+Process|Size|Duration
+   0   |  5 |  3 sec
+   1   |  5 |  4 sec
+   2   | 17 |  3 sec
+   3   | 17 |  5 sec
+   4   | 31 |  1 sec
+   5   | 17 |  4 sec
+   6   |  5 |  1 sec
+   7   | 17 |  1 sec
+   8   |  5 |  2 sec
+   9   | 11 |  1 sec
+   A   | 17 |  2 sec
+   B   |  5 |  2 sec
+   C   | 11 |  5 sec
+   D   | 17 |  5 sec
+   E   |  5 |  1 sec
+   F   | 17 |  1 sec
+   G   | 31 |  3 sec
+   H   |  5 |  3 sec
+   I   | 11 |  4 sec
+   J   | 11 |  1 sec
+   K   | 11 |  5 sec
+   L   | 17 |  2 sec
+   M   | 11 |  3 sec
+   N   | 17 |  2 sec
+   O   | 17 |  4 sec
+   P   | 11 |  2 sec
+   Q   |  5 |  1 sec
+   R   |  5 |  4 sec
+   S   | 31 |  5 sec
+   T   | 31 |  5 sec
+   U   | 17 |  4 sec
+   V   | 31 |  5 sec
+   W   | 17 |  2 sec
+   X   | 11 |  4 sec
+   Y   |  5 |  1 sec
+   Z   | 17 |  3 sec
+   a   | 11 |  1 sec
+   b   | 31 |  4 sec
+   c   |  5 |  4 sec
+   d   | 31 |  3 sec
+   e   | 31 |  5 sec
+   f   | 11 |  5 sec
+   g   |  5 |  5 sec
+   h   |  5 |  3 sec
+   i   | 31 |  2 sec
+   j   | 17 |  4 sec
+   k   | 31 |  1 sec
+   l   | 11 |  2 sec
+   m   |  5 |  1 sec
+   n   | 31 |  4 sec
+   o   |  5 |  2 sec
+   p   | 11 |  4 sec
+   q   | 11 |  3 sec
+   r   | 17 |  2 sec
+   s   |  5 |  3 sec
+   t   | 31 |  4 sec
+   u   | 11 |  5 sec
+   v   | 17 |  4 sec
+   w   | 11 |  3 sec
+   x   |  5 |  1 sec
+   y   | 11 |  2 sec
+   z   |  5 |  4 sec
+   0   | 31 |  3 sec
+   1   | 11 |  2 sec
+   2   | 17 |  4 sec
+   3   | 17 |  1 sec
+   4   | 11 |  5 sec
+   5   | 17 |  5 sec
+   6   | 31 |  2 sec
+   7   | 17 |  5 sec
+   8   | 17 |  5 sec
+   9   | 17 |  2 sec
+   A   | 11 |  1 sec
+   B   |  5 |  1 sec
+   C   | 17 |  5 sec
+   D   | 11 |  5 sec
+   E   | 17 |  1 sec
+   F   | 17 |  5 sec
+   G   | 11 |  2 sec
+   H   | 31 |  4 sec
+   I   | 31 |  5 sec
+   J   | 11 |  3 sec
+   K   | 11 |  4 sec
+   L   | 11 |  4 sec
+   M   | 31 |  4 sec
+   N   | 31 |  5 sec
+   O   |  5 |  1 sec
+   P   |  5 |  5 sec
+   Q   | 11 |  1 sec
+   R   | 17 |  5 sec
+   S   |  5 |  2 sec
+   T   | 11 |  3 sec
+   U   | 31 |  1 sec
+   V   | 31 |  1 sec
+   W   | 17 |  5 sec
+   X   | 17 |  1 sec
+   Y   |  5 |  2 sec
+   Z   |  5 |  1 sec
+   a   | 17 |  1 sec
+   b   |  5 |  5 sec
+   c   |  5 |  2 sec
+   d   | 17 |  2 sec
+   e   | 11 |  1 sec
+   f   |  5 |  3 sec
+   g   | 11 |  2 sec
+   h   | 11 |  2 sec
+   i   |  5 |  3 sec
+   j   |  5 |  1 sec
+   k   | 11 |  2 sec
+   l   | 17 |  2 sec
+   m   | 11 |  1 sec
+   n   |  5 |  3 sec
+   o   | 31 |  2 sec
+   p   | 11 |  3 sec
+   q   | 11 |  4 sec
+   r   | 11 |  2 sec
+   s   | 11 |  3 sec
+   t   |  5 |  2 sec
+   u   |  5 |  5 sec
+   v   | 31 |  5 sec
+   w   | 11 |  5 sec
+   x   | 31 |  2 sec
+   y   | 17 |  1 sec
+   z   | 31 |  2 sec
+   0   | 11 |  2 sec
+   1   | 17 |  2 sec
+   2   | 11 |  2 sec
+   3   | 31 |  2 sec
+   4   | 31 |  1 sec
+   5   |  5 |  5 sec
+   6   | 17 |  2 sec
+   7   | 11 |  4 sec
+   8   |  5 |  4 sec
+   9   |  5 |  1 sec
+   A   | 11 |  4 sec
+   B   | 11 |  3 sec
+   C   | 31 |  2 sec
+   D   | 31 |  1 sec
+   E   | 17 |  3 sec
+   F   | 31 |  1 sec
+   G   | 31 |  2 sec
+   H   | 17 |  1 sec
+   I   |  5 |  4 sec
+   J   | 31 |  2 sec
+   K   | 11 |  5 sec
+   L   | 17 |  3 sec
+   M   | 31 |  4 sec
+   N   | 11 |  4 sec
+   O   |  5 |  4 sec
+   P   | 31 |  3 sec
+
++ Added Process 0 | Size:  5 | Duration: 3
+
++ Added Process 1 | Size:  5 | Duration: 4
+
++ Added Process 2 | Size: 17 | Duration: 3
+
++ Added Process 3 | Size: 17 | Duration: 5
+
++ Added Process 4 | Size: 31 | Duration: 1
+
++ Added Process 5 | Size: 17 | Duration: 4
+
++ Added Process 6 | Size:  5 | Duration: 1
+
+Cannot fit process 7
+
+0000011111222222222222222
+2233333333333333333444444
+4444444444444444444444444
+5555555555555555566666...
+
+00:00
++ Added Process 7 | Size: 17 | Duration: 1
+
+0000011111222222222222222
+2233333333333333333777777
+77777777777..............
+55555555555555555........
+
+00:01
++ Added Process 8 | Size:  5 | Duration: 2
+
+0000011111222222222222222
+2233333333333333333......
+.........................
+5555555555555555588888...
+
+00:02
++ Added Process 9 | Size: 11 | Duration: 1
+
+.....1111199999999999....
+..33333333333333333......
+.........................
+5555555555555555588888...
+
+00:03
++ Added Process A | Size: 17 | Duration: 2
+
+AAAAAAAAAAAAAAAAA........
+..33333333333333333......
+.........................
+.........................
+
+00:04
++ Added Process B | Size:  5 | Duration: 2
+
+AAAAAAAAAAAAAAAAABBBBB...
+.........................
+.........................
+.........................
+
+00:05
++ Added Process C | Size: 11 | Duration: 5
+
+CCCCCCCCCCC......BBBBB...
+.........................
+.........................
+.........................
+
+00:06
++ Added Process D | Size: 17 | Duration: 5
+
+CCCCCCCCCCCDDDDDDDDDDDDDD
+DDD......................
+.........................
+.........................
+
+00:07
++ Added Process E | Size:  5 | Duration: 1
+
+CCCCCCCCCCCDDDDDDDDDDDDDD
+DDDEEEEE.................
+.........................
+.........................
+
+00:08
++ Added Process F | Size: 17 | Duration: 1
+
+CCCCCCCCCCCDDDDDDDDDDDDDD
+DDDFFFFFFFFFFFFFFFFF.....
+.........................
+.........................
+
+00:09
++ Added Process G | Size: 31 | Duration: 3
+
+CCCCCCCCCCCDDDDDDDDDDDDDD
+DDDGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGG................
+.........................
+
+00:10
++ Added Process H | Size:  5 | Duration: 3
+
+HHHHH......DDDDDDDDDDDDDD
+DDDGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGG................
+.........................
+
+00:11
++ Added Process I | Size: 11 | Duration: 4
+
+HHHHHIIIIIIIIIII.........
+...GGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGG................
+.........................
+
+00:12
++ Added Process J | Size: 11 | Duration: 1
+
+HHHHHIIIIIIIIIIIJJJJJJJJJ
+JJ.......................
+.........................
+.........................
+
+00:13
++ Added Process K | Size: 11 | Duration: 5
+
+.....IIIIIIIIIIIKKKKKKKKK
+KK.......................
+.........................
+.........................
+
+00:14
++ Added Process L | Size: 17 | Duration: 2
+
+.....IIIIIIIIIIIKKKKKKKKK
+KKLLLLLLLLLLLLLLLLL......
+.........................
+.........................
+
+00:15
++ Added Process M | Size: 11 | Duration: 3
+
+MMMMMMMMMMM.....KKKKKKKKK
+KKLLLLLLLLLLLLLLLLL......
+.........................
+.........................
+
+00:16
++ Added Process N | Size: 17 | Duration: 2
+
+MMMMMMMMMMM.....KKKKKKKKK
+KKNNNNNNNNNNNNNNNNN......
+.........................
+.........................
+
+00:17
++ Added Process O | Size: 17 | Duration: 4
+
+MMMMMMMMMMM.....KKKKKKKKK
+KKNNNNNNNNNNNNNNNNNOOOOOO
+OOOOOOOOOOO..............
+.........................
+
+00:18
++ Added Process P | Size: 11 | Duration: 2
+
+.........................
+...................OOOOOO
+OOOOOOOOOOOPPPPPPPPPPP...
+.........................
+
+00:19
++ Added Process Q | Size:  5 | Duration: 1
+
+.........................
+...................OOOOOO
+OOOOOOOOOOOPPPPPPPPPPPQQQ
+QQ.......................
+
+00:20
++ Added Process R | Size:  5 | Duration: 4
+
+.........................
+...................OOOOOO
+OOOOOOOOOOORRRRR.........
+.........................
+
+00:21
++ Added Process S | Size: 31 | Duration: 5
+
+.........................
+.........................
+...........RRRRRSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSS...
+
+00:22
++ Added Process T | Size: 31 | Duration: 5
+
+TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTT...................
+...........RRRRRSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSS...
+
+00:23
++ Added Process U | Size: 17 | Duration: 4
+
+TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTUUUUUUUUUUUUUUUUU..
+...........RRRRRSSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSS...
+
+00:24
+
+Cannot fit process V
+
+TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTUUUUUUUUUUUUUUUUU..
+................SSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSS...
+
+00:25
+
+Cannot fit process V
+
+TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTUUUUUUUUUUUUUUUUU..
+................SSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSSS...
+
+00:26
++ Added Process V | Size: 31 | Duration: 5
+
+TTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTUUUUUUUUUUUUUUUUUVV
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVV.....................
+
+00:27
++ Added Process W | Size: 17 | Duration: 2
+
+.........................
+.......................VV
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVWWWWWWWWWWWWWWWWW....
+
+00:28
++ Added Process X | Size: 11 | Duration: 4
+
+XXXXXXXXXXX..............
+.......................VV
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVWWWWWWWWWWWWWWWWW....
+
+00:29
++ Added Process Y | Size:  5 | Duration: 1
+
+XXXXXXXXXXX..............
+.......................VV
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVYYYYY................
+
+00:30
++ Added Process Z | Size: 17 | Duration: 3
+
+XXXXXXXXXXX..............
+.......................VV
+VVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVZZZZZZZZZZZZZZZZZ....
+
+00:31
++ Added Process a | Size: 11 | Duration: 1
+
+XXXXXXXXXXXaaaaaaaaaaa...
+.........................
+.........................
+....ZZZZZZZZZZZZZZZZZ....
+
+00:32
++ Added Process b | Size: 31 | Duration: 4
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbb...................
+.........................
+....ZZZZZZZZZZZZZZZZZ....
+
+00:33
++ Added Process c | Size:  5 | Duration: 4
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbccccc..............
+.........................
+.........................
+
+00:34
++ Added Process d | Size: 31 | Duration: 3
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbcccccdddddddddddddd
+ddddddddddddddddd........
+.........................
+
+00:35
++ Added Process e | Size: 31 | Duration: 5
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbcccccdddddddddddddd
+dddddddddddddddddeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeee..
+
+00:36
++ Added Process f | Size: 11 | Duration: 5
+
+fffffffffff..............
+......cccccdddddddddddddd
+dddddddddddddddddeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeee..
+
+00:37
++ Added Process g | Size:  5 | Duration: 5
+
+fffffffffffggggg.........
+.........................
+.................eeeeeeee
+eeeeeeeeeeeeeeeeeeeeeee..
+
+00:38
++ Added Process h | Size:  5 | Duration: 3
+
+fffffffffffggggghhhhh....
+.........................
+.................eeeeeeee
+eeeeeeeeeeeeeeeeeeeeeee..
+
+00:39
++ Added Process i | Size: 31 | Duration: 2
+
+fffffffffffggggghhhhhiiii
+iiiiiiiiiiiiiiiiiiiiiiiii
+ii...............eeeeeeee
+eeeeeeeeeeeeeeeeeeeeeee..
+
+00:40
++ Added Process j | Size: 17 | Duration: 4
+
+fffffffffffggggghhhhhiiii
+iiiiiiiiiiiiiiiiiiiiiiiii
+iijjjjjjjjjjjjjjjjj......
+.........................
+
+00:41
++ Added Process k | Size: 31 | Duration: 1
+
+...........ggggg.........
+.........................
+..jjjjjjjjjjjjjjjjjkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkkk
+
+00:42
++ Added Process l | Size: 11 | Duration: 2
+
+.........................
+.........................
+..jjjjjjjjjjjjjjjjjllllll
+lllll....................
+
+00:43
++ Added Process m | Size:  5 | Duration: 1
+
+.........................
+.........................
+..jjjjjjjjjjjjjjjjjllllll
+lllllmmmmm...............
+
+00:44
++ Added Process n | Size: 31 | Duration: 4
+
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnn...................
+.........................
+.........................
+
+00:45
++ Added Process o | Size:  5 | Duration: 2
+
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnooooo..............
+.........................
+.........................
+
+00:46
++ Added Process p | Size: 11 | Duration: 4
+
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnoooooppppppppppp...
+.........................
+.........................
+
+00:47
++ Added Process q | Size: 11 | Duration: 3
+
+nnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnn.....pppppppppppqqq
+qqqqqqqq.................
+.........................
+
+00:48
++ Added Process r | Size: 17 | Duration: 2
+
+rrrrrrrrrrrrrrrrr........
+...........pppppppppppqqq
+qqqqqqqq.................
+.........................
+
+00:49
++ Added Process s | Size:  5 | Duration: 3
+
+rrrrrrrrrrrrrrrrrsssss...
+...........pppppppppppqqq
+qqqqqqqq.................
+.........................
+
+00:50
++ Added Process t | Size: 31 | Duration: 4
+
+.................sssssttt
+ttttttttttttttttttttttttt
+ttt......................
+.........................
+
+00:51
++ Added Process u | Size: 11 | Duration: 5
+
+uuuuuuuuuuu......sssssttt
+ttttttttttttttttttttttttt
+ttt......................
+.........................
+
+00:52
++ Added Process v | Size: 17 | Duration: 4
+
+uuuuuuuuuuu...........ttt
+ttttttttttttttttttttttttt
+tttvvvvvvvvvvvvvvvvv.....
+.........................
+
+00:53
++ Added Process w | Size: 11 | Duration: 3
+
+uuuuuuuuuuuwwwwwwwwwwwttt
+ttttttttttttttttttttttttt
+tttvvvvvvvvvvvvvvvvv.....
+.........................
+
+00:54
++ Added Process x | Size:  5 | Duration: 1
+
+uuuuuuuuuuuwwwwwwwwwww...
+.........................
+...vvvvvvvvvvvvvvvvvxxxxx
+.........................
+
+00:55
++ Added Process y | Size: 11 | Duration: 2
+
+uuuuuuuuuuuwwwwwwwwwww...
+.........................
+...vvvvvvvvvvvvvvvvvyyyyy
+yyyyyy...................
+
+00:56
++ Added Process z | Size:  5 | Duration: 4
+
+.........................
+.........................
+....................yyyyy
+yyyyyyzzzzz..............
+
+00:57
++ Added Process 0 | Size: 31 | Duration: 3
+
+0000000000000000000000000
+000000...................
+.........................
+......zzzzz..............
+
+00:58
++ Added Process 1 | Size: 11 | Duration: 2
+
+0000000000000000000000000
+000000...................
+.........................
+......zzzzz11111111111...
+
+00:59
++ Added Process 2 | Size: 17 | Duration: 4
+
+0000000000000000000000000
+00000022222222222222222..
+.........................
+......zzzzz11111111111...
+
+00:60
++ Added Process 3 | Size: 17 | Duration: 1
+
+33333333333333333........
+......22222222222222222..
+.........................
+.........................
+Simulation Time Exceeded
+Swapped Processes: 66
+
+Process|Size|Duration
+   0   |  5 |  3 sec
+   1   | 17 |  3 sec
+   2   | 31 |  4 sec
+   3   |  5 |  1 sec
+   4   |  5 |  4 sec
+   5   | 17 |  5 sec
+   6   | 11 |  1 sec
+   7   |  5 |  1 sec
+   8   | 31 |  3 sec
+   9   | 11 |  3 sec
+   A   | 17 |  3 sec
+   B   | 17 |  2 sec
+   C   | 31 |  2 sec
+   D   |  5 |  5 sec
+   E   | 31 |  5 sec
+   F   | 17 |  5 sec
+   G   |  5 |  5 sec
+   H   | 17 |  3 sec
+   I   | 31 |  3 sec
+   J   | 11 |  5 sec
+   K   | 11 |  3 sec
+   L   | 31 |  5 sec
+   M   | 17 |  2 sec
+   N   | 17 |  2 sec
+   O   | 17 |  5 sec
+   P   | 31 |  3 sec
+   Q   | 11 |  4 sec
+   R   | 11 |  2 sec
+   S   | 31 |  5 sec
+   T   |  5 |  1 sec
+   U   | 31 |  5 sec
+   V   | 11 |  3 sec
+   W   | 31 |  5 sec
+   X   | 11 |  3 sec
+   Y   | 11 |  2 sec
+   Z   | 11 |  1 sec
+   a   |  5 |  3 sec
+   b   | 31 |  5 sec
+   c   |  5 |  4 sec
+   d   | 31 |  1 sec
+   e   | 31 |  5 sec
+   f   | 11 |  3 sec
+   g   | 17 |  3 sec
+   h   |  5 |  4 sec
+   i   | 17 |  2 sec
+   j   | 31 |  2 sec
+   k   | 17 |  3 sec
+   l   |  5 |  3 sec
+   m   | 31 |  4 sec
+   n   | 31 |  2 sec
+   o   | 31 |  1 sec
+   p   | 11 |  3 sec
+   q   |  5 |  3 sec
+   r   | 11 |  5 sec
+   s   | 11 |  3 sec
+   t   | 11 |  1 sec
+   u   | 11 |  4 sec
+   v   |  5 |  5 sec
+   w   | 31 |  5 sec
+   x   |  5 |  1 sec
+   y   | 31 |  5 sec
+   z   | 17 |  1 sec
+   0   | 17 |  4 sec
+   1   | 17 |  1 sec
+   2   | 17 |  2 sec
+   3   |  5 |  1 sec
+   4   | 11 |  5 sec
+   5   |  5 |  4 sec
+   6   | 11 |  5 sec
+   7   | 11 |  4 sec
+   8   |  5 |  5 sec
+   9   | 11 |  4 sec
+   A   |  5 |  1 sec
+   B   | 31 |  5 sec
+   C   |  5 |  1 sec
+   D   |  5 |  5 sec
+   E   | 11 |  5 sec
+   F   | 11 |  4 sec
+   G   | 31 |  1 sec
+   H   |  5 |  1 sec
+   I   |  5 |  3 sec
+   J   | 17 |  2 sec
+   K   | 11 |  2 sec
+   L   | 11 |  4 sec
+   M   | 17 |  3 sec
+   N   | 31 |  3 sec
+   O   |  5 |  2 sec
+   P   | 17 |  2 sec
+   Q   | 11 |  5 sec
+   R   | 17 |  1 sec
+   S   |  5 |  3 sec
+   T   | 11 |  2 sec
+   U   | 31 |  1 sec
+   V   |  5 |  1 sec
+   W   |  5 |  1 sec
+   X   | 31 |  5 sec
+   Y   | 11 |  3 sec
+   Z   |  5 |  1 sec
+   a   | 17 |  1 sec
+   b   |  5 |  5 sec
+   c   | 31 |  5 sec
+   d   | 11 |  1 sec
+   e   | 31 |  4 sec
+   f   | 17 |  5 sec
+   g   | 31 |  2 sec
+   h   | 17 |  3 sec
+   i   | 17 |  4 sec
+   j   |  5 |  5 sec
+   k   |  5 |  1 sec
+   l   | 31 |  1 sec
+   m   |  5 |  3 sec
+   n   |  5 |  5 sec
+   o   | 17 |  3 sec
+   p   | 31 |  2 sec
+   q   | 11 |  2 sec
+   r   | 31 |  3 sec
+   s   | 11 |  4 sec
+   t   | 31 |  4 sec
+   u   | 17 |  4 sec
+   v   | 11 |  5 sec
+   w   | 17 |  2 sec
+   x   |  5 |  5 sec
+   y   | 11 |  5 sec
+   z   | 11 |  5 sec
+   0   |  5 |  1 sec
+   1   |  5 |  5 sec
+   2   | 17 |  4 sec
+   3   | 11 |  5 sec
+   4   |  5 |  2 sec
+   5   |  5 |  1 sec
+   6   | 17 |  1 sec
+   7   | 11 |  5 sec
+   8   | 31 |  5 sec
+   9   | 31 |  3 sec
+   A   | 17 |  5 sec
+   B   | 31 |  2 sec
+   C   | 17 |  4 sec
+   D   | 31 |  2 sec
+   E   | 31 |  2 sec
+   F   | 31 |  3 sec
+   G   | 11 |  2 sec
+   H   | 17 |  1 sec
+   I   | 31 |  3 sec
+   J   | 31 |  3 sec
+   K   | 17 |  2 sec
+   L   |  5 |  1 sec
+   M   | 31 |  5 sec
+   N   | 31 |  2 sec
+   O   | 11 |  5 sec
+   P   | 31 |  1 sec
+
++ Added Process 0 | Size:  5 | Duration: 3
+
++ Added Process 1 | Size: 17 | Duration: 3
+
++ Added Process 2 | Size: 31 | Duration: 4
+
++ Added Process 3 | Size:  5 | Duration: 1
+
++ Added Process 4 | Size:  5 | Duration: 4
+
++ Added Process 5 | Size: 17 | Duration: 5
+
++ Added Process 6 | Size: 11 | Duration: 1
+
++ Added Process 7 | Size:  5 | Duration: 1
+
+Cannot fit process 8
+
+0000011111111111111111222
+2222222222222222222222222
+2223333344444555555555555
+555556666666666677777....
+
+00:00
+
+Cannot fit process 8
+
+0000011111111111111111222
+2222222222222222222222222
+222.....44444555555555555
+55555....................
+
+00:01
+
+Cannot fit process 8
+
+0000011111111111111111222
+2222222222222222222222222
+222.....44444555555555555
+55555....................
+
+00:02
+
+Cannot fit process 8
+
+......................222
+2222222222222222222222222
+222.....44444555555555555
+55555....................
+
+00:03
++ Added Process 8 | Size: 31 | Duration: 3
+
+8888888888888888888888888
+888888...................
+.............555555555555
+55555....................
+
+00:04
++ Added Process 9 | Size: 11 | Duration: 3
+
+8888888888888888888888888
+88888899999999999........
+.........................
+.........................
+
+00:05
++ Added Process A | Size: 17 | Duration: 3
+
+8888888888888888888888888
+88888899999999999AAAAAAAA
+AAAAAAAAA................
+.........................
+
+00:06
++ Added Process B | Size: 17 | Duration: 2
+
+BBBBBBBBBBBBBBBBB........
+......99999999999AAAAAAAA
+AAAAAAAAA................
+.........................
+
+00:07
++ Added Process C | Size: 31 | Duration: 2
+
+BBBBBBBBBBBBBBBBB........
+.................AAAAAAAA
+AAAAAAAAACCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCC..........
+
+00:08
++ Added Process D | Size:  5 | Duration: 5
+
+.........................
+.........................
+.........CCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCDDDDD.....
+
+00:09
++ Added Process E | Size: 31 | Duration: 5
+
+EEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEE...................
+.........................
+...............DDDDD.....
+
+00:10
++ Added Process F | Size: 17 | Duration: 5
+
+EEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEEFFFFFFFFFFFFFFFFF..
+.........................
+...............DDDDD.....
+
+00:11
++ Added Process G | Size:  5 | Duration: 5
+
+EEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEEFFFFFFFFFFFFFFFFF..
+.........................
+...............DDDDDGGGGG
+
+00:12
++ Added Process H | Size: 17 | Duration: 3
+
+EEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEEFFFFFFFFFFFFFFFFFHH
+HHHHHHHHHHHHHHH..........
+...............DDDDDGGGGG
+
+00:13
+
+Cannot fit process I
+
+EEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEEFFFFFFFFFFFFFFFFFHH
+HHHHHHHHHHHHHHH..........
+....................GGGGG
+
+00:14
++ Added Process I | Size: 31 | Duration: 3
+
+IIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIFFFFFFFFFFFFFFFFFHH
+HHHHHHHHHHHHHHH..........
+....................GGGGG
+
+00:15
++ Added Process J | Size: 11 | Duration: 5
+
+IIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIJJJJJJJJJJJ........
+.........................
+....................GGGGG
+
+00:16
++ Added Process K | Size: 11 | Duration: 3
+
+IIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIJJJJJJJJJJJKKKKKKKK
+KKK......................
+.........................
+
+00:17
++ Added Process L | Size: 31 | Duration: 5
+
+LLLLLLLLLLLLLLLLLLLLLLLLL
+LLLLLLJJJJJJJJJJJKKKKKKKK
+KKK......................
+.........................
+
+00:18
++ Added Process M | Size: 17 | Duration: 2
+
+LLLLLLLLLLLLLLLLLLLLLLLLL
+LLLLLLJJJJJJJJJJJKKKKKKKK
+KKKMMMMMMMMMMMMMMMMM.....
+.........................
+
+00:19
++ Added Process N | Size: 17 | Duration: 2
+
+LLLLLLLLLLLLLLLLLLLLLLLLL
+LLLLLLJJJJJJJJJJJ........
+...MMMMMMMMMMMMMMMMMNNNNN
+NNNNNNNNNNNN.............
+
+00:20
++ Added Process O | Size: 17 | Duration: 5
+
+LLLLLLLLLLLLLLLLLLLLLLLLL
+LLLLLLOOOOOOOOOOOOOOOOO..
+....................NNNNN
+NNNNNNNNNNNN.............
+
+00:21
++ Added Process P | Size: 31 | Duration: 3
+
+LLLLLLLLLLLLLLLLLLLLLLLLL
+LLLLLLOOOOOOOOOOOOOOOOOPP
+PPPPPPPPPPPPPPPPPPPPPPPPP
+PPPP.....................
+
+00:22
++ Added Process Q | Size: 11 | Duration: 4
+
+.........................
+......OOOOOOOOOOOOOOOOOPP
+PPPPPPPPPPPPPPPPPPPPPPPPP
+PPPPQQQQQQQQQQQ..........
+
+00:23
++ Added Process R | Size: 11 | Duration: 2
+
+RRRRRRRRRRR..............
+......OOOOOOOOOOOOOOOOOPP
+PPPPPPPPPPPPPPPPPPPPPPPPP
+PPPPQQQQQQQQQQQ..........
+
+00:24
++ Added Process S | Size: 31 | Duration: 5
+
+RRRRRRRRRRR..............
+......OOOOOOOOOOOOOOOOOSS
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSQQQQQQQQQQQ..........
+
+00:25
++ Added Process T | Size:  5 | Duration: 1
+
+.........................
+.......................SS
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSQQQQQQQQQQQTTTTT.....
+
+00:26
++ Added Process U | Size: 31 | Duration: 5
+
+UUUUUUUUUUUUUUUUUUUUUUUUU
+UUUUUU.................SS
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSS.....................
+
+00:27
++ Added Process V | Size: 11 | Duration: 3
+
+UUUUUUUUUUUUUUUUUUUUUUUUU
+UUUUUUVVVVVVVVVVV......SS
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSS.....................
+
+00:28
+
+Cannot fit process W
+
+UUUUUUUUUUUUUUUUUUUUUUUUU
+UUUUUUVVVVVVVVVVV......SS
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSS.....................
+
+00:29
++ Added Process W | Size: 31 | Duration: 5
+
+UUUUUUUUUUUUUUUUUUUUUUUUU
+UUUUUUVVVVVVVVVVVWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWW..
+.........................
+
+00:30
++ Added Process X | Size: 11 | Duration: 3
+
+UUUUUUUUUUUUUUUUUUUUUUUUU
+UUUUUUXXXXXXXXXXXWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWW..
+.........................
+
+00:31
++ Added Process Y | Size: 11 | Duration: 2
+
+.........................
+......XXXXXXXXXXXWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWYY
+YYYYYYYYY................
+
+00:32
++ Added Process Z | Size: 11 | Duration: 1
+
+.........................
+......XXXXXXXXXXXWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWYY
+YYYYYYYYYZZZZZZZZZZZ.....
+
+00:33
++ Added Process a | Size:  5 | Duration: 3
+
+.........................
+.................WWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWaa
+aaa......................
+
+00:34
++ Added Process b | Size: 31 | Duration: 5
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbb...................
+.......................aa
+aaa......................
+
+00:35
++ Added Process c | Size:  5 | Duration: 4
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbb...................
+.......................aa
+aaaccccc.................
+
+00:36
++ Added Process d | Size: 31 | Duration: 1
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbddddddddddddddddddd
+dddddddddddd.............
+...ccccc.................
+
+00:37
++ Added Process e | Size: 31 | Duration: 5
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeee.............
+...ccccc.................
+
+00:38
++ Added Process f | Size: 11 | Duration: 3
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeefffffffffff..
+...ccccc.................
+
+00:39
++ Added Process g | Size: 17 | Duration: 3
+
+.........................
+......eeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeefffffffffffgg
+ggggggggggggggg..........
+
+00:40
++ Added Process h | Size:  5 | Duration: 4
+
+.........................
+......eeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeefffffffffffgg
+ggggggggggggggghhhhh.....
+
+00:41
++ Added Process i | Size: 17 | Duration: 2
+
+iiiiiiiiiiiiiiiii........
+......eeeeeeeeeeeeeeeeeee
+eeeeeeeeeeee...........gg
+ggggggggggggggghhhhh.....
+
+00:42
++ Added Process j | Size: 31 | Duration: 2
+
+iiiiiiiiiiiiiiiiijjjjjjjj
+jjjjjjjjjjjjjjjjjjjjjjj..
+.........................
+...............hhhhh.....
+
+00:43
++ Added Process k | Size: 17 | Duration: 3
+
+kkkkkkkkkkkkkkkkkjjjjjjjj
+jjjjjjjjjjjjjjjjjjjjjjj..
+.........................
+...............hhhhh.....
+
+00:44
++ Added Process l | Size:  5 | Duration: 3
+
+kkkkkkkkkkkkkkkkklllll...
+.........................
+.........................
+.........................
+
+00:45
++ Added Process m | Size: 31 | Duration: 4
+
+kkkkkkkkkkkkkkkkklllllmmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmm......................
+.........................
+
+00:46
++ Added Process n | Size: 31 | Duration: 2
+
+.................lllllmmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnnnn................
+
+00:47
+
+Cannot fit process o
+
+......................mmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnnnn................
+
+00:48
++ Added Process o | Size: 31 | Duration: 1
+
+......................mmm
+mmmmmmmmmmmmmmmmmmmmmmmmm
+mmmoooooooooooooooooooooo
+ooooooooo................
+
+00:49
++ Added Process p | Size: 11 | Duration: 3
+
+ppppppppppp..............
+.........................
+.........................
+.........................
+
+00:50
++ Added Process q | Size:  5 | Duration: 3
+
+pppppppppppqqqqq.........
+.........................
+.........................
+.........................
+
+00:51
++ Added Process r | Size: 11 | Duration: 5
+
+pppppppppppqqqqqrrrrrrrrr
+rr.......................
+.........................
+.........................
+
+00:52
++ Added Process s | Size: 11 | Duration: 3
+
+sssssssssssqqqqqrrrrrrrrr
+rr.......................
+.........................
+.........................
+
+00:53
++ Added Process t | Size: 11 | Duration: 1
+
+sssssssssss.....rrrrrrrrr
+rrttttttttttt............
+.........................
+.........................
+
+00:54
++ Added Process u | Size: 11 | Duration: 4
+
+sssssssssss.....rrrrrrrrr
+rruuuuuuuuuuu............
+.........................
+.........................
+
+00:55
++ Added Process v | Size:  5 | Duration: 5
+
+vvvvv...........rrrrrrrrr
+rruuuuuuuuuuu............
+.........................
+.........................
+
+00:56
++ Added Process w | Size: 31 | Duration: 5
+
+vvvvv....................
+..uuuuuuuuuuuwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwww......
+.........................
+
+00:57
++ Added Process x | Size:  5 | Duration: 1
+
+vvvvvxxxxx...............
+..uuuuuuuuuuuwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwww......
+.........................
+
+00:58
++ Added Process y | Size: 31 | Duration: 5
+
+vvvvv....................
+.............wwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwyyyyyy
+yyyyyyyyyyyyyyyyyyyyyyyyy
+
+00:59
++ Added Process z | Size: 17 | Duration: 1
+
+vvvvvzzzzzzzzzzzzzzzzz...
+.............wwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwyyyyyy
+yyyyyyyyyyyyyyyyyyyyyyyyy
+
+00:60
++ Added Process 0 | Size: 17 | Duration: 4
+
+00000000000000000........
+.............wwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwyyyyyy
+yyyyyyyyyyyyyyyyyyyyyyyyy
+Simulation Time Exceeded
+Swapped Processes: 63
+
+Process|Size|Duration
+   0   | 17 |  5 sec
+   1   | 11 |  1 sec
+   2   | 17 |  4 sec
+   3   |  5 |  1 sec
+   4   | 17 |  1 sec
+   5   |  5 |  1 sec
+   6   | 31 |  2 sec
+   7   | 17 |  5 sec
+   8   | 17 |  1 sec
+   9   | 17 |  1 sec
+   A   |  5 |  1 sec
+   B   | 11 |  2 sec
+   C   | 31 |  1 sec
+   D   | 11 |  5 sec
+   E   | 17 |  1 sec
+   F   | 11 |  5 sec
+   G   |  5 |  1 sec
+   H   | 31 |  1 sec
+   I   | 11 |  3 sec
+   J   | 31 |  5 sec
+   K   | 11 |  1 sec
+   L   | 11 |  1 sec
+   M   |  5 |  4 sec
+   N   | 11 |  5 sec
+   O   | 17 |  2 sec
+   P   | 17 |  3 sec
+   Q   | 11 |  1 sec
+   R   | 31 |  2 sec
+   S   | 31 |  3 sec
+   T   | 31 |  5 sec
+   U   | 17 |  1 sec
+   V   | 17 |  5 sec
+   W   | 31 |  2 sec
+   X   | 11 |  3 sec
+   Y   | 31 |  4 sec
+   Z   | 31 |  1 sec
+   a   | 17 |  1 sec
+   b   | 31 |  2 sec
+   c   | 31 |  5 sec
+   d   |  5 |  4 sec
+   e   | 31 |  4 sec
+   f   | 31 |  3 sec
+   g   |  5 |  4 sec
+   h   |  5 |  4 sec
+   i   | 31 |  2 sec
+   j   | 11 |  2 sec
+   k   | 31 |  3 sec
+   l   | 31 |  1 sec
+   m   | 31 |  4 sec
+   n   | 17 |  4 sec
+   o   | 31 |  4 sec
+   p   | 17 |  2 sec
+   q   | 11 |  4 sec
+   r   | 31 |  2 sec
+   s   | 11 |  5 sec
+   t   | 17 |  4 sec
+   u   |  5 |  2 sec
+   v   |  5 |  5 sec
+   w   | 31 |  4 sec
+   x   | 31 |  4 sec
+   y   | 31 |  2 sec
+   z   | 31 |  1 sec
+   0   | 17 |  3 sec
+   1   |  5 |  4 sec
+   2   | 17 |  2 sec
+   3   | 31 |  2 sec
+   4   | 17 |  4 sec
+   5   | 17 |  1 sec
+   6   | 11 |  2 sec
+   7   |  5 |  5 sec
+   8   | 31 |  3 sec
+   9   | 31 |  2 sec
+   A   | 17 |  4 sec
+   B   | 17 |  3 sec
+   C   | 31 |  1 sec
+   D   | 31 |  5 sec
+   E   | 11 |  3 sec
+   F   | 31 |  3 sec
+   G   |  5 |  3 sec
+   H   |  5 |  1 sec
+   I   |  5 |  3 sec
+   J   | 17 |  3 sec
+   K   | 31 |  2 sec
+   L   | 17 |  5 sec
+   M   |  5 |  3 sec
+   N   | 31 |  2 sec
+   O   | 31 |  2 sec
+   P   | 11 |  2 sec
+   Q   |  5 |  3 sec
+   R   | 17 |  2 sec
+   S   | 11 |  2 sec
+   T   |  5 |  1 sec
+   U   | 31 |  3 sec
+   V   | 11 |  1 sec
+   W   | 17 |  4 sec
+   X   |  5 |  1 sec
+   Y   |  5 |  2 sec
+   Z   | 11 |  1 sec
+   a   | 17 |  4 sec
+   b   |  5 |  3 sec
+   c   |  5 |  4 sec
+   d   | 11 |  4 sec
+   e   |  5 |  1 sec
+   f   | 31 |  4 sec
+   g   | 17 |  1 sec
+   h   | 31 |  2 sec
+   i   | 31 |  5 sec
+   j   |  5 |  2 sec
+   k   | 17 |  2 sec
+   l   | 11 |  1 sec
+   m   | 31 |  2 sec
+   n   | 31 |  4 sec
+   o   | 31 |  2 sec
+   p   | 17 |  3 sec
+   q   | 17 |  2 sec
+   r   |  5 |  2 sec
+   s   |  5 |  4 sec
+   t   |  5 |  1 sec
+   u   | 31 |  1 sec
+   v   |  5 |  5 sec
+   w   |  5 |  4 sec
+   x   | 31 |  1 sec
+   y   | 11 |  2 sec
+   z   | 11 |  4 sec
+   0   | 11 |  1 sec
+   1   |  5 |  4 sec
+   2   | 17 |  1 sec
+   3   | 17 |  4 sec
+   4   | 17 |  3 sec
+   5   | 31 |  1 sec
+   6   | 17 |  1 sec
+   7   | 11 |  1 sec
+   8   | 31 |  3 sec
+   9   | 17 |  2 sec
+   A   | 31 |  2 sec
+   B   | 31 |  3 sec
+   C   |  5 |  4 sec
+   D   | 17 |  5 sec
+   E   | 17 |  1 sec
+   F   | 11 |  4 sec
+   G   |  5 |  3 sec
+   H   | 17 |  2 sec
+   I   | 31 |  3 sec
+   J   |  5 |  4 sec
+   K   |  5 |  1 sec
+   L   |  5 |  1 sec
+   M   | 11 |  4 sec
+   N   | 11 |  3 sec
+   O   | 11 |  3 sec
+   P   | 17 |  2 sec
+
++ Added Process 0 | Size: 17 | Duration: 5
+
++ Added Process 1 | Size: 11 | Duration: 1
+
++ Added Process 2 | Size: 17 | Duration: 4
+
++ Added Process 3 | Size:  5 | Duration: 1
+
++ Added Process 4 | Size: 17 | Duration: 1
+
++ Added Process 5 | Size:  5 | Duration: 1
+
+Cannot fit process 6
+
+0000000000000000011111111
+1112222222222222222233333
+4444444444444444455555...
+.........................
+
+00:00
++ Added Process 6 | Size: 31 | Duration: 2
+
+00000000000000000........
+...2222222222222222266666
+6666666666666666666666666
+6........................
+
+00:01
++ Added Process 7 | Size: 17 | Duration: 5
+
+00000000000000000........
+...2222222222222222266666
+6666666666666666666666666
+677777777777777777.......
+
+00:02
++ Added Process 8 | Size: 17 | Duration: 1
+
+00000000000000000........
+...2222222222222222288888
+888888888888.............
+.77777777777777777.......
+
+00:03
++ Added Process 9 | Size: 17 | Duration: 1
+
+0000000000000000099999999
+999999999................
+.........................
+.77777777777777777.......
+
+00:04
++ Added Process A | Size:  5 | Duration: 1
+
+.........................
+.........................
+.........................
+.77777777777777777AAAAA..
+
+00:05
++ Added Process B | Size: 11 | Duration: 2
+
+BBBBBBBBBBB..............
+.........................
+.........................
+.77777777777777777.......
+
+00:06
++ Added Process C | Size: 31 | Duration: 1
+
+BBBBBBBBBBBCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCC........
+.........................
+.........................
+
+00:07
++ Added Process D | Size: 11 | Duration: 5
+
+DDDDDDDDDDD..............
+.........................
+.........................
+.........................
+
+00:08
++ Added Process E | Size: 17 | Duration: 1
+
+DDDDDDDDDDDEEEEEEEEEEEEEE
+EEE......................
+.........................
+.........................
+
+00:09
++ Added Process F | Size: 11 | Duration: 5
+
+DDDDDDDDDDDFFFFFFFFFFF...
+.........................
+.........................
+.........................
+
+00:10
++ Added Process G | Size:  5 | Duration: 1
+
+DDDDDDDDDDDFFFFFFFFFFFGGG
+GG.......................
+.........................
+.........................
+
+00:11
++ Added Process H | Size: 31 | Duration: 1
+
+DDDDDDDDDDDFFFFFFFFFFFHHH
+HHHHHHHHHHHHHHHHHHHHHHHHH
+HHH......................
+.........................
+
+00:12
++ Added Process I | Size: 11 | Duration: 3
+
+IIIIIIIIIIIFFFFFFFFFFF...
+.........................
+.........................
+.........................
+
+00:13
++ Added Process J | Size: 31 | Duration: 5
+
+IIIIIIIIIIIFFFFFFFFFFFJJJ
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJ......................
+.........................
+
+00:14
++ Added Process K | Size: 11 | Duration: 1
+
+IIIIIIIIIIIKKKKKKKKKKKJJJ
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJ......................
+.........................
+
+00:15
++ Added Process L | Size: 11 | Duration: 1
+
+LLLLLLLLLLL...........JJJ
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJ......................
+.........................
+
+00:16
++ Added Process M | Size:  5 | Duration: 4
+
+MMMMM.................JJJ
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJ......................
+.........................
+
+00:17
++ Added Process N | Size: 11 | Duration: 5
+
+MMMMMNNNNNNNNNNN......JJJ
+JJJJJJJJJJJJJJJJJJJJJJJJJ
+JJJ......................
+.........................
+
+00:18
++ Added Process O | Size: 17 | Duration: 2
+
+MMMMMNNNNNNNNNNNOOOOOOOOO
+OOOOOOOO.................
+.........................
+.........................
+
+00:19
++ Added Process P | Size: 17 | Duration: 3
+
+MMMMMNNNNNNNNNNNOOOOOOOOO
+OOOOOOOOPPPPPPPPPPPPPPPPP
+.........................
+.........................
+
+00:20
++ Added Process Q | Size: 11 | Duration: 1
+
+.....NNNNNNNNNNNQQQQQQQQQ
+QQ......PPPPPPPPPPPPPPPPP
+.........................
+.........................
+
+00:21
++ Added Process R | Size: 31 | Duration: 2
+
+.....NNNNNNNNNNN.........
+........PPPPPPPPPPPPPPPPP
+RRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRR...................
+
+00:22
++ Added Process S | Size: 31 | Duration: 3
+
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSS...................
+RRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRR...................
+
+00:23
++ Added Process T | Size: 31 | Duration: 5
+
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTT.............
+.........................
+
+00:24
++ Added Process U | Size: 17 | Duration: 1
+
+SSSSSSSSSSSSSSSSSSSSSSSSS
+SSSSSSTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTUUUUUUUUUUUUU
+UUUU.....................
+
+00:25
++ Added Process V | Size: 17 | Duration: 5
+
+VVVVVVVVVVVVVVVVV........
+......TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTT.............
+.........................
+
+00:26
++ Added Process W | Size: 31 | Duration: 2
+
+VVVVVVVVVVVVVVVVV........
+......TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWW.......
+
+00:27
++ Added Process X | Size: 11 | Duration: 3
+
+VVVVVVVVVVVVVVVVVXXXXXXXX
+XXX...TTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWW.......
+
+00:28
++ Added Process Y | Size: 31 | Duration: 4
+
+VVVVVVVVVVVVVVVVVXXXXXXXX
+XXXYYYYYYYYYYYYYYYYYYYYYY
+YYYYYYYYY................
+.........................
+
+00:29
++ Added Process Z | Size: 31 | Duration: 1
+
+VVVVVVVVVVVVVVVVVXXXXXXXX
+XXXYYYYYYYYYYYYYYYYYYYYYY
+YYYYYYYYYZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZ..........
+
+00:30
++ Added Process a | Size: 17 | Duration: 1
+
+aaaaaaaaaaaaaaaaa........
+...YYYYYYYYYYYYYYYYYYYYYY
+YYYYYYYYY................
+.........................
+
+00:31
++ Added Process b | Size: 31 | Duration: 2
+
+.........................
+...YYYYYYYYYYYYYYYYYYYYYY
+YYYYYYYYYbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb..........
+
+00:32
++ Added Process c | Size: 31 | Duration: 5
+
+ccccccccccccccccccccccccc
+cccccc...................
+.........bbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb..........
+
+00:33
++ Added Process d | Size:  5 | Duration: 4
+
+ccccccccccccccccccccccccc
+ccccccddddd..............
+.........................
+.........................
+
+00:34
++ Added Process e | Size: 31 | Duration: 4
+
+ccccccccccccccccccccccccc
+ccccccdddddeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeee........
+.........................
+
+00:35
++ Added Process f | Size: 31 | Duration: 3
+
+ccccccccccccccccccccccccc
+ccccccdddddeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeffffffff
+fffffffffffffffffffffff..
+
+00:36
+
+Cannot fit process g
+
+ccccccccccccccccccccccccc
+ccccccdddddeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeffffffff
+fffffffffffffffffffffff..
+
+00:37
++ Added Process g | Size:  5 | Duration: 4
+
+ggggg....................
+...........eeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeffffffff
+fffffffffffffffffffffff..
+
+00:38
++ Added Process h | Size:  5 | Duration: 4
+
+ggggghhhhh...............
+.........................
+.........................
+.........................
+
+00:39
++ Added Process i | Size: 31 | Duration: 2
+
+ggggghhhhhiiiiiiiiiiiiiii
+iiiiiiiiiiiiiiii.........
+.........................
+.........................
+
+00:40
++ Added Process j | Size: 11 | Duration: 2
+
+ggggghhhhhiiiiiiiiiiiiiii
+iiiiiiiiiiiiiiiijjjjjjjjj
+jj.......................
+.........................
+
+00:41
++ Added Process k | Size: 31 | Duration: 3
+
+.....hhhhhkkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkjjjjjjjjj
+jj.......................
+.........................
+
+00:42
++ Added Process l | Size: 31 | Duration: 1
+
+..........kkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkklllllllll
+llllllllllllllllllllll...
+.........................
+
+00:43
++ Added Process m | Size: 31 | Duration: 4
+
+..........kkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmm...
+.........................
+
+00:44
++ Added Process n | Size: 17 | Duration: 4
+
+.........................
+................mmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmnnn
+nnnnnnnnnnnnnn...........
+
+00:45
++ Added Process o | Size: 31 | Duration: 4
+
+ooooooooooooooooooooooooo
+oooooo..........mmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmnnn
+nnnnnnnnnnnnnn...........
+
+00:46
+
+Cannot fit process p
+
+ooooooooooooooooooooooooo
+oooooo..........mmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmnnn
+nnnnnnnnnnnnnn...........
+
+00:47
++ Added Process p | Size: 17 | Duration: 2
+
+ooooooooooooooooooooooooo
+ooooooppppppppppppppppp..
+......................nnn
+nnnnnnnnnnnnnn...........
+
+00:48
++ Added Process q | Size: 11 | Duration: 4
+
+ooooooooooooooooooooooooo
+oooooopppppppppppppppppqq
+qqqqqqqqq................
+.........................
+
+00:49
++ Added Process r | Size: 31 | Duration: 2
+
+.........................
+.......................qq
+qqqqqqqqqrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrr..........
+
+00:50
++ Added Process s | Size: 11 | Duration: 5
+
+sssssssssss..............
+.......................qq
+qqqqqqqqqrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrr..........
+
+00:51
++ Added Process t | Size: 17 | Duration: 4
+
+ssssssssssstttttttttttttt
+ttt....................qq
+qqqqqqqqq................
+.........................
+
+00:52
++ Added Process u | Size:  5 | Duration: 2
+
+ssssssssssstttttttttttttt
+tttuuuuu.................
+.........................
+.........................
+
+00:53
++ Added Process v | Size:  5 | Duration: 5
+
+ssssssssssstttttttttttttt
+tttuuuuuvvvvv............
+.........................
+.........................
+
+00:54
++ Added Process w | Size: 31 | Duration: 4
+
+ssssssssssstttttttttttttt
+ttt.....vvvvvwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwww......
+.........................
+
+00:55
++ Added Process x | Size: 31 | Duration: 4
+
+.........................
+........vvvvvwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+00:56
++ Added Process y | Size: 31 | Duration: 2
+
+yyyyyyyyyyyyyyyyyyyyyyyyy
+yyyyyy..vvvvvwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+00:57
+
+Cannot fit process z
+
+yyyyyyyyyyyyyyyyyyyyyyyyy
+yyyyyy..vvvvvwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+00:58
++ Added Process z | Size: 31 | Duration: 1
+
+zzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzz...................
+...................xxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+00:59
++ Added Process 0 | Size: 17 | Duration: 3
+
+00000000000000000........
+.........................
+.........................
+.........................
+
+00:60
++ Added Process 1 | Size:  5 | Duration: 4
+
+0000000000000000011111...
+.........................
+.........................
+.........................
+Simulation Time Exceeded
+Swapped Processes: 64

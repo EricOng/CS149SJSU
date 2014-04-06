@@ -1,0 +1,2750 @@
+0 Called page A
++ Added  page A
+= Pages: [A|*|*|*]
+0 Called page A
+Page A accessed 0 -> 1
+= Pages: [A|*|*|*]
+0 Called page J
++ Added  page J
+= Pages: [A|J|*|*]
+0 Called page E
++ Added  page E
+= Pages: [A|J|E|*]
+0 Called page I
++ Added  page I
+= Pages: [A|J|E|I]
+0 Called page C
+page A has freq 1
+page J has freq 0
+page E has freq 0
+page I has freq 0
+Most freq page A 
+- Removed page A
++ Added  page C
+= Pages: [J|E|I|C]
+0 Called page B
+page J has freq 0
+page E has freq 0
+page I has freq 0
+page C has freq 0
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [J|E|I|B]
+0 Called page I
+Page I accessed 0 -> 1
+= Pages: [J|E|I|B]
+0 Called page I
+Page I accessed 1 -> 2
+= Pages: [J|E|I|B]
+0 Called page I
+Page I accessed 2 -> 3
+= Pages: [J|E|I|B]
+0 Called page H
+page J has freq 0
+page E has freq 0
+page I has freq 3
+page B has freq 0
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [J|E|B|H]
+0 Called page B
+Page B accessed 0 -> 1
+= Pages: [J|E|B|H]
+0 Called page A
+page J has freq 0
+page E has freq 0
+page B has freq 1
+page H has freq 0
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [J|E|H|A]
+0 Called page J
+Page J accessed 0 -> 1
+= Pages: [J|E|H|A]
+0 Called page I
+page J has freq 1
+page E has freq 0
+page H has freq 0
+page A has freq 1
+Most freq page A 
+- Removed page A
++ Added  page I
+= Pages: [J|E|H|I]
+0 Called page H
+Page H accessed 0 -> 1
+= Pages: [J|E|H|I]
+0 Called page H
+Page H accessed 1 -> 2
+= Pages: [J|E|H|I]
+0 Called page H
+Page H accessed 2 -> 3
+= Pages: [J|E|H|I]
+0 Called page G
+page J has freq 1
+page E has freq 0
+page H has freq 3
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page G
+= Pages: [J|E|H|G]
+0 Called page G
+Page G accessed 0 -> 1
+= Pages: [J|E|H|G]
+0 Called page G
+Page G accessed 1 -> 2
+= Pages: [J|E|H|G]
+0 Called page F
+page J has freq 1
+page E has freq 0
+page H has freq 3
+page G has freq 2
+Most freq page H 
+- Removed page H
++ Added  page F
+= Pages: [J|E|G|F]
+0 Called page E
+Page E accessed 0 -> 1
+= Pages: [J|E|G|F]
+0 Called page D
+page J has freq 1
+page E has freq 1
+page G has freq 2
+page F has freq 0
+Most freq page G 
+- Removed page G
++ Added  page D
+= Pages: [J|E|F|D]
+0 Called page A
+page J has freq 1
+page E has freq 1
+page F has freq 0
+page D has freq 0
+Most freq page E 
+- Removed page E
++ Added  page A
+= Pages: [J|F|D|A]
+0 Called page F
+Page F accessed 0 -> 1
+= Pages: [J|F|D|A]
+0 Called page F
+Page F accessed 1 -> 2
+= Pages: [J|F|D|A]
+0 Called page F
+Page F accessed 2 -> 3
+= Pages: [J|F|D|A]
+0 Called page F
+Page F accessed 3 -> 4
+= Pages: [J|F|D|A]
+0 Called page E
+page J has freq 1
+page F has freq 4
+page D has freq 0
+page A has freq 1
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [J|D|A|E]
+0 Called page E
+Page E accessed 1 -> 2
+= Pages: [J|D|A|E]
+0 Called page D
+Page D accessed 0 -> 1
+= Pages: [J|D|A|E]
+0 Called page D
+Page D accessed 1 -> 2
+= Pages: [J|D|A|E]
+0 Called page F
+page J has freq 1
+page D has freq 2
+page A has freq 1
+page E has freq 2
+Most freq page E 
+- Removed page E
++ Added  page F
+= Pages: [J|D|A|F]
+0 Called page F
+Page F accessed 4 -> 5
+= Pages: [J|D|A|F]
+0 Called page E
+page J has freq 1
+page D has freq 2
+page A has freq 1
+page F has freq 5
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [J|D|A|E]
+0 Called page E
+Page E accessed 2 -> 3
+= Pages: [J|D|A|E]
+0 Called page H
+page J has freq 1
+page D has freq 2
+page A has freq 1
+page E has freq 3
+Most freq page E 
+- Removed page E
++ Added  page H
+= Pages: [J|D|A|H]
+0 Called page J
+Page J accessed 1 -> 2
+= Pages: [J|D|A|H]
+0 Called page I
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page H has freq 3
+Most freq page H 
+- Removed page H
++ Added  page I
+= Pages: [J|D|A|I]
+0 Called page H
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [J|D|A|H]
+0 Called page G
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page H has freq 3
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [J|D|A|G]
+0 Called page G
+Page G accessed 2 -> 3
+= Pages: [J|D|A|G]
+0 Called page F
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page G has freq 3
+Most freq page G 
+- Removed page G
++ Added  page F
+= Pages: [J|D|A|F]
+0 Called page F
+Page F accessed 5 -> 6
+= Pages: [J|D|A|F]
+0 Called page F
+Page F accessed 6 -> 7
+= Pages: [J|D|A|F]
+0 Called page H
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page F has freq 7
+Most freq page F 
+- Removed page F
++ Added  page H
+= Pages: [J|D|A|H]
+0 Called page H
+Page H accessed 3 -> 4
+= Pages: [J|D|A|H]
+0 Called page H
+Page H accessed 4 -> 5
+= Pages: [J|D|A|H]
+0 Called page G
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page H has freq 5
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [J|D|A|G]
+0 Called page G
+Page G accessed 3 -> 4
+= Pages: [J|D|A|G]
+0 Called page I
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page G has freq 4
+Most freq page G 
+- Removed page G
++ Added  page I
+= Pages: [J|D|A|I]
+0 Called page H
+page J has freq 2
+page D has freq 2
+page A has freq 1
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [J|D|A|H]
+0 Called page H
+Page H accessed 5 -> 6
+= Pages: [J|D|A|H]
+0 Called page J
+Page J accessed 2 -> 3
+= Pages: [J|D|A|H]
+0 Called page J
+Page J accessed 3 -> 4
+= Pages: [J|D|A|H]
+0 Called page F
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page H has freq 6
+Most freq page H 
+- Removed page H
++ Added  page F
+= Pages: [J|D|A|F]
+0 Called page F
+Page F accessed 7 -> 8
+= Pages: [J|D|A|F]
+0 Called page F
+Page F accessed 8 -> 9
+= Pages: [J|D|A|F]
+0 Called page F
+Page F accessed 9 -> 10
+= Pages: [J|D|A|F]
+0 Called page E
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page F has freq 10
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [J|D|A|E]
+0 Called page E
+Page E accessed 3 -> 4
+= Pages: [J|D|A|E]
+0 Called page G
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page E has freq 4
+Most freq page E 
+- Removed page E
++ Added  page G
+= Pages: [J|D|A|G]
+0 Called page G
+Page G accessed 4 -> 5
+= Pages: [J|D|A|G]
+0 Called page G
+Page G accessed 5 -> 6
+= Pages: [J|D|A|G]
+0 Called page G
+Page G accessed 6 -> 7
+= Pages: [J|D|A|G]
+0 Called page F
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page G has freq 7
+Most freq page G 
+- Removed page G
++ Added  page F
+= Pages: [J|D|A|F]
+0 Called page E
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page F has freq 10
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [J|D|A|E]
+0 Called page H
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page E has freq 4
+Most freq page E 
+- Removed page E
++ Added  page H
+= Pages: [J|D|A|H]
+0 Called page G
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page H has freq 6
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [J|D|A|G]
+0 Called page B
+page J has freq 4
+page D has freq 2
+page A has freq 1
+page G has freq 7
+Most freq page G 
+- Removed page G
++ Added  page B
+= Pages: [J|D|A|B]
+0 Called page B
+Page B accessed 1 -> 2
+= Pages: [J|D|A|B]
+0 Called page J
+Page J accessed 4 -> 5
+= Pages: [J|D|A|B]
+0 Called page J
+Page J accessed 5 -> 6
+= Pages: [J|D|A|B]
+0 Called page I
+page J has freq 6
+page D has freq 2
+page A has freq 1
+page B has freq 2
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [D|A|B|I]
+0 Called page I
+Page I accessed 3 -> 4
+= Pages: [D|A|B|I]
+0 Called page A
+Page A accessed 1 -> 2
+= Pages: [D|A|B|I]
+0 Called page J
+page D has freq 2
+page A has freq 2
+page B has freq 2
+page I has freq 4
+Most freq page I 
+- Removed page I
++ Added  page J
+= Pages: [D|A|B|J]
+0 Called page E
+page D has freq 2
+page A has freq 2
+page B has freq 2
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page E
+= Pages: [D|A|B|E]
+0 Called page E
+Page E accessed 4 -> 5
+= Pages: [D|A|B|E]
+0 Called page B
+Page B accessed 2 -> 3
+= Pages: [D|A|B|E]
+0 Called page H
+page D has freq 2
+page A has freq 2
+page B has freq 3
+page E has freq 5
+Most freq page E 
+- Removed page E
++ Added  page H
+= Pages: [D|A|B|H]
+0 Called page G
+page D has freq 2
+page A has freq 2
+page B has freq 3
+page H has freq 6
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [D|A|B|G]
+0 Called page D
+Page D accessed 2 -> 3
+= Pages: [D|A|B|G]
+0 Called page C
+page D has freq 3
+page A has freq 2
+page B has freq 3
+page G has freq 7
+Most freq page G 
+- Removed page G
++ Added  page C
+= Pages: [D|A|B|C]
+0 Called page C
+Page C accessed 0 -> 1
+= Pages: [D|A|B|C]
+0 Called page B
+Page B accessed 3 -> 4
+= Pages: [D|A|B|C]
+0 Called page A
+Page A accessed 2 -> 3
+= Pages: [D|A|B|C]
+0 Called page D
+Page D accessed 3 -> 4
+= Pages: [D|A|B|C]
+0 Called page C
+Page C accessed 1 -> 2
+= Pages: [D|A|B|C]
+0 Called page B
+Page B accessed 4 -> 5
+= Pages: [D|A|B|C]
+0 Called page A
+Page A accessed 3 -> 4
+= Pages: [D|A|B|C]
+0 Called page I
+page D has freq 4
+page A has freq 4
+page B has freq 5
+page C has freq 2
+Most freq page B 
+- Removed page B
++ Added  page I
+= Pages: [D|A|C|I]
+0 Called page A
+Page A accessed 4 -> 5
+= Pages: [D|A|C|I]
+0 Called page C
+Page C accessed 2 -> 3
+= Pages: [D|A|C|I]
+0 Called page B
+page D has freq 4
+page A has freq 5
+page C has freq 3
+page I has freq 4
+Most freq page A 
+- Removed page A
++ Added  page B
+= Pages: [D|C|I|B]
+0 Called page A
+page D has freq 4
+page C has freq 3
+page I has freq 4
+page B has freq 5
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [D|C|I|A]
+0 Called page J
+page D has freq 4
+page C has freq 3
+page I has freq 4
+page A has freq 5
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [D|C|I|J]
+0 Called page J
+Page J accessed 6 -> 7
+= Pages: [D|C|I|J]
+0 Called page I
+Page I accessed 4 -> 5
+= Pages: [D|C|I|J]
+----------------------------
+% Hit Ratio: 57
+
+0 Called page A
++ Added  page A
+= Pages: [A|*|*|*]
+0 Called page J
++ Added  page J
+= Pages: [A|J|*|*]
+0 Called page G
++ Added  page G
+= Pages: [A|J|G|*]
+0 Called page G
+Page G accessed 0 -> 1
+= Pages: [A|J|G|*]
+0 Called page G
+Page G accessed 1 -> 2
+= Pages: [A|J|G|*]
+0 Called page G
+Page G accessed 2 -> 3
+= Pages: [A|J|G|*]
+0 Called page G
+Page G accessed 3 -> 4
+= Pages: [A|J|G|*]
+0 Called page A
+Page A accessed 0 -> 1
+= Pages: [A|J|G|*]
+0 Called page A
+Page A accessed 1 -> 2
+= Pages: [A|J|G|*]
+0 Called page D
++ Added  page D
+= Pages: [A|J|G|D]
+0 Called page C
+page A has freq 2
+page J has freq 0
+page G has freq 4
+page D has freq 0
+Most freq page G 
+- Removed page G
++ Added  page C
+= Pages: [A|J|D|C]
+0 Called page B
+page A has freq 2
+page J has freq 0
+page D has freq 0
+page C has freq 0
+Most freq page A 
+- Removed page A
++ Added  page B
+= Pages: [J|D|C|B]
+0 Called page G
+page J has freq 0
+page D has freq 0
+page C has freq 0
+page B has freq 0
+Most freq page B 
+- Removed page B
++ Added  page G
+= Pages: [J|D|C|G]
+0 Called page A
+page J has freq 0
+page D has freq 0
+page C has freq 0
+page G has freq 4
+Most freq page G 
+- Removed page G
++ Added  page A
+= Pages: [J|D|C|A]
+0 Called page A
+Page A accessed 2 -> 3
+= Pages: [J|D|C|A]
+0 Called page J
+Page J accessed 0 -> 1
+= Pages: [J|D|C|A]
+0 Called page J
+Page J accessed 1 -> 2
+= Pages: [J|D|C|A]
+0 Called page J
+Page J accessed 2 -> 3
+= Pages: [J|D|C|A]
+0 Called page J
+Page J accessed 3 -> 4
+= Pages: [J|D|C|A]
+0 Called page J
+Page J accessed 4 -> 5
+= Pages: [J|D|C|A]
+0 Called page D
+Page D accessed 0 -> 1
+= Pages: [J|D|C|A]
+0 Called page G
+page J has freq 5
+page D has freq 1
+page C has freq 0
+page A has freq 3
+Most freq page J 
+- Removed page J
++ Added  page G
+= Pages: [D|C|A|G]
+0 Called page G
+Page G accessed 4 -> 5
+= Pages: [D|C|A|G]
+0 Called page G
+Page G accessed 5 -> 6
+= Pages: [D|C|A|G]
+0 Called page G
+Page G accessed 6 -> 7
+= Pages: [D|C|A|G]
+0 Called page G
+Page G accessed 7 -> 8
+= Pages: [D|C|A|G]
+0 Called page F
+page D has freq 1
+page C has freq 0
+page A has freq 3
+page G has freq 8
+Most freq page G 
+- Removed page G
++ Added  page F
+= Pages: [D|C|A|F]
+0 Called page F
+Page F accessed 0 -> 1
+= Pages: [D|C|A|F]
+0 Called page F
+Page F accessed 1 -> 2
+= Pages: [D|C|A|F]
+0 Called page F
+Page F accessed 2 -> 3
+= Pages: [D|C|A|F]
+0 Called page E
+page D has freq 1
+page C has freq 0
+page A has freq 3
+page F has freq 3
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [D|C|A|E]
+0 Called page I
+page D has freq 1
+page C has freq 0
+page A has freq 3
+page E has freq 0
+Most freq page A 
+- Removed page A
++ Added  page I
+= Pages: [D|C|E|I]
+0 Called page I
+Page I accessed 0 -> 1
+= Pages: [D|C|E|I]
+0 Called page I
+Page I accessed 1 -> 2
+= Pages: [D|C|E|I]
+0 Called page H
+page D has freq 1
+page C has freq 0
+page E has freq 0
+page I has freq 2
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [D|C|E|H]
+0 Called page C
+Page C accessed 0 -> 1
+= Pages: [D|C|E|H]
+0 Called page C
+Page C accessed 1 -> 2
+= Pages: [D|C|E|H]
+0 Called page C
+Page C accessed 2 -> 3
+= Pages: [D|C|E|H]
+0 Called page I
+page D has freq 1
+page C has freq 3
+page E has freq 0
+page H has freq 0
+Most freq page C 
+- Removed page C
++ Added  page I
+= Pages: [D|E|H|I]
+0 Called page I
+Page I accessed 2 -> 3
+= Pages: [D|E|H|I]
+0 Called page H
+Page H accessed 0 -> 1
+= Pages: [D|E|H|I]
+0 Called page G
+page D has freq 1
+page E has freq 0
+page H has freq 1
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page G
+= Pages: [D|E|H|G]
+0 Called page D
+Page D accessed 1 -> 2
+= Pages: [D|E|H|G]
+0 Called page J
+page D has freq 2
+page E has freq 0
+page H has freq 1
+page G has freq 8
+Most freq page G 
+- Removed page G
++ Added  page J
+= Pages: [D|E|H|J]
+0 Called page F
+page D has freq 2
+page E has freq 0
+page H has freq 1
+page J has freq 5
+Most freq page J 
+- Removed page J
++ Added  page F
+= Pages: [D|E|H|F]
+0 Called page H
+Page H accessed 1 -> 2
+= Pages: [D|E|H|F]
+0 Called page G
+page D has freq 2
+page E has freq 0
+page H has freq 2
+page F has freq 3
+Most freq page F 
+- Removed page F
++ Added  page G
+= Pages: [D|E|H|G]
+0 Called page F
+page D has freq 2
+page E has freq 0
+page H has freq 2
+page G has freq 8
+Most freq page G 
+- Removed page G
++ Added  page F
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 0 -> 1
+= Pages: [D|E|H|F]
+0 Called page D
+Page D accessed 2 -> 3
+= Pages: [D|E|H|F]
+0 Called page A
+page D has freq 3
+page E has freq 1
+page H has freq 2
+page F has freq 3
+Most freq page F 
+- Removed page F
++ Added  page A
+= Pages: [D|E|H|A]
+0 Called page J
+page D has freq 3
+page E has freq 1
+page H has freq 2
+page A has freq 3
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [D|E|H|J]
+0 Called page J
+Page J accessed 5 -> 6
+= Pages: [D|E|H|J]
+0 Called page I
+page D has freq 3
+page E has freq 1
+page H has freq 2
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [D|E|H|I]
+0 Called page C
+page D has freq 3
+page E has freq 1
+page H has freq 2
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page C
+= Pages: [D|E|H|C]
+0 Called page C
+Page C accessed 3 -> 4
+= Pages: [D|E|H|C]
+0 Called page F
+page D has freq 3
+page E has freq 1
+page H has freq 2
+page C has freq 4
+Most freq page C 
+- Removed page C
++ Added  page F
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 1 -> 2
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 2 -> 3
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 3 -> 4
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 4 -> 5
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 5 -> 6
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 6 -> 7
+= Pages: [D|E|H|F]
+0 Called page E
+Page E accessed 7 -> 8
+= Pages: [D|E|H|F]
+0 Called page D
+Page D accessed 3 -> 4
+= Pages: [D|E|H|F]
+0 Called page C
+page D has freq 4
+page E has freq 8
+page H has freq 2
+page F has freq 3
+Most freq page E 
+- Removed page E
++ Added  page C
+= Pages: [D|H|F|C]
+0 Called page A
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page C has freq 4
+Most freq page C 
+- Removed page C
++ Added  page A
+= Pages: [D|H|F|A]
+0 Called page A
+Page A accessed 3 -> 4
+= Pages: [D|H|F|A]
+0 Called page A
+Page A accessed 4 -> 5
+= Pages: [D|H|F|A]
+0 Called page J
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page A has freq 5
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [D|H|F|J]
+0 Called page J
+Page J accessed 6 -> 7
+= Pages: [D|H|F|J]
+0 Called page I
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page J has freq 7
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [D|H|F|I]
+0 Called page I
+Page I accessed 3 -> 4
+= Pages: [D|H|F|I]
+0 Called page I
+Page I accessed 4 -> 5
+= Pages: [D|H|F|I]
+0 Called page A
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page I has freq 5
+Most freq page I 
+- Removed page I
++ Added  page A
+= Pages: [D|H|F|A]
+0 Called page J
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page A has freq 5
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [D|H|F|J]
+0 Called page E
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page J has freq 7
+Most freq page J 
+- Removed page J
++ Added  page E
+= Pages: [D|H|F|E]
+0 Called page J
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page E has freq 8
+Most freq page E 
+- Removed page E
++ Added  page J
+= Pages: [D|H|F|J]
+0 Called page I
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page J has freq 7
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [D|H|F|I]
+0 Called page B
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page I has freq 5
+Most freq page I 
+- Removed page I
++ Added  page B
+= Pages: [D|H|F|B]
+0 Called page I
+page D has freq 4
+page H has freq 2
+page F has freq 3
+page B has freq 0
+Most freq page D 
+- Removed page D
++ Added  page I
+= Pages: [H|F|B|I]
+0 Called page H
+Page H accessed 2 -> 3
+= Pages: [H|F|B|I]
+0 Called page H
+Page H accessed 3 -> 4
+= Pages: [H|F|B|I]
+0 Called page G
+page H has freq 4
+page F has freq 3
+page B has freq 0
+page I has freq 5
+Most freq page I 
+- Removed page I
++ Added  page G
+= Pages: [H|F|B|G]
+0 Called page A
+page H has freq 4
+page F has freq 3
+page B has freq 0
+page G has freq 8
+Most freq page G 
+- Removed page G
++ Added  page A
+= Pages: [H|F|B|A]
+0 Called page H
+Page H accessed 4 -> 5
+= Pages: [H|F|B|A]
+0 Called page H
+Page H accessed 5 -> 6
+= Pages: [H|F|B|A]
+0 Called page G
+page H has freq 6
+page F has freq 3
+page B has freq 0
+page A has freq 5
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [F|B|A|G]
+0 Called page G
+Page G accessed 8 -> 9
+= Pages: [F|B|A|G]
+0 Called page G
+Page G accessed 9 -> 10
+= Pages: [F|B|A|G]
+0 Called page G
+Page G accessed 10 -> 11
+= Pages: [F|B|A|G]
+0 Called page A
+Page A accessed 5 -> 6
+= Pages: [F|B|A|G]
+0 Called page A
+Page A accessed 6 -> 7
+= Pages: [F|B|A|G]
+0 Called page F
+Page F accessed 3 -> 4
+= Pages: [F|B|A|G]
+0 Called page F
+Page F accessed 4 -> 5
+= Pages: [F|B|A|G]
+0 Called page E
+page F has freq 5
+page B has freq 0
+page A has freq 7
+page G has freq 11
+Most freq page G 
+- Removed page G
++ Added  page E
+= Pages: [F|B|A|E]
+0 Called page D
+page F has freq 5
+page B has freq 0
+page A has freq 7
+page E has freq 8
+Most freq page E 
+- Removed page E
++ Added  page D
+= Pages: [F|B|A|D]
+0 Called page D
+Page D accessed 4 -> 5
+= Pages: [F|B|A|D]
+0 Called page D
+Page D accessed 5 -> 6
+= Pages: [F|B|A|D]
+0 Called page C
+page F has freq 5
+page B has freq 0
+page A has freq 7
+page D has freq 6
+Most freq page A 
+- Removed page A
++ Added  page C
+= Pages: [F|B|D|C]
+----------------------------
+% Hit Ratio: 59
+
+0 Called page A
++ Added  page A
+= Pages: [A|*|*|*]
+0 Called page A
+Page A accessed 0 -> 1
+= Pages: [A|*|*|*]
+0 Called page A
+Page A accessed 1 -> 2
+= Pages: [A|*|*|*]
+0 Called page A
+Page A accessed 2 -> 3
+= Pages: [A|*|*|*]
+0 Called page C
++ Added  page C
+= Pages: [A|C|*|*]
+0 Called page C
+Page C accessed 0 -> 1
+= Pages: [A|C|*|*]
+0 Called page G
++ Added  page G
+= Pages: [A|C|G|*]
+0 Called page F
++ Added  page F
+= Pages: [A|C|G|F]
+0 Called page F
+Page F accessed 0 -> 1
+= Pages: [A|C|G|F]
+0 Called page E
+page A has freq 3
+page C has freq 1
+page G has freq 0
+page F has freq 1
+Most freq page A 
+- Removed page A
++ Added  page E
+= Pages: [C|G|F|E]
+0 Called page E
+Page E accessed 0 -> 1
+= Pages: [C|G|F|E]
+0 Called page D
+page C has freq 1
+page G has freq 0
+page F has freq 1
+page E has freq 1
+Most freq page E 
+- Removed page E
++ Added  page D
+= Pages: [C|G|F|D]
+0 Called page C
+Page C accessed 1 -> 2
+= Pages: [C|G|F|D]
+0 Called page B
+page C has freq 2
+page G has freq 0
+page F has freq 1
+page D has freq 0
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [G|F|D|B]
+0 Called page A
+page G has freq 0
+page F has freq 1
+page D has freq 0
+page B has freq 0
+Most freq page F 
+- Removed page F
++ Added  page A
+= Pages: [G|D|B|A]
+0 Called page A
+Page A accessed 3 -> 4
+= Pages: [G|D|B|A]
+0 Called page J
+page G has freq 0
+page D has freq 0
+page B has freq 0
+page A has freq 4
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [G|D|B|J]
+0 Called page I
+page G has freq 0
+page D has freq 0
+page B has freq 0
+page J has freq 0
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [G|D|B|I]
+0 Called page I
+Page I accessed 0 -> 1
+= Pages: [G|D|B|I]
+0 Called page H
+page G has freq 0
+page D has freq 0
+page B has freq 0
+page I has freq 1
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [G|D|B|H]
+0 Called page H
+Page H accessed 0 -> 1
+= Pages: [G|D|B|H]
+0 Called page H
+Page H accessed 1 -> 2
+= Pages: [G|D|B|H]
+0 Called page G
+Page G accessed 0 -> 1
+= Pages: [G|D|B|H]
+0 Called page G
+Page G accessed 1 -> 2
+= Pages: [G|D|B|H]
+0 Called page A
+page G has freq 2
+page D has freq 0
+page B has freq 0
+page H has freq 2
+Most freq page H 
+- Removed page H
++ Added  page A
+= Pages: [G|D|B|A]
+0 Called page F
+page G has freq 2
+page D has freq 0
+page B has freq 0
+page A has freq 4
+Most freq page A 
+- Removed page A
++ Added  page F
+= Pages: [G|D|B|F]
+0 Called page E
+page G has freq 2
+page D has freq 0
+page B has freq 0
+page F has freq 1
+Most freq page G 
+- Removed page G
++ Added  page E
+= Pages: [D|B|F|E]
+0 Called page J
+page D has freq 0
+page B has freq 0
+page F has freq 1
+page E has freq 1
+Most freq page E 
+- Removed page E
++ Added  page J
+= Pages: [D|B|F|J]
+0 Called page I
+page D has freq 0
+page B has freq 0
+page F has freq 1
+page J has freq 0
+Most freq page F 
+- Removed page F
++ Added  page I
+= Pages: [D|B|J|I]
+0 Called page I
+Page I accessed 1 -> 2
+= Pages: [D|B|J|I]
+0 Called page H
+page D has freq 0
+page B has freq 0
+page J has freq 0
+page I has freq 2
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [D|B|J|H]
+0 Called page G
+page D has freq 0
+page B has freq 0
+page J has freq 0
+page H has freq 2
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [D|B|J|G]
+0 Called page F
+page D has freq 0
+page B has freq 0
+page J has freq 0
+page G has freq 2
+Most freq page G 
+- Removed page G
++ Added  page F
+= Pages: [D|B|J|F]
+0 Called page F
+Page F accessed 1 -> 2
+= Pages: [D|B|J|F]
+0 Called page E
+page D has freq 0
+page B has freq 0
+page J has freq 0
+page F has freq 2
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [D|B|J|E]
+0 Called page E
+Page E accessed 1 -> 2
+= Pages: [D|B|J|E]
+0 Called page J
+Page J accessed 0 -> 1
+= Pages: [D|B|J|E]
+0 Called page I
+page D has freq 0
+page B has freq 0
+page J has freq 1
+page E has freq 2
+Most freq page E 
+- Removed page E
++ Added  page I
+= Pages: [D|B|J|I]
+0 Called page I
+Page I accessed 2 -> 3
+= Pages: [D|B|J|I]
+0 Called page B
+Page B accessed 0 -> 1
+= Pages: [D|B|J|I]
+0 Called page A
+page D has freq 0
+page B has freq 1
+page J has freq 1
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page A
+= Pages: [D|B|J|A]
+0 Called page F
+page D has freq 0
+page B has freq 1
+page J has freq 1
+page A has freq 4
+Most freq page A 
+- Removed page A
++ Added  page F
+= Pages: [D|B|J|F]
+0 Called page E
+page D has freq 0
+page B has freq 1
+page J has freq 1
+page F has freq 2
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [D|B|J|E]
+0 Called page E
+Page E accessed 2 -> 3
+= Pages: [D|B|J|E]
+0 Called page D
+Page D accessed 0 -> 1
+= Pages: [D|B|J|E]
+0 Called page C
+page D has freq 1
+page B has freq 1
+page J has freq 1
+page E has freq 3
+Most freq page E 
+- Removed page E
++ Added  page C
+= Pages: [D|B|J|C]
+0 Called page B
+Page B accessed 1 -> 2
+= Pages: [D|B|J|C]
+0 Called page B
+Page B accessed 2 -> 3
+= Pages: [D|B|J|C]
+0 Called page B
+Page B accessed 3 -> 4
+= Pages: [D|B|J|C]
+0 Called page A
+page D has freq 1
+page B has freq 4
+page J has freq 1
+page C has freq 2
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [D|J|C|A]
+0 Called page F
+page D has freq 1
+page J has freq 1
+page C has freq 2
+page A has freq 4
+Most freq page A 
+- Removed page A
++ Added  page F
+= Pages: [D|J|C|F]
+0 Called page E
+page D has freq 1
+page J has freq 1
+page C has freq 2
+page F has freq 2
+Most freq page F 
+- Removed page F
++ Added  page E
+= Pages: [D|J|C|E]
+0 Called page I
+page D has freq 1
+page J has freq 1
+page C has freq 2
+page E has freq 3
+Most freq page E 
+- Removed page E
++ Added  page I
+= Pages: [D|J|C|I]
+0 Called page I
+Page I accessed 3 -> 4
+= Pages: [D|J|C|I]
+0 Called page I
+Page I accessed 4 -> 5
+= Pages: [D|J|C|I]
+0 Called page I
+Page I accessed 5 -> 6
+= Pages: [D|J|C|I]
+0 Called page H
+page D has freq 1
+page J has freq 1
+page C has freq 2
+page I has freq 6
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [D|J|C|H]
+0 Called page H
+Page H accessed 2 -> 3
+= Pages: [D|J|C|H]
+0 Called page J
+Page J accessed 1 -> 2
+= Pages: [D|J|C|H]
+0 Called page J
+Page J accessed 2 -> 3
+= Pages: [D|J|C|H]
+0 Called page J
+Page J accessed 3 -> 4
+= Pages: [D|J|C|H]
+0 Called page J
+Page J accessed 4 -> 5
+= Pages: [D|J|C|H]
+0 Called page I
+page D has freq 1
+page J has freq 5
+page C has freq 2
+page H has freq 3
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [D|C|H|I]
+0 Called page C
+Page C accessed 2 -> 3
+= Pages: [D|C|H|I]
+0 Called page C
+Page C accessed 3 -> 4
+= Pages: [D|C|H|I]
+0 Called page B
+page D has freq 1
+page C has freq 4
+page H has freq 3
+page I has freq 6
+Most freq page I 
+- Removed page I
++ Added  page B
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 4 -> 5
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 5 -> 6
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 6 -> 7
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 7 -> 8
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 8 -> 9
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 9 -> 10
+= Pages: [D|C|H|B]
+0 Called page B
+Page B accessed 10 -> 11
+= Pages: [D|C|H|B]
+0 Called page F
+page D has freq 1
+page C has freq 4
+page H has freq 3
+page B has freq 11
+Most freq page B 
+- Removed page B
++ Added  page F
+= Pages: [D|C|H|F]
+0 Called page I
+page D has freq 1
+page C has freq 4
+page H has freq 3
+page F has freq 2
+Most freq page C 
+- Removed page C
++ Added  page I
+= Pages: [D|H|F|I]
+0 Called page C
+page D has freq 1
+page H has freq 3
+page F has freq 2
+page I has freq 6
+Most freq page I 
+- Removed page I
++ Added  page C
+= Pages: [D|H|F|C]
+0 Called page C
+Page C accessed 4 -> 5
+= Pages: [D|H|F|C]
+0 Called page H
+Page H accessed 3 -> 4
+= Pages: [D|H|F|C]
+0 Called page H
+Page H accessed 4 -> 5
+= Pages: [D|H|F|C]
+0 Called page A
+page D has freq 1
+page H has freq 5
+page F has freq 2
+page C has freq 5
+Most freq page C 
+- Removed page C
++ Added  page A
+= Pages: [D|H|F|A]
+0 Called page I
+page D has freq 1
+page H has freq 5
+page F has freq 2
+page A has freq 4
+Most freq page H 
+- Removed page H
++ Added  page I
+= Pages: [D|F|A|I]
+0 Called page A
+Page A accessed 4 -> 5
+= Pages: [D|F|A|I]
+0 Called page J
+page D has freq 1
+page F has freq 2
+page A has freq 5
+page I has freq 6
+Most freq page I 
+- Removed page I
++ Added  page J
+= Pages: [D|F|A|J]
+0 Called page J
+Page J accessed 5 -> 6
+= Pages: [D|F|A|J]
+0 Called page F
+Page F accessed 2 -> 3
+= Pages: [D|F|A|J]
+0 Called page E
+page D has freq 1
+page F has freq 3
+page A has freq 5
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page E
+= Pages: [D|F|A|E]
+0 Called page H
+page D has freq 1
+page F has freq 3
+page A has freq 5
+page E has freq 3
+Most freq page A 
+- Removed page A
++ Added  page H
+= Pages: [D|F|E|H]
+0 Called page G
+page D has freq 1
+page F has freq 3
+page E has freq 3
+page H has freq 5
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [D|F|E|G]
+0 Called page C
+page D has freq 1
+page F has freq 3
+page E has freq 3
+page G has freq 2
+Most freq page E 
+- Removed page E
++ Added  page C
+= Pages: [D|F|G|C]
+0 Called page C
+Page C accessed 5 -> 6
+= Pages: [D|F|G|C]
+0 Called page B
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page C has freq 6
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [D|F|G|B]
+0 Called page A
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page B has freq 11
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [D|F|G|A]
+0 Called page J
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page A has freq 5
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [D|F|G|J]
+0 Called page A
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page A
+= Pages: [D|F|G|A]
+0 Called page J
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page A has freq 5
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [D|F|G|J]
+0 Called page I
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [D|F|G|I]
+0 Called page H
+page D has freq 1
+page F has freq 3
+page G has freq 2
+page I has freq 6
+Most freq page I 
+- Removed page I
++ Added  page H
+= Pages: [D|F|G|H]
+0 Called page H
+Page H accessed 5 -> 6
+= Pages: [D|F|G|H]
+0 Called page G
+Page G accessed 2 -> 3
+= Pages: [D|F|G|H]
+0 Called page C
+page D has freq 1
+page F has freq 3
+page G has freq 3
+page H has freq 6
+Most freq page H 
+- Removed page H
++ Added  page C
+= Pages: [D|F|G|C]
+----------------------------
+% Hit Ratio: 50
+
+0 Called page A
++ Added  page A
+= Pages: [A|*|*|*]
+0 Called page J
++ Added  page J
+= Pages: [A|J|*|*]
+0 Called page B
++ Added  page B
+= Pages: [A|J|B|*]
+0 Called page D
++ Added  page D
+= Pages: [A|J|B|D]
+0 Called page C
+page A has freq 0
+page J has freq 0
+page B has freq 0
+page D has freq 0
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [A|J|B|C]
+0 Called page C
+Page C accessed 0 -> 1
+= Pages: [A|J|B|C]
+0 Called page C
+Page C accessed 1 -> 2
+= Pages: [A|J|B|C]
+0 Called page B
+Page B accessed 0 -> 1
+= Pages: [A|J|B|C]
+0 Called page B
+Page B accessed 1 -> 2
+= Pages: [A|J|B|C]
+0 Called page A
+Page A accessed 0 -> 1
+= Pages: [A|J|B|C]
+0 Called page E
+page A has freq 1
+page J has freq 0
+page B has freq 2
+page C has freq 2
+Most freq page C 
+- Removed page C
++ Added  page E
+= Pages: [A|J|B|E]
+0 Called page E
+Page E accessed 0 -> 1
+= Pages: [A|J|B|E]
+0 Called page J
+Page J accessed 0 -> 1
+= Pages: [A|J|B|E]
+0 Called page J
+Page J accessed 1 -> 2
+= Pages: [A|J|B|E]
+0 Called page J
+Page J accessed 2 -> 3
+= Pages: [A|J|B|E]
+0 Called page I
+page A has freq 1
+page J has freq 3
+page B has freq 2
+page E has freq 1
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [A|B|E|I]
+0 Called page H
+page A has freq 1
+page B has freq 2
+page E has freq 1
+page I has freq 0
+Most freq page B 
+- Removed page B
++ Added  page H
+= Pages: [A|E|I|H]
+0 Called page H
+Page H accessed 0 -> 1
+= Pages: [A|E|I|H]
+0 Called page G
+page A has freq 1
+page E has freq 1
+page I has freq 0
+page H has freq 1
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [A|E|I|G]
+0 Called page F
+page A has freq 1
+page E has freq 1
+page I has freq 0
+page G has freq 0
+Most freq page E 
+- Removed page E
++ Added  page F
+= Pages: [A|I|G|F]
+0 Called page J
+page A has freq 1
+page I has freq 0
+page G has freq 0
+page F has freq 0
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|G|F|J]
+0 Called page F
+Page F accessed 0 -> 1
+= Pages: [I|G|F|J]
+0 Called page F
+Page F accessed 1 -> 2
+= Pages: [I|G|F|J]
+0 Called page E
+page I has freq 0
+page G has freq 0
+page F has freq 2
+page J has freq 3
+Most freq page J 
+- Removed page J
++ Added  page E
+= Pages: [I|G|F|E]
+0 Called page D
+page I has freq 0
+page G has freq 0
+page F has freq 2
+page E has freq 1
+Most freq page F 
+- Removed page F
++ Added  page D
+= Pages: [I|G|E|D]
+0 Called page D
+Page D accessed 0 -> 1
+= Pages: [I|G|E|D]
+0 Called page C
+page I has freq 0
+page G has freq 0
+page E has freq 1
+page D has freq 1
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [I|G|E|C]
+0 Called page C
+Page C accessed 2 -> 3
+= Pages: [I|G|E|C]
+0 Called page C
+Page C accessed 3 -> 4
+= Pages: [I|G|E|C]
+0 Called page B
+page I has freq 0
+page G has freq 0
+page E has freq 1
+page C has freq 4
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [I|G|E|B]
+0 Called page B
+Page B accessed 2 -> 3
+= Pages: [I|G|E|B]
+0 Called page A
+page I has freq 0
+page G has freq 0
+page E has freq 1
+page B has freq 3
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [I|G|E|A]
+0 Called page J
+page I has freq 0
+page G has freq 0
+page E has freq 1
+page A has freq 1
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|G|E|J]
+0 Called page J
+Page J accessed 3 -> 4
+= Pages: [I|G|E|J]
+0 Called page I
+Page I accessed 0 -> 1
+= Pages: [I|G|E|J]
+0 Called page I
+Page I accessed 1 -> 2
+= Pages: [I|G|E|J]
+0 Called page H
+page I has freq 2
+page G has freq 0
+page E has freq 1
+page J has freq 4
+Most freq page J 
+- Removed page J
++ Added  page H
+= Pages: [I|G|E|H]
+0 Called page G
+Page G accessed 0 -> 1
+= Pages: [I|G|E|H]
+0 Called page D
+page I has freq 2
+page G has freq 1
+page E has freq 1
+page H has freq 1
+Most freq page I 
+- Removed page I
++ Added  page D
+= Pages: [G|E|H|D]
+0 Called page D
+Page D accessed 1 -> 2
+= Pages: [G|E|H|D]
+0 Called page C
+page G has freq 1
+page E has freq 1
+page H has freq 1
+page D has freq 2
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [G|E|H|C]
+0 Called page C
+Page C accessed 4 -> 5
+= Pages: [G|E|H|C]
+0 Called page C
+Page C accessed 5 -> 6
+= Pages: [G|E|H|C]
+0 Called page B
+page G has freq 1
+page E has freq 1
+page H has freq 1
+page C has freq 6
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [G|E|H|B]
+0 Called page A
+page G has freq 1
+page E has freq 1
+page H has freq 1
+page B has freq 3
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [G|E|H|A]
+0 Called page J
+page G has freq 1
+page E has freq 1
+page H has freq 1
+page A has freq 1
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [G|E|H|J]
+0 Called page B
+page G has freq 1
+page E has freq 1
+page H has freq 1
+page J has freq 4
+Most freq page J 
+- Removed page J
++ Added  page B
+= Pages: [G|E|H|B]
+0 Called page B
+Page B accessed 3 -> 4
+= Pages: [G|E|H|B]
+0 Called page F
+page G has freq 1
+page E has freq 1
+page H has freq 1
+page B has freq 4
+Most freq page B 
+- Removed page B
++ Added  page F
+= Pages: [G|E|H|F]
+0 Called page F
+Page F accessed 2 -> 3
+= Pages: [G|E|H|F]
+0 Called page E
+Page E accessed 1 -> 2
+= Pages: [G|E|H|F]
+0 Called page D
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page F has freq 3
+Most freq page F 
+- Removed page F
++ Added  page D
+= Pages: [G|E|H|D]
+0 Called page I
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page D has freq 2
+Most freq page D 
+- Removed page D
++ Added  page I
+= Pages: [G|E|H|I]
+0 Called page D
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page I has freq 2
+Most freq page I 
+- Removed page I
++ Added  page D
+= Pages: [G|E|H|D]
+0 Called page C
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page D has freq 2
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [G|E|H|C]
+0 Called page C
+Page C accessed 6 -> 7
+= Pages: [G|E|H|C]
+0 Called page B
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page C has freq 7
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [G|E|H|B]
+0 Called page D
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page B has freq 4
+Most freq page B 
+- Removed page B
++ Added  page D
+= Pages: [G|E|H|D]
+0 Called page D
+Page D accessed 2 -> 3
+= Pages: [G|E|H|D]
+0 Called page D
+Page D accessed 3 -> 4
+= Pages: [G|E|H|D]
+0 Called page A
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page D has freq 4
+Most freq page D 
+- Removed page D
++ Added  page A
+= Pages: [G|E|H|A]
+0 Called page A
+Page A accessed 1 -> 2
+= Pages: [G|E|H|A]
+0 Called page I
+page G has freq 1
+page E has freq 2
+page H has freq 1
+page A has freq 2
+Most freq page A 
+- Removed page A
++ Added  page I
+= Pages: [G|E|H|I]
+0 Called page I
+Page I accessed 2 -> 3
+= Pages: [G|E|H|I]
+0 Called page H
+Page H accessed 1 -> 2
+= Pages: [G|E|H|I]
+0 Called page G
+Page G accessed 1 -> 2
+= Pages: [G|E|H|I]
+0 Called page F
+page G has freq 2
+page E has freq 2
+page H has freq 2
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page F
+= Pages: [G|E|H|F]
+0 Called page B
+page G has freq 2
+page E has freq 2
+page H has freq 2
+page F has freq 3
+Most freq page F 
+- Removed page F
++ Added  page B
+= Pages: [G|E|H|B]
+0 Called page G
+Page G accessed 2 -> 3
+= Pages: [G|E|H|B]
+0 Called page F
+page G has freq 3
+page E has freq 2
+page H has freq 2
+page B has freq 4
+Most freq page B 
+- Removed page B
++ Added  page F
+= Pages: [G|E|H|F]
+0 Called page E
+Page E accessed 2 -> 3
+= Pages: [G|E|H|F]
+0 Called page E
+Page E accessed 3 -> 4
+= Pages: [G|E|H|F]
+0 Called page D
+page G has freq 3
+page E has freq 4
+page H has freq 2
+page F has freq 3
+Most freq page E 
+- Removed page E
++ Added  page D
+= Pages: [G|H|F|D]
+0 Called page J
+page G has freq 3
+page H has freq 2
+page F has freq 3
+page D has freq 4
+Most freq page D 
+- Removed page D
++ Added  page J
+= Pages: [G|H|F|J]
+0 Called page J
+Page J accessed 4 -> 5
+= Pages: [G|H|F|J]
+0 Called page I
+page G has freq 3
+page H has freq 2
+page F has freq 3
+page J has freq 5
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [G|H|F|I]
+0 Called page A
+page G has freq 3
+page H has freq 2
+page F has freq 3
+page I has freq 3
+Most freq page I 
+- Removed page I
++ Added  page A
+= Pages: [G|H|F|A]
+0 Called page A
+Page A accessed 2 -> 3
+= Pages: [G|H|F|A]
+0 Called page A
+Page A accessed 3 -> 4
+= Pages: [G|H|F|A]
+0 Called page A
+Page A accessed 4 -> 5
+= Pages: [G|H|F|A]
+0 Called page A
+Page A accessed 5 -> 6
+= Pages: [G|H|F|A]
+0 Called page J
+page G has freq 3
+page H has freq 2
+page F has freq 3
+page A has freq 6
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [G|H|F|J]
+0 Called page I
+page G has freq 3
+page H has freq 2
+page F has freq 3
+page J has freq 5
+Most freq page J 
+- Removed page J
++ Added  page I
+= Pages: [G|H|F|I]
+0 Called page I
+Page I accessed 3 -> 4
+= Pages: [G|H|F|I]
+0 Called page H
+Page H accessed 2 -> 3
+= Pages: [G|H|F|I]
+0 Called page C
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page I has freq 4
+Most freq page I 
+- Removed page I
++ Added  page C
+= Pages: [G|H|F|C]
+0 Called page C
+Page C accessed 7 -> 8
+= Pages: [G|H|F|C]
+0 Called page J
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page C has freq 8
+Most freq page C 
+- Removed page C
++ Added  page J
+= Pages: [G|H|F|J]
+0 Called page E
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page J has freq 5
+Most freq page J 
+- Removed page J
++ Added  page E
+= Pages: [G|H|F|E]
+0 Called page D
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page E has freq 4
+Most freq page E 
+- Removed page E
++ Added  page D
+= Pages: [G|H|F|D]
+0 Called page D
+Page D accessed 4 -> 5
+= Pages: [G|H|F|D]
+0 Called page D
+Page D accessed 5 -> 6
+= Pages: [G|H|F|D]
+0 Called page C
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page D has freq 6
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [G|H|F|C]
+0 Called page B
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page C has freq 8
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [G|H|F|B]
+0 Called page A
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page B has freq 4
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [G|H|F|A]
+0 Called page A
+Page A accessed 6 -> 7
+= Pages: [G|H|F|A]
+0 Called page C
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page A has freq 7
+Most freq page A 
+- Removed page A
++ Added  page C
+= Pages: [G|H|F|C]
+0 Called page C
+Page C accessed 8 -> 9
+= Pages: [G|H|F|C]
+0 Called page C
+Page C accessed 9 -> 10
+= Pages: [G|H|F|C]
+0 Called page I
+page G has freq 3
+page H has freq 3
+page F has freq 3
+page C has freq 10
+Most freq page C 
+- Removed page C
++ Added  page I
+= Pages: [G|H|F|I]
+----------------------------
+% Hit Ratio: 49
+
+0 Called page C
++ Added  page C
+= Pages: [C|*|*|*]
+0 Called page I
++ Added  page I
+= Pages: [C|I|*|*]
+0 Called page H
++ Added  page H
+= Pages: [C|I|H|*]
+0 Called page H
+Page H accessed 0 -> 1
+= Pages: [C|I|H|*]
+0 Called page H
+Page H accessed 1 -> 2
+= Pages: [C|I|H|*]
+0 Called page G
++ Added  page G
+= Pages: [C|I|H|G]
+0 Called page F
+page C has freq 0
+page I has freq 0
+page H has freq 2
+page G has freq 0
+Most freq page H 
+- Removed page H
++ Added  page F
+= Pages: [C|I|G|F]
+0 Called page H
+page C has freq 0
+page I has freq 0
+page G has freq 0
+page F has freq 0
+Most freq page F 
+- Removed page F
++ Added  page H
+= Pages: [C|I|G|H]
+0 Called page G
+Page G accessed 0 -> 1
+= Pages: [C|I|G|H]
+0 Called page G
+Page G accessed 1 -> 2
+= Pages: [C|I|G|H]
+0 Called page F
+page C has freq 0
+page I has freq 0
+page G has freq 2
+page H has freq 2
+Most freq page H 
+- Removed page H
++ Added  page F
+= Pages: [C|I|G|F]
+0 Called page C
+Page C accessed 0 -> 1
+= Pages: [C|I|G|F]
+0 Called page C
+Page C accessed 1 -> 2
+= Pages: [C|I|G|F]
+0 Called page B
+page C has freq 2
+page I has freq 0
+page G has freq 2
+page F has freq 0
+Most freq page G 
+- Removed page G
++ Added  page B
+= Pages: [C|I|F|B]
+0 Called page B
+Page B accessed 0 -> 1
+= Pages: [C|I|F|B]
+0 Called page D
+page C has freq 2
+page I has freq 0
+page F has freq 0
+page B has freq 1
+Most freq page C 
+- Removed page C
++ Added  page D
+= Pages: [I|F|B|D]
+0 Called page C
+page I has freq 0
+page F has freq 0
+page B has freq 1
+page D has freq 0
+Most freq page B 
+- Removed page B
++ Added  page C
+= Pages: [I|F|D|C]
+0 Called page A
+page I has freq 0
+page F has freq 0
+page D has freq 0
+page C has freq 2
+Most freq page C 
+- Removed page C
++ Added  page A
+= Pages: [I|F|D|A]
+0 Called page A
+Page A accessed 0 -> 1
+= Pages: [I|F|D|A]
+0 Called page A
+Page A accessed 1 -> 2
+= Pages: [I|F|D|A]
+0 Called page J
+page I has freq 0
+page F has freq 0
+page D has freq 0
+page A has freq 2
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|F|D|J]
+0 Called page J
+Page J accessed 0 -> 1
+= Pages: [I|F|D|J]
+0 Called page D
+Page D accessed 0 -> 1
+= Pages: [I|F|D|J]
+0 Called page D
+Page D accessed 1 -> 2
+= Pages: [I|F|D|J]
+0 Called page H
+page I has freq 0
+page F has freq 0
+page D has freq 2
+page J has freq 1
+Most freq page D 
+- Removed page D
++ Added  page H
+= Pages: [I|F|J|H]
+0 Called page H
+Page H accessed 2 -> 3
+= Pages: [I|F|J|H]
+0 Called page G
+page I has freq 0
+page F has freq 0
+page J has freq 1
+page H has freq 3
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [I|F|J|G]
+0 Called page F
+Page F accessed 0 -> 1
+= Pages: [I|F|J|G]
+0 Called page F
+Page F accessed 1 -> 2
+= Pages: [I|F|J|G]
+0 Called page E
+page I has freq 0
+page F has freq 2
+page J has freq 1
+page G has freq 2
+Most freq page G 
+- Removed page G
++ Added  page E
+= Pages: [I|F|J|E]
+0 Called page J
+Page J accessed 1 -> 2
+= Pages: [I|F|J|E]
+0 Called page J
+Page J accessed 2 -> 3
+= Pages: [I|F|J|E]
+0 Called page E
+Page E accessed 0 -> 1
+= Pages: [I|F|J|E]
+0 Called page D
+page I has freq 0
+page F has freq 2
+page J has freq 3
+page E has freq 1
+Most freq page J 
+- Removed page J
++ Added  page D
+= Pages: [I|F|E|D]
+0 Called page D
+Page D accessed 2 -> 3
+= Pages: [I|F|E|D]
+0 Called page C
+page I has freq 0
+page F has freq 2
+page E has freq 1
+page D has freq 3
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [I|F|E|C]
+0 Called page B
+page I has freq 0
+page F has freq 2
+page E has freq 1
+page C has freq 2
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [I|F|E|B]
+0 Called page B
+Page B accessed 1 -> 2
+= Pages: [I|F|E|B]
+0 Called page B
+Page B accessed 2 -> 3
+= Pages: [I|F|E|B]
+0 Called page A
+page I has freq 0
+page F has freq 2
+page E has freq 1
+page B has freq 3
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [I|F|E|A]
+0 Called page A
+Page A accessed 2 -> 3
+= Pages: [I|F|E|A]
+0 Called page A
+Page A accessed 3 -> 4
+= Pages: [I|F|E|A]
+0 Called page J
+page I has freq 0
+page F has freq 2
+page E has freq 1
+page A has freq 4
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|F|E|J]
+0 Called page J
+Page J accessed 3 -> 4
+= Pages: [I|F|E|J]
+0 Called page I
+Page I accessed 0 -> 1
+= Pages: [I|F|E|J]
+0 Called page E
+Page E accessed 1 -> 2
+= Pages: [I|F|E|J]
+0 Called page I
+Page I accessed 1 -> 2
+= Pages: [I|F|E|J]
+0 Called page H
+page I has freq 2
+page F has freq 2
+page E has freq 2
+page J has freq 4
+Most freq page J 
+- Removed page J
++ Added  page H
+= Pages: [I|F|E|H]
+0 Called page G
+page I has freq 2
+page F has freq 2
+page E has freq 2
+page H has freq 3
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [I|F|E|G]
+0 Called page G
+Page G accessed 2 -> 3
+= Pages: [I|F|E|G]
+0 Called page F
+Page F accessed 2 -> 3
+= Pages: [I|F|E|G]
+0 Called page I
+Page I accessed 2 -> 3
+= Pages: [I|F|E|G]
+0 Called page D
+page I has freq 3
+page F has freq 3
+page E has freq 2
+page G has freq 3
+Most freq page G 
+- Removed page G
++ Added  page D
+= Pages: [I|F|E|D]
+0 Called page C
+page I has freq 3
+page F has freq 3
+page E has freq 2
+page D has freq 3
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [I|F|E|C]
+0 Called page C
+Page C accessed 2 -> 3
+= Pages: [I|F|E|C]
+0 Called page H
+page I has freq 3
+page F has freq 3
+page E has freq 2
+page C has freq 3
+Most freq page C 
+- Removed page C
++ Added  page H
+= Pages: [I|F|E|H]
+0 Called page G
+page I has freq 3
+page F has freq 3
+page E has freq 2
+page H has freq 3
+Most freq page H 
+- Removed page H
++ Added  page G
+= Pages: [I|F|E|G]
+0 Called page G
+Page G accessed 3 -> 4
+= Pages: [I|F|E|G]
+0 Called page F
+Page F accessed 3 -> 4
+= Pages: [I|F|E|G]
+0 Called page F
+Page F accessed 4 -> 5
+= Pages: [I|F|E|G]
+0 Called page F
+Page F accessed 5 -> 6
+= Pages: [I|F|E|G]
+0 Called page F
+Page F accessed 6 -> 7
+= Pages: [I|F|E|G]
+0 Called page F
+Page F accessed 7 -> 8
+= Pages: [I|F|E|G]
+0 Called page E
+Page E accessed 2 -> 3
+= Pages: [I|F|E|G]
+0 Called page E
+Page E accessed 3 -> 4
+= Pages: [I|F|E|G]
+0 Called page E
+Page E accessed 4 -> 5
+= Pages: [I|F|E|G]
+0 Called page E
+Page E accessed 5 -> 6
+= Pages: [I|F|E|G]
+0 Called page D
+page I has freq 3
+page F has freq 8
+page E has freq 6
+page G has freq 4
+Most freq page F 
+- Removed page F
++ Added  page D
+= Pages: [I|E|G|D]
+0 Called page C
+page I has freq 3
+page E has freq 6
+page G has freq 4
+page D has freq 3
+Most freq page E 
+- Removed page E
++ Added  page C
+= Pages: [I|G|D|C]
+0 Called page B
+page I has freq 3
+page G has freq 4
+page D has freq 3
+page C has freq 3
+Most freq page G 
+- Removed page G
++ Added  page B
+= Pages: [I|D|C|B]
+0 Called page A
+page I has freq 3
+page D has freq 3
+page C has freq 3
+page B has freq 3
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [I|D|C|A]
+0 Called page A
+Page A accessed 4 -> 5
+= Pages: [I|D|C|A]
+0 Called page A
+Page A accessed 5 -> 6
+= Pages: [I|D|C|A]
+0 Called page J
+page I has freq 3
+page D has freq 3
+page C has freq 3
+page A has freq 6
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|D|C|J]
+0 Called page J
+Page J accessed 4 -> 5
+= Pages: [I|D|C|J]
+0 Called page J
+Page J accessed 5 -> 6
+= Pages: [I|D|C|J]
+0 Called page B
+page I has freq 3
+page D has freq 3
+page C has freq 3
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page B
+= Pages: [I|D|C|B]
+0 Called page A
+page I has freq 3
+page D has freq 3
+page C has freq 3
+page B has freq 3
+Most freq page B 
+- Removed page B
++ Added  page A
+= Pages: [I|D|C|A]
+0 Called page A
+Page A accessed 6 -> 7
+= Pages: [I|D|C|A]
+0 Called page A
+Page A accessed 7 -> 8
+= Pages: [I|D|C|A]
+0 Called page J
+page I has freq 3
+page D has freq 3
+page C has freq 3
+page A has freq 8
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|D|C|J]
+0 Called page I
+Page I accessed 3 -> 4
+= Pages: [I|D|C|J]
+0 Called page H
+page I has freq 4
+page D has freq 3
+page C has freq 3
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page H
+= Pages: [I|D|C|H]
+0 Called page D
+Page D accessed 3 -> 4
+= Pages: [I|D|C|H]
+0 Called page C
+Page C accessed 3 -> 4
+= Pages: [I|D|C|H]
+0 Called page B
+page I has freq 4
+page D has freq 4
+page C has freq 4
+page H has freq 3
+Most freq page C 
+- Removed page C
++ Added  page B
+= Pages: [I|D|H|B]
+0 Called page A
+page I has freq 4
+page D has freq 4
+page H has freq 3
+page B has freq 3
+Most freq page D 
+- Removed page D
++ Added  page A
+= Pages: [I|H|B|A]
+0 Called page A
+Page A accessed 8 -> 9
+= Pages: [I|H|B|A]
+0 Called page I
+Page I accessed 4 -> 5
+= Pages: [I|H|B|A]
+0 Called page A
+Page A accessed 9 -> 10
+= Pages: [I|H|B|A]
+0 Called page J
+page I has freq 5
+page H has freq 3
+page B has freq 3
+page A has freq 10
+Most freq page A 
+- Removed page A
++ Added  page J
+= Pages: [I|H|B|J]
+0 Called page D
+page I has freq 5
+page H has freq 3
+page B has freq 3
+page J has freq 6
+Most freq page J 
+- Removed page J
++ Added  page D
+= Pages: [I|H|B|D]
+0 Called page D
+Page D accessed 4 -> 5
+= Pages: [I|H|B|D]
+0 Called page D
+Page D accessed 5 -> 6
+= Pages: [I|H|B|D]
+0 Called page D
+Page D accessed 6 -> 7
+= Pages: [I|H|B|D]
+0 Called page C
+page I has freq 5
+page H has freq 3
+page B has freq 3
+page D has freq 7
+Most freq page D 
+- Removed page D
++ Added  page C
+= Pages: [I|H|B|C]
+0 Called page C
+Page C accessed 4 -> 5
+= Pages: [I|H|B|C]
+0 Called page C
+Page C accessed 5 -> 6
+= Pages: [I|H|B|C]
+0 Called page H
+Page H accessed 3 -> 4
+= Pages: [I|H|B|C]
+0 Called page A
+page I has freq 5
+page H has freq 4
+page B has freq 3
+page C has freq 6
+Most freq page C 
+- Removed page C
++ Added  page A
+= Pages: [I|H|B|A]
+----------------------------
+% Hit Ratio: 59
