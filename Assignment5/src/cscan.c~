@@ -39,7 +39,7 @@ int main() {
 	        }
 	    }
 	}
-	printf("Choice: %d ", request[bestChoice]);
+	printf("Choice: %d\n", request[bestChoice]);
 	totalDistance += bestDistance;
 	handled[bestChoice] = 1;
 	previousPosition = currentPosition;
