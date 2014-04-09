@@ -1,6 +1,6 @@
 Algorithms:
- FCFS: <claimed: insert your name>
- SSTF: <claimed: insert your name>
+ FCFS: Sander
+ SSTF: Sander
  SCAN: Chris
 CSCAN: Chris
  LOOK: 
