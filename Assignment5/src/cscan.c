@@ -46,12 +46,13 @@ int main() {
 	currentPosition = request[bestChoice];
 	if(wrappedAround == 0){
 		if(request[bestChoice] < STARTPOS){
-			totalDistance += CYLINDERS;
+			totalDistance += CYLINDERS + (CYLINDERS - previousPosition) - bestDistance + currentPosition;
 			wrappedAround = 1;
 		}
 		else if(request[bestChoice] > STARTPOS)
 			wrappedAround = 0;
 	}
+	
 	printf("Current Distance: %d\n", totalDistance);
     }
     printf("Total distance: %d\n", totalDistance);
