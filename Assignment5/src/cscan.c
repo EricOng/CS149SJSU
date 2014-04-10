@@ -46,7 +46,7 @@ int main() {
 	currentPosition = request[bestChoice];
 	if(wrappedAround == 0){
 		if(request[bestChoice] < STARTPOS){
-			totalDistance += CYLINDERS + (CYLINDERS - previousPosition) - bestDistance + currentPosition;
+			totalDistance += CYLINDERS-1 + (CYLINDERS -1 - previousPosition) - bestDistance + currentPosition;
 			wrappedAround = 1;
 		}
 		else if(request[bestChoice] > STARTPOS)

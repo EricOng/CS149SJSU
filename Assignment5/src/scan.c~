@@ -49,8 +49,8 @@ int main() {
 		    }
 		}
 	    }
-		//Go to end and then back that extra distance
 		totalDistance += 2 * (MAX_CYLINDER - currentPosition);
+		printf("Reaching End add: %d\n", MAX_CYLINDER - currentPosition);
 	}
 	printf("Choice: %d ", request[bestChoice]);
 	totalDistance += abs(request[bestChoice] - currentPosition);

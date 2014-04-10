@@ -33,17 +33,17 @@ TOTAL DISTANCE: 6763
 SCAN
 ----------------------------
 Requests: 2055 1175 2304 2700 513 1680 256 1401 4922 3692 
-Choice: 2304
-Choice: 2700
-Choice: 3692
-Choice: 4922
-Choice: 2055
-Choice: 1680
-Choice: 1401
-Choice: 1175
-Choice: 513
-Choice: 256
-Total distance: 7333
+Choice: 2304  Current Dist: 49
+Choice: 2700  Current Dist: 445
+Choice: 3692  Current Dist: 1437
+Choice: 4922  Current Dist: 2667
+Choice: 2055  Current Dist: 5688
+Choice: 1680  Current Dist: 6063
+Choice: 1401  Current Dist: 6342
+Choice: 1175  Current Dist: 6568
+Choice: 513   Current Dist: 7230
+Choice: 256   Current Dist: 7487
+Total distance: 7487
 ----------------------------
 
 CSCAN (INCLUDES WRAPAROUND)
@@ -53,13 +53,13 @@ Choice: 2304 Current Distance: 49
 Choice: 2700 Current Distance: 445
 Choice: 3692 Current Distance: 1437
 Choice: 4922 Current Distance: 2667
-Choice: 256  Current Distance: 8001
-Choice: 513  Current Distance: 8258
-Choice: 1175 Current Distance: 8920
-Choice: 1401 Current Distance: 9146
-Choice: 1680 Current Distance: 9425
-Choice: 2055 Current Distance: 9800
-Total distance: 9800
+Choice: 256  Current Distance: 7999
+Choice: 513  Current Distance: 8256
+Choice: 1175 Current Distance: 8918
+Choice: 1401 Current Distance: 9144
+Choice: 1680 Current Distance: 9423
+Choice: 2055 Current Distance: 9798
+Total distance: 9798
 ----------------------------
 
 LOOK
