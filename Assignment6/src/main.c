@@ -17,14 +17,30 @@ int main() {
     int fd4[2];
     int fd5[2];
     printf("Arrays created.\n");
+    if(pipe(fd1) == -1) {
+	fprintf(stderr, "Pipe 1 failed.");
+	return 1;
+    }
+    if(pipe(fd2) == -1) {
+	fprintf(stderr, "Pipe 2 failed.");
+	return 1;
+    }
+    if(pipe(fd3) == -1) {
+	fprintf(stderr, "Pipe 3 failed.");
+	return 1;
+    }
+    if(pipe(fd4) == -1) {
+	fprintf(stderr, "Pipe 4 failed.");
+	return 1;
+    }
+    if(pipe(fd5) == -1) {
+	fprintf(stderr, "Pipe 5 failed.");
+	return 1;
+    }
     // Spawn all of the child processes.
     if(fork() == 0) {
 	printf("Child 1 begin!\n");
 	// Child process #1
-	if(pipe(fd1) == -1) {
-	    fprintf(stderr, "Child 1 failed.");
-	    return 1;
-	}
 	close(fd1[READ]);
 	sleep(6);
 	write(fd1[WRITE], "Child 1 Message", BUFFER_SIZE);
@@ -32,10 +48,6 @@ int main() {
     } else if(fork() == 0) {
 	printf("Child 2 begin!\n");
 	// Child process #2
-	if(pipe(fd2) == -1) {
-	    fprintf(stderr, "Child 2 failed.");
-	    return 1;
-	}
 	close(fd2[READ]);
 	sleep(2);
 	write(fd2[WRITE], "Child 2 Message", BUFFER_SIZE);
@@ -43,10 +55,6 @@ int main() {
     } else if(fork() == 0) {
 	printf("Child 3 begin!\n");
 	// Child process #3
-	if(pipe(fd3) == -1) {
-	    fprintf(stderr, "Child 3 failed.");
-	    return 1;
-	}
 	close(fd3[READ]);
 	sleep(4);
 	write(fd3[WRITE], "Child 3 Message", BUFFER_SIZE);
@@ -54,10 +62,6 @@ int main() {
     } else if(fork() == 0) {
 	printf("Child 4 begin!\n");
 	// Child process #4
-	if(pipe(fd4) == -1) {
-	    fprintf(stderr, "Child 4 failed.");
-	    return 1;
-	}
 	close(fd4[READ]);
 	sleep(5);
 	write(fd4[WRITE], "Child 4 Message", BUFFER_SIZE);
@@ -65,10 +69,6 @@ int main() {
     } else if(fork() == 0) {
 	printf("Child 5 begin!\n");
 	// Child process #5 (different from 1-4)
-	if(pipe(fd5) == -1) {
-	    fprintf(stderr, "Child 5 failed.");
-	    return 1;
-	}
 	close(fd5[READ]);
 	write(fd5[WRITE], "Child 5 Message", BUFFER_SIZE);
 	close(fd5[WRITE]);
