@@ -87,15 +87,15 @@ int main() {
 	int result, nread;
 	fd_set inputs, input_fds;
 	struct timeval timeout;
-	FD_ZERO(&inputs);
-	printf("Adding to sets.\n");
-	FD_SET(fd1[READ], &inputs);
-	FD_SET(fd2[READ], &inputs);
-	FD_SET(fd3[READ], &inputs);
-	FD_SET(fd4[READ], &inputs);
-	FD_SET(fd5[READ], &inputs);
 	int readTotal = 0;
 	while(readTotal < 5) {
+	    FD_ZERO(&inputs);
+	    printf("Adding to sets.\n");
+	    FD_SET(fd1[READ], &inputs);
+	    FD_SET(fd2[READ], &inputs);
+	    FD_SET(fd3[READ], &inputs);
+	    FD_SET(fd4[READ], &inputs);
+	    FD_SET(fd5[READ], &inputs);
 	    input_fds = inputs;
 	    timeout.tv_sec = 2;
 	    timeout.tv_usec = 500000;
