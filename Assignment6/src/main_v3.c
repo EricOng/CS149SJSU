@@ -75,7 +75,17 @@ int main ()
 		gettimeofday(&currentTime, NULL);
 		while(currentTime.tv_sec - startTime.tv_sec < THIRTY_SECONDS) {
 			messageCount = messageCount + 1;
-			snprintf(wbuf, BUFFER_SIZE, "%s | Child %d message %d", timeText(currentTime, startTime), child_id, messageCount);
+			if(child_id == CHILD - 1) {
+				char buf2[BUFFER_SIZE];
+				int index = 0;
+				for(index; index < BUFFER_SIZE; index++) {
+				    buf2[index] = 0;
+				}
+				read(0, buf2, BUFFER_SIZE);
+				snprintf(wbuf, BUFFER_SIZE, "%s | Child %d message %d: %s", timeText(currentTime, startTime), child_id, messageCount, buf2);
+			} else {
+				snprintf(wbuf, BUFFER_SIZE, "%s | Child %d message %d\n", timeText(currentTime, startTime), child_id, messageCount);
+			}
 			write(fd[child_id][1], wbuf, BUFFER_SIZE);
 			sleep(rand() % THREE_SECONDS);
 			gettimeofday(&currentTime, NULL);
@@ -103,36 +113,29 @@ int main ()
 		{
 			inputfds = inputs;
 
-			timeout.tv_sec = 2;
-			timeout.tv_usec = 500000;
+			timeout.tv_sec = 0;
+			timeout.tv_usec = 1000;
 
-			result = select(CHILD, &inputfds, (fd_set *) 0, (fd_set *) 0, &timeout);
-			//printf("result: %d\n", result);
+			result = select(FD_SETSIZE, &inputfds, NULL, NULL, &timeout);
 
 			switch(result) {
 				case 0: {
-					printf("read nothing\n");
-					fflush(stdout);
+					//printf("read nothing\n");
+					//fflush(stdout);
 					break;
 				}
-
 				case -1: {
 					perror("select");
 					return 1;
 				}
-
-				// If, during the wait, we have some action on the file descriptor,
-				// we read the input on stdin and echo it whenever an 
-				// <end of line> character is received, until that input is Ctrl-D.
 				default: {
 					int fd_id = 0;
 					for(fd_id; fd_id < CHILD; fd_id++)
 					{
-						inputfds = inputs;
 						if (FD_ISSET(fd[fd_id][0], &inputfds)) 
 						{
 							read(fd[fd_id][0], rbuf, BUFFER_SIZE);
-							printf("%s | %s\n", timeText(now, startTime), rbuf);
+							printf("%s | %s", timeText(now, startTime), rbuf);
 							fflush(stdout);
 						}
 					}
