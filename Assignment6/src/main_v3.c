@@ -10,9 +10,16 @@
 
 #define BUFFER_SIZE 128
 #define CHILD    5
+#define THIRTY_SECONDS 30
+#define THREE_SECONDS 3
+
+char* timeText(struct timeval now, struct timeval then);
 
 int main ()
 {
+	// Keep track of time
+	struct timeval startTime;
+	
 	//Keep track of children
 	bool child = false;
 	int  child_id = -1;
@@ -24,6 +31,7 @@ int main ()
 	fd_set inputs, inputfds;
 	struct timeval timeout;
 
+	gettimeofday(&startTime, NULL);
 	//Create the children
 	int k = 0;
 	for(k; k < CHILD; k++)
@@ -55,21 +63,30 @@ int main ()
 	//Children write messages to the pipe
 	if(child)
 	{
+		sleep(child_id);
+		srand(time(NULL));
+		int messageCount = 0;
+		
 		char wbuf[BUFFER_SIZE];
 		
 		close(fd[child_id][0]);
-   
-		snprintf(wbuf, BUFFER_SIZE, "child %d message", child_id);
-		write(fd[child_id][1], wbuf, BUFFER_SIZE);
-		printf("write: %s\n", wbuf);
-		fflush(stdout);
+
+		struct timeval currentTime;
+		gettimeofday(&currentTime, NULL);
+		while(currentTime.tv_sec - startTime.tv_sec < THIRTY_SECONDS) {
+			messageCount = messageCount + 1;
+			snprintf(wbuf, BUFFER_SIZE, "%s | Child %d message %d", timeText(currentTime, startTime), child_id, messageCount);
+			write(fd[child_id][1], wbuf, BUFFER_SIZE);
+			sleep(rand() % THREE_SECONDS);
+			gettimeofday(&currentTime, NULL);
+		}
 
 		close(fd[child_id][1]);
 	} 
 
 	//Parent reads messages from the pipe
 	else 
-	{
+	{   
 		FD_ZERO(&inputs);
 
 		int i = 0;
@@ -80,8 +97,9 @@ int main ()
 
 		char rbuf[BUFFER_SIZE];
 		int result;
-
-		for(;;)
+		struct timeval now;
+		gettimeofday(&now, NULL);
+		while(now.tv_sec - startTime.tv_sec < THIRTY_SECONDS)
 		{
 			inputfds = inputs;
 
@@ -114,15 +132,29 @@ int main ()
 						if (FD_ISSET(fd[fd_id][0], &inputfds)) 
 						{
 							read(fd[fd_id][0], rbuf, BUFFER_SIZE);
-							printf("READ: %s\n", rbuf);
+							printf("%s | %s\n", timeText(now, startTime), rbuf);
 							fflush(stdout);
 						}
 					}
 					break;
 				}
 			}
+		    gettimeofday(&now, NULL);
 		}
 	}
 
 	return 0;
 }
+
+char* timeText(struct timeval now, struct timeval then) {
+    char printOut[7];
+    long sec = now.tv_sec - then.tv_sec;
+    long usec = now.tv_usec - then.tv_usec;
+    if(usec < 0) {
+	sec = sec - 1;
+	usec = usec + 1000000;
+    }
+    snprintf(printOut, 8, "%02d:%04d", sec, usec);
+    return printOut;
+}
+
